@@ -1,7 +1,302 @@
 {
     "name":[
+        
         {
-            "an":"AnshumaanBaaghi"
+            "product_Id": "31",
+            "name": "Biotin + Tablet",
+            "product_description":
+              "Biotin is a vital nutrient in the B-vitamin complex group that helps promote growth and overall health. It can help your body convert protein, fat, and carbohydrates into glucose energy to promote a better functioning metabolism. It can be used as nutritional supplementation for dietary shortage or imbalance, which may cause hair loss or total alopecia, brittle nails, skin rash in infants, and mild depression.",
+            "price": "₹ 298",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/ol2kbjitmuh8e4rs865z.jpg",
+            "category": "Biotin",
+            "gender": "Female",
+            "age": "Adult",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Tablet"
+        },
+        {
+            "product_Id": "32",
+            "name": "Perfectil Tablet",
+            "product_description":
+              "Perfectil Skin, Hair, Nail Supplement Tablet has been formulated to complement daily skin and hair care routines with a range of over 20 micronutrients. Each tablet contains micronutrients, including riboflavin (vitamin B2), niacin (vitamin B3) and biotin, contributing to the maintenance of normal skin. It aso comprises of minerals, selenium and zinc which contribute to healthy hair and nail maintenance.",
+            "price": "₹ 400",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/r33qnfrme9xfozrw5gwk.jpg",
+            "category": "Biotin",
+            "gender": "Unisex",
+            "age": "Adult",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Tablet"
+        },
+        {
+            "product_Id": "33",
+            "name": "Swisse Beauty Biotin+ with Nicotinamide, Rose Hips & Vitamin C Tablet",
+            "product_description":
+              "Swisse Beauty Biotin+ with Nicotinamide, Rose Hips & Vitamin C Tablet provides the goodness of biotin, along with the additional benefits of nicotinamide, rosehip and vitamin C. It helps maintain healthy hair, skin and nails. Besides, it also supports collagen production.",
+            "price": "₹ 669",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/axhhyhjdyfb5dh0wahom.jpg",
+            "category": "Biotin",
+            "gender": "female",
+            "age": "Elderly",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Tablet"
+        },
+        {
+            "product_Id": "34",
+            "name": "HealthKart HK Vitals Biotin Tablet",
+            "product_description":
+              "Healthkart Biotin Maximum Strength for Hair Skin & Nails-10000 mcg, Biotin Tablets is a dietary supplement that helps fulfil your bodily requirement of vitamin B7. It supports keratin synthesis and building keratin infrastructure in your body. Keratins help form the tissues of the hair, nails and outer layer of the skin. HK Vitals Biotin helps ensure enriching care for hair, skin and nail. Biotin also helps to provide radiance to the skin and prevent nail brittleness. It helps  metabolize fats and protein to provide energy and avoid fatigue.",
+            "price": "₹ 499",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/twpuzix7nrwivbtg0n80.jpg",
+            "category": "Biotin",
+            "gender": "female",
+            "age": "Adult",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Tablet"
+        },
+        {
+            "product_Id": "35",
+            "name": "Power Gummies - Hair & Nail Vitamins with Biotin",
+            "product_description":
+              "Power Gummies are tasty, chewable unisex vitamin dietary health supplements curated for adults. These help combat hair issues and enhance skin and nail health.",
+            "price": "₹ 840",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_auto,f_auto/5a34b45b7f284dd5ae17710100f5b0fa.jpg",
+            "category": "Biotin",
+            "gender": "Unisex",
+            "age": "Child",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Gummies"
+        },
+        {
+            "product_Id": "36",
+            "name": "Zingavita Biotin Tablet",
+            "product_description":
+              "When your hair looks good, you feel good. But squeezing in time for your beauty routine may not always work out. That’s where our Biotin supplements come to the rescue. Zingavita Biotin tablets help improve hair thickness and volume. It stimulates keratin production to help make the hair stronger and reduce hair fall.",
+            "price": "₹ 275",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/pnwluor5nkj6k6xhw81h.jpg",
+            "category": "Biotin",
+            "gender": "Unisex",
+            "age": "Adult",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Tablet"
+        },
+        {
+            "product_Id": "37",
+            "name": "Wellwoman Hairfollic Hair Supplement Tablet",
+            "product_description":
+              "Wellwoman Hairfollic Hair Supplement Tablet is a multivitamin formulation that helps to maintain hair health and provides nutrients. The formulation is based on the latest scientific research to deliver the nutrients via the bloodstream for optimum results. The tablet contains amino acids which are structural components of hair. Copper contributes to hair pigmentation. Biotin, Selenium, and Zinc help support hair health. The Tricologic complex is a proprietary combination of selenium, zinc, biomarine, and grape seed extract.",
+            "price": "₹ 453",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/da53ml3uc1gpctmhanfm.jpg",
+            "category": "Biotin",
+            "gender": "Female",
+            "age": "Adult",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Tablet"
+        },
+        {
+            "product_Id": "38",
+            "name": "Carbamide Forte Biotin 10,000mcg Tablet",
+            "product_description":
+              "Carbamide Forte Biotin 10,000mcg Vegetarian Tablet contains biotin, which is a B vitamin that plays a key role in the body and is an important nutrient for the growth and maintenance of hair, skin and nails.  It gives moisturized skin and healthier, stronger nails. The biotin hair supplement makes hair grow faster, fuller, and healthier from the roots. These biotin capsules support fatty acid production, increasing cell growth, nail strength, nail growth, and the bulb size of the hair follicle, helping hair appear fuller. Biotin is a water-soluble vitamin that acts as a coenzyme to metabolise proteins, fats and carbohydrates. Moreover, all ingredients used in biotin capsules are completely vegetarian.",
+            "price": "₹ 549",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/g8sutaon3j3kmg9eeipv.jpg",
+            "category": "Biotin",
+            "gender": "Unisex",
+            "age": "Elderly",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Tablet"
+        },
+        {
+            "product_Id": "39",
+            "name": "Trichospire -F Hair Kit",
+            "product_description":
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste in ipsum dolores iusto, quaerat, corporis non illum natus tenetur perspiciatis nulla fugiat vero, asperiores sequi cum deleniti rem accusamus pariatur?",
+            "price": "₹ 963",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/bsidmjarnv6rrovmf7dl.jpg",
+            "category": "Biotin",
+            "gender": "Female",
+            "age": "Adult",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Hair Kit"
+        },
+        {
+            "product_Id": "40",
+            "name": "Hairful 10 Tablet For Healthy Hair",
+            "product_description":
+              "HairFul Healthy Hair Supplement Tablet can help manage hair fall and strengthen, stimulate and nourish the hair. HairFul tablet is enriched with a unique blend of essential nutrients necessary to prevent hair loss and all hair fall-related problems. It may help to improve hair growth. It can work on cellular levels and within the scalp. It can boost hair's health by making it stronger, thicker, and silkier. Both of these actions improve hair growth. These hair regrowth tablets contain a rich formulation of vitamins, amino acids, and minerals that may promote healthy hair. Vitamins are needed for hair growth. Biotin is a water-soluble vitamin, part of the vitamin B6 family. Its deficiency is known to cause hair loss along with signs of skin rashes and brittle nails. This is why biotin is a common vitamin used in supplements for hair growth.The vitamin can improve hair growth and prevent hair loss in adults and kids. Vitamin B6 can act as a coenzyme in synthesising nucleic acid and red blood cells, responsible for oxygen supply and thus hair growth. It can stimulate the rebuilding of hair follicles, prevent greying of hair and hair loss, and regulate sebum secretion.Vitamin supplements may help maintain the efficiency of cells. They can activate the enzymes essential for cellular functions and help create energy from the food you eat. These capsules are generally safe with little or no side effects. If you are taking other medications or diet supplements, it is best to inform your doctor to avoid drug interaction. Apart from taking this medicine, learn about the food sources of vitamins so that you can get enough of these vitamins through diet as well. It is a biotin tablet for hair. The tablet can help manage hair growth. This is a biotin tablet for hair growth and a hair supplement for women. It is one of the best multivitamin tablets for hair growth.",
+            "price": "₹ 165",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/he2k1rfit0qix5rflpcw.jpg",
+            "category": "Biotin",
+            "gender": "Male",
+            "age": "Adult",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Tablet"
+        },
+        {
+            "product_Id": "41",
+            "name": "Wellbeing Nutrition Melts Into Nano Iron Oral Thin Strip",
+            "product_description":
+              "HairFul Healthy Hair Supplement Tablet can help manage hair fall and strengthen, stimulate and nourish the hair. HairFul tablet is enriched with a unique blend of essential nutrients necessary to prevent hair loss and all hair fall-related problems. It may help to improve hair growth. It can work on cellular levels and within the scalp. It can boost hair's health by making it stronger, thicker, and silkier. Both of these actions improve hair growth. These hair regrowth tablets contain a rich formulation of vitamins, amino acids, and minerals that may promote healthy hair. Vitamins are needed for hair growth. Biotin is a water-soluble vitamin, part of the vitamin B6 family. Its deficiency is known to cause hair loss along with signs of skin rashes and brittle nails. This is why biotin is a common vitamin used in supplements for hair growth.The vitamin can improve hair growth and prevent hair loss in adults and kids. Vitamin B6 can act as a coenzyme in synthesising nucleic acid and red blood cells, responsible for oxygen supply and thus hair growth. It can stimulate the rebuilding of hair follicles, prevent greying of hair and hair loss, and regulate sebum secretion.Vitamin supplements may help maintain the efficiency of cells. They can activate the enzymes essential for cellular functions and help create energy from the food you eat. These capsules are generally safe with little or no side effects. If you are taking other medications or diet supplements, it is best to inform your doctor to avoid drug interaction. Apart from taking this medicine, learn about the food sources of vitamins so that you can get enough of these vitamins through diet as well. It is a biotin tablet for hair. The tablet can help manage hair growth. This is a biotin tablet for hair growth and a hair supplement for women. It is one of the best multivitamin tablets for hair growth.",
+            "price": "₹ 594",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/jsysp4rcoytjgx6gl173.jpg",
+            "category": "Biotin",
+            "gender": "Male",
+            "age": "Elderly",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Oral Strip"
+        },
+
+        {
+            "product_Id": "42",
+            "name": "Hairful 10 Tablet For Healthy Hair",
+            "product_description":
+              "HairFul Healthy Hair Supplement Tablet can help manage hair fall and strengthen, stimulate and nourish the hair. HairFul tablet is enriched with a unique blend of essential nutrients necessary to prevent hair loss and all hair fall-related problems. It may help to improve hair growth. It can work on cellular levels and within the scalp. It can boost hair's health by making it stronger, thicker, and silkier. Both of these actions improve hair growth. These hair regrowth tablets contain a rich formulation of vitamins, amino acids, and minerals that may promote healthy hair. Vitamins are needed for hair growth. Biotin is a water-soluble vitamin, part of the vitamin B6 family. Its deficiency is known to cause hair loss along with signs of skin rashes and brittle nails. This is why biotin is a common vitamin used in supplements for hair growth.The vitamin can improve hair growth and prevent hair loss in adults and kids. Vitamin B6 can act as a coenzyme in synthesising nucleic acid and red blood cells, responsible for oxygen supply and thus hair growth. It can stimulate the rebuilding of hair follicles, prevent greying of hair and hair loss, and regulate sebum secretion.Vitamin supplements may help maintain the efficiency of cells. They can activate the enzymes essential for cellular functions and help create energy from the food you eat. These capsules are generally safe with little or no side effects. If you are taking other medications or diet supplements, it is best to inform your doctor to avoid drug interaction. Apart from taking this medicine, learn about the food sources of vitamins so that you can get enough of these vitamins through diet as well. It is a biotin tablet for hair. The tablet can help manage hair growth. This is a biotin tablet for hair growth and a hair supplement for women. It is one of the best multivitamin tablets for hair growth.",
+            "price": "₹ 165",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/he2k1rfit0qix5rflpcw.jpg",
+            "category": "Biotin",
+            "gender": "Male",
+            "age": "Adult",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Tablet"
+        },
+        {
+            "product_Id": "43",
+            "name": "Hairful 10 Tablet For Healthy Hair",
+            "product_description":
+              "HairFul Healthy Hair Supplement Tablet can help manage hair fall and strengthen, stimulate and nourish the hair. HairFul tablet is enriched with a unique blend of essential nutrients necessary to prevent hair loss and all hair fall-related problems. It may help to improve hair growth. It can work on cellular levels and within the scalp. It can boost hair's health by making it stronger, thicker, and silkier. Both of these actions improve hair growth. These hair regrowth tablets contain a rich formulation of vitamins, amino acids, and minerals that may promote healthy hair. Vitamins are needed for hair growth. Biotin is a water-soluble vitamin, part of the vitamin B6 family. Its deficiency is known to cause hair loss along with signs of skin rashes and brittle nails. This is why biotin is a common vitamin used in supplements for hair growth.The vitamin can improve hair growth and prevent hair loss in adults and kids. Vitamin B6 can act as a coenzyme in synthesising nucleic acid and red blood cells, responsible for oxygen supply and thus hair growth. It can stimulate the rebuilding of hair follicles, prevent greying of hair and hair loss, and regulate sebum secretion.Vitamin supplements may help maintain the efficiency of cells. They can activate the enzymes essential for cellular functions and help create energy from the food you eat. These capsules are generally safe with little or no side effects. If you are taking other medications or diet supplements, it is best to inform your doctor to avoid drug interaction. Apart from taking this medicine, learn about the food sources of vitamins so that you can get enough of these vitamins through diet as well. It is a biotin tablet for hair. The tablet can help manage hair growth. This is a biotin tablet for hair growth and a hair supplement for women. It is one of the best multivitamin tablets for hair growth.",
+            "price": "₹ 165",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/he2k1rfit0qix5rflpcw.jpg",
+            "category": "Biotin",
+            "gender": "Male",
+            "age": "Adult",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Tablet"
+        },
+        {
+            "product_Id": "44",
+            "name": "Hairful 10 Tablet For Healthy Hair",
+            "product_description":
+              "HairFul Healthy Hair Supplement Tablet can help manage hair fall and strengthen, stimulate and nourish the hair. HairFul tablet is enriched with a unique blend of essential nutrients necessary to prevent hair loss and all hair fall-related problems. It may help to improve hair growth. It can work on cellular levels and within the scalp. It can boost hair's health by making it stronger, thicker, and silkier. Both of these actions improve hair growth. These hair regrowth tablets contain a rich formulation of vitamins, amino acids, and minerals that may promote healthy hair. Vitamins are needed for hair growth. Biotin is a water-soluble vitamin, part of the vitamin B6 family. Its deficiency is known to cause hair loss along with signs of skin rashes and brittle nails. This is why biotin is a common vitamin used in supplements for hair growth.The vitamin can improve hair growth and prevent hair loss in adults and kids. Vitamin B6 can act as a coenzyme in synthesising nucleic acid and red blood cells, responsible for oxygen supply and thus hair growth. It can stimulate the rebuilding of hair follicles, prevent greying of hair and hair loss, and regulate sebum secretion.Vitamin supplements may help maintain the efficiency of cells. They can activate the enzymes essential for cellular functions and help create energy from the food you eat. These capsules are generally safe with little or no side effects. If you are taking other medications or diet supplements, it is best to inform your doctor to avoid drug interaction. Apart from taking this medicine, learn about the food sources of vitamins so that you can get enough of these vitamins through diet as well. It is a biotin tablet for hair. The tablet can help manage hair growth. This is a biotin tablet for hair growth and a hair supplement for women. It is one of the best multivitamin tablets for hair growth.",
+            "price": "₹ 165",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/he2k1rfit0qix5rflpcw.jpg",
+            "category": "Biotin",
+            "gender": "Male",
+            "age": "Adult",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Tablet"
+        },
+        {
+            "product_Id": "45",
+            "name": "Hairful 10 Tablet For Healthy Hair",
+            "product_description":
+              "HairFul Healthy Hair Supplement Tablet can help manage hair fall and strengthen, stimulate and nourish the hair. HairFul tablet is enriched with a unique blend of essential nutrients necessary to prevent hair loss and all hair fall-related problems. It may help to improve hair growth. It can work on cellular levels and within the scalp. It can boost hair's health by making it stronger, thicker, and silkier. Both of these actions improve hair growth. These hair regrowth tablets contain a rich formulation of vitamins, amino acids, and minerals that may promote healthy hair. Vitamins are needed for hair growth. Biotin is a water-soluble vitamin, part of the vitamin B6 family. Its deficiency is known to cause hair loss along with signs of skin rashes and brittle nails. This is why biotin is a common vitamin used in supplements for hair growth.The vitamin can improve hair growth and prevent hair loss in adults and kids. Vitamin B6 can act as a coenzyme in synthesising nucleic acid and red blood cells, responsible for oxygen supply and thus hair growth. It can stimulate the rebuilding of hair follicles, prevent greying of hair and hair loss, and regulate sebum secretion.Vitamin supplements may help maintain the efficiency of cells. They can activate the enzymes essential for cellular functions and help create energy from the food you eat. These capsules are generally safe with little or no side effects. If you are taking other medications or diet supplements, it is best to inform your doctor to avoid drug interaction. Apart from taking this medicine, learn about the food sources of vitamins so that you can get enough of these vitamins through diet as well. It is a biotin tablet for hair. The tablet can help manage hair growth. This is a biotin tablet for hair growth and a hair supplement for women. It is one of the best multivitamin tablets for hair growth.",
+            "price": "₹ 165",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/he2k1rfit0qix5rflpcw.jpg",
+            "category": "Biotin",
+            "gender": "Male",
+            "age": "Adult",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Tablet"
+        },
+        {
+            "product_Id": "46",
+            "name": "Hairful 10 Tablet For Healthy Hair",
+            "product_description":
+              "HairFul Healthy Hair Supplement Tablet can help manage hair fall and strengthen, stimulate and nourish the hair. HairFul tablet is enriched with a unique blend of essential nutrients necessary to prevent hair loss and all hair fall-related problems. It may help to improve hair growth. It can work on cellular levels and within the scalp. It can boost hair's health by making it stronger, thicker, and silkier. Both of these actions improve hair growth. These hair regrowth tablets contain a rich formulation of vitamins, amino acids, and minerals that may promote healthy hair. Vitamins are needed for hair growth. Biotin is a water-soluble vitamin, part of the vitamin B6 family. Its deficiency is known to cause hair loss along with signs of skin rashes and brittle nails. This is why biotin is a common vitamin used in supplements for hair growth.The vitamin can improve hair growth and prevent hair loss in adults and kids. Vitamin B6 can act as a coenzyme in synthesising nucleic acid and red blood cells, responsible for oxygen supply and thus hair growth. It can stimulate the rebuilding of hair follicles, prevent greying of hair and hair loss, and regulate sebum secretion.Vitamin supplements may help maintain the efficiency of cells. They can activate the enzymes essential for cellular functions and help create energy from the food you eat. These capsules are generally safe with little or no side effects. If you are taking other medications or diet supplements, it is best to inform your doctor to avoid drug interaction. Apart from taking this medicine, learn about the food sources of vitamins so that you can get enough of these vitamins through diet as well. It is a biotin tablet for hair. The tablet can help manage hair growth. This is a biotin tablet for hair growth and a hair supplement for women. It is one of the best multivitamin tablets for hair growth.",
+            "price": "₹ 165",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/he2k1rfit0qix5rflpcw.jpg",
+            "category": "Biotin",
+            "gender": "Male",
+            "age": "Adult",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Tablet"
+        },
+        {
+            "product_Id": "47",
+            "name": "Hairful 10 Tablet For Healthy Hair",
+            "product_description":
+              "HairFul Healthy Hair Supplement Tablet can help manage hair fall and strengthen, stimulate and nourish the hair. HairFul tablet is enriched with a unique blend of essential nutrients necessary to prevent hair loss and all hair fall-related problems. It may help to improve hair growth. It can work on cellular levels and within the scalp. It can boost hair's health by making it stronger, thicker, and silkier. Both of these actions improve hair growth. These hair regrowth tablets contain a rich formulation of vitamins, amino acids, and minerals that may promote healthy hair. Vitamins are needed for hair growth. Biotin is a water-soluble vitamin, part of the vitamin B6 family. Its deficiency is known to cause hair loss along with signs of skin rashes and brittle nails. This is why biotin is a common vitamin used in supplements for hair growth.The vitamin can improve hair growth and prevent hair loss in adults and kids. Vitamin B6 can act as a coenzyme in synthesising nucleic acid and red blood cells, responsible for oxygen supply and thus hair growth. It can stimulate the rebuilding of hair follicles, prevent greying of hair and hair loss, and regulate sebum secretion.Vitamin supplements may help maintain the efficiency of cells. They can activate the enzymes essential for cellular functions and help create energy from the food you eat. These capsules are generally safe with little or no side effects. If you are taking other medications or diet supplements, it is best to inform your doctor to avoid drug interaction. Apart from taking this medicine, learn about the food sources of vitamins so that you can get enough of these vitamins through diet as well. It is a biotin tablet for hair. The tablet can help manage hair growth. This is a biotin tablet for hair growth and a hair supplement for women. It is one of the best multivitamin tablets for hair growth.",
+            "price": "₹ 165",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/he2k1rfit0qix5rflpcw.jpg",
+            "category": "Biotin",
+            "gender": "Male",
+            "age": "Adult",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Tablet"
+        },
+        {
+            "product_Id": "48",
+            "name": "Hairful 10 Tablet For Healthy Hair",
+            "product_description":
+              "HairFul Healthy Hair Supplement Tablet can help manage hair fall and strengthen, stimulate and nourish the hair. HairFul tablet is enriched with a unique blend of essential nutrients necessary to prevent hair loss and all hair fall-related problems. It may help to improve hair growth. It can work on cellular levels and within the scalp. It can boost hair's health by making it stronger, thicker, and silkier. Both of these actions improve hair growth. These hair regrowth tablets contain a rich formulation of vitamins, amino acids, and minerals that may promote healthy hair. Vitamins are needed for hair growth. Biotin is a water-soluble vitamin, part of the vitamin B6 family. Its deficiency is known to cause hair loss along with signs of skin rashes and brittle nails. This is why biotin is a common vitamin used in supplements for hair growth.The vitamin can improve hair growth and prevent hair loss in adults and kids. Vitamin B6 can act as a coenzyme in synthesising nucleic acid and red blood cells, responsible for oxygen supply and thus hair growth. It can stimulate the rebuilding of hair follicles, prevent greying of hair and hair loss, and regulate sebum secretion.Vitamin supplements may help maintain the efficiency of cells. They can activate the enzymes essential for cellular functions and help create energy from the food you eat. These capsules are generally safe with little or no side effects. If you are taking other medications or diet supplements, it is best to inform your doctor to avoid drug interaction. Apart from taking this medicine, learn about the food sources of vitamins so that you can get enough of these vitamins through diet as well. It is a biotin tablet for hair. The tablet can help manage hair growth. This is a biotin tablet for hair growth and a hair supplement for women. It is one of the best multivitamin tablets for hair growth.",
+            "price": "₹ 165",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/he2k1rfit0qix5rflpcw.jpg",
+            "category": "Biotin",
+            "gender": "Male",
+            "age": "Adult",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Tablet"
+        },
+        {
+            "product_Id": "49",
+            "name": "Hairful 10 Tablet For Healthy Hair",
+            "product_description":
+              "HairFul Healthy Hair Supplement Tablet can help manage hair fall and strengthen, stimulate and nourish the hair. HairFul tablet is enriched with a unique blend of essential nutrients necessary to prevent hair loss and all hair fall-related problems. It may help to improve hair growth. It can work on cellular levels and within the scalp. It can boost hair's health by making it stronger, thicker, and silkier. Both of these actions improve hair growth. These hair regrowth tablets contain a rich formulation of vitamins, amino acids, and minerals that may promote healthy hair. Vitamins are needed for hair growth. Biotin is a water-soluble vitamin, part of the vitamin B6 family. Its deficiency is known to cause hair loss along with signs of skin rashes and brittle nails. This is why biotin is a common vitamin used in supplements for hair growth.The vitamin can improve hair growth and prevent hair loss in adults and kids. Vitamin B6 can act as a coenzyme in synthesising nucleic acid and red blood cells, responsible for oxygen supply and thus hair growth. It can stimulate the rebuilding of hair follicles, prevent greying of hair and hair loss, and regulate sebum secretion.Vitamin supplements may help maintain the efficiency of cells. They can activate the enzymes essential for cellular functions and help create energy from the food you eat. These capsules are generally safe with little or no side effects. If you are taking other medications or diet supplements, it is best to inform your doctor to avoid drug interaction. Apart from taking this medicine, learn about the food sources of vitamins so that you can get enough of these vitamins through diet as well. It is a biotin tablet for hair. The tablet can help manage hair growth. This is a biotin tablet for hair growth and a hair supplement for women. It is one of the best multivitamin tablets for hair growth.",
+            "price": "₹ 165",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/he2k1rfit0qix5rflpcw.jpg",
+            "category": "Biotin",
+            "gender": "Male",
+            "age": "Adult",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Tablet"
+        },
+        {
+            "product_Id": "50",
+            "name": "Hairful 10 Tablet For Healthy Hair",
+            "product_description":
+              "HairFul Healthy Hair Supplement Tablet can help manage hair fall and strengthen, stimulate and nourish the hair. HairFul tablet is enriched with a unique blend of essential nutrients necessary to prevent hair loss and all hair fall-related problems. It may help to improve hair growth. It can work on cellular levels and within the scalp. It can boost hair's health by making it stronger, thicker, and silkier. Both of these actions improve hair growth. These hair regrowth tablets contain a rich formulation of vitamins, amino acids, and minerals that may promote healthy hair. Vitamins are needed for hair growth. Biotin is a water-soluble vitamin, part of the vitamin B6 family. Its deficiency is known to cause hair loss along with signs of skin rashes and brittle nails. This is why biotin is a common vitamin used in supplements for hair growth.The vitamin can improve hair growth and prevent hair loss in adults and kids. Vitamin B6 can act as a coenzyme in synthesising nucleic acid and red blood cells, responsible for oxygen supply and thus hair growth. It can stimulate the rebuilding of hair follicles, prevent greying of hair and hair loss, and regulate sebum secretion.Vitamin supplements may help maintain the efficiency of cells. They can activate the enzymes essential for cellular functions and help create energy from the food you eat. These capsules are generally safe with little or no side effects. If you are taking other medications or diet supplements, it is best to inform your doctor to avoid drug interaction. Apart from taking this medicine, learn about the food sources of vitamins so that you can get enough of these vitamins through diet as well. It is a biotin tablet for hair. The tablet can help manage hair growth. This is a biotin tablet for hair growth and a hair supplement for women. It is one of the best multivitamin tablets for hair growth.",
+            "price": "₹ 165",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/he2k1rfit0qix5rflpcw.jpg",
+            "category": "Biotin",
+            "gender": "Male",
+            "age": "Adult",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Tablet"
+        },
+        {
+            "product_Id": "51",
+            "name": "Hairful 10 Tablet For Healthy Hair",
+            "product_description":
+              "HairFul Healthy Hair Supplement Tablet can help manage hair fall and strengthen, stimulate and nourish the hair. HairFul tablet is enriched with a unique blend of essential nutrients necessary to prevent hair loss and all hair fall-related problems. It may help to improve hair growth. It can work on cellular levels and within the scalp. It can boost hair's health by making it stronger, thicker, and silkier. Both of these actions improve hair growth. These hair regrowth tablets contain a rich formulation of vitamins, amino acids, and minerals that may promote healthy hair. Vitamins are needed for hair growth. Biotin is a water-soluble vitamin, part of the vitamin B6 family. Its deficiency is known to cause hair loss along with signs of skin rashes and brittle nails. This is why biotin is a common vitamin used in supplements for hair growth.The vitamin can improve hair growth and prevent hair loss in adults and kids. Vitamin B6 can act as a coenzyme in synthesising nucleic acid and red blood cells, responsible for oxygen supply and thus hair growth. It can stimulate the rebuilding of hair follicles, prevent greying of hair and hair loss, and regulate sebum secretion.Vitamin supplements may help maintain the efficiency of cells. They can activate the enzymes essential for cellular functions and help create energy from the food you eat. These capsules are generally safe with little or no side effects. If you are taking other medications or diet supplements, it is best to inform your doctor to avoid drug interaction. Apart from taking this medicine, learn about the food sources of vitamins so that you can get enough of these vitamins through diet as well. It is a biotin tablet for hair. The tablet can help manage hair growth. This is a biotin tablet for hair growth and a hair supplement for women. It is one of the best multivitamin tablets for hair growth.",
+            "price": "₹ 165",
+            "image":
+              "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/he2k1rfit0qix5rflpcw.jpg",
+            "category": "Biotin",
+            "gender": "Male",
+            "age": "Adult",
+            "uses": "Hair,Nails & Skin",
+            "product_form": "Tablet"
         }
     ]
 }
+
+
