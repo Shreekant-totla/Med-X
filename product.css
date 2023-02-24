@@ -1,0 +1,161 @@
+body{
+    margin:0%;
+
+    }
+    /* DIV */
+    #navbar{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+    #navbar_logo{
+    /* border: 1px solid black; */
+    width: 100px;
+    
+    
+    }
+    #navbar_logo img{
+       width: 100%;
+       height: 50px;
+    }
+        
+    #navbar_anch{
+    /* border: 1px solid black; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 16px;
+    display: flex;
+    gap: 16px;   
+    }
+    #navbar_lnsp{
+
+         font-size: 0px;
+        display: flex;
+        gap: 6px;
+        word-spacing: 2px;   
+        }
+    #navbar_cart{
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 20px;  
+    }
+    /* ANCHOR TAGS */
+    #navbar a{
+        text-decoration: none;
+        color: rgb(25, 23, 23);
+        word-spacing: 2px;
+        font-size: 17px;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    #navbar span{
+        color: white;
+        background-color: #ff6f61;
+        box-sizing: border-box;
+        padding: 5px;
+        font-size: 8px;
+        border-radius: 5px;
+        margin-left: -5px;
+    }
+    
+    #navbar_anch a:hover{
+        color: #ff6f61;
+    }
+    #navbar2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #Nutritionalcontent{
+        display: flex;
+      margin-left: 20px;
+    }
+    #productpage{
+        display: flex;
+    }
+    #Allcategories{
+        margin-left: 40px;
+    }
+    #searchproduct{
+        padding: 7px;
+    }
+    #FILTERS_BRANDS{
+        display: flex;
+    }
+    #BRANDS_No>div{
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+    #searchuses{
+        padding: 7px;
+    }
+    #USES{
+      display: flex;
+    }
+   #USES_No>div{
+    padding-left: 7px;
+    padding-top: 2px;
+}
+#searchdiscount{
+    padding: 7px;
+}
+#DISCOUNT_form{
+    display: flex;
+}
+#DISCOUNT_No>div{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+#searchproductform{
+    padding: 7px;
+}    
+#PRODUCT_FORM{
+    display: flex;
+}
+#Product_No>div{
+    padding-left: 10px;
+    padding-top: 2px;
+}
+#PRODUCT_TAGS{
+    display: flex;
+}
+#ProductTags_No>div{
+    padding-left: 14px;
+    padding-top: 2px; 
+}
+#searchproducttag{
+    padding: 7px;
+}
+#Allcategories{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    background-color: white;
+    margin-top: 16px;
+}
+#productnav{
+    display: flex;
+}
+#productpageright{
+    margin-left: 25px;
+}
+#Flash{
+    display: flex;
+    justify-content: space-between;
+
+}
+#Flash_button{
+    background-color: rgb(204, 55, 55);
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#productdivfirst{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   background-color: white;
+}
