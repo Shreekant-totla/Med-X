@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <style>
         #upperBody{
             display: flex;
@@ -14,10 +15,70 @@
         #upperBody>img{
 
         }
+        #upperBody>div{
+            border: 1px solid green;
+        }
 
         #lowerBody{
             border:1px solid blue;
 
+
+        }
+        #span1>i{
+            text-decoration: line-through;
+            font-style: italic;
+            font-size:17px;
+            color: rgb(133, 125, 125);
+        }
+        #span2{
+            font-size: smaller;
+            color: rgb(2, 194, 2);
+            padding:3px;
+            background-color: rgb(205, 250, 205);
+        }
+        #cart>form>select{
+            border: 1px solid rgb(228, 232, 228);
+            font-size: 15px;
+            padding: 8px 20px;
+            width: 26%; 
+            border-radius: 4px;
+            color: grey;
+            margin-bottom: 15px;
+            margin-right: 5px;
+        }
+        #cart>form>li{
+            list-style: none;
+            font-weight:;
+            font-size: x-large;
+        }
+        #m1{
+            height:2em;
+            width:4%;
+            accent-color: rgba(255, 58, 3, 0.724);
+        }
+        #cart{
+            padding: 15px;
+
+        }
+        #cart>form>input{
+            border: 0px solid black;
+            background-color: rgba(255, 58, 3, 0.724);
+            color: white;
+            width: 100%;
+            font-size: medium;
+            padding: 20px;
+            font-weight: bolder;
+            border-radius: 5px;
+        }
+        #cart>form>p{
+            font-size: x-small;
+        }
+        #span3{
+            background-color: brown; 
+            width: 25%;
+            color: white;padding: 5px;
+            border-radius: 31px 20px 100px 10px;
+            font-size: small;
         }
 
     </style>
@@ -25,7 +86,8 @@
 <body>
     <div id="upperBody">
         <div id="image">
-            <img src="https://onemg.gumlet.io/l_watermark_346,w_120,h_120/a_ignore,w_120,h_120,c_fit,q_auto,f_auto/8d5cadb9e1b148cb84e525ce8be40e76.jpg" alt=""></div>
+            <img src="https://onemg.gumlet.io/l_watermark_346,w_120,h_120/a_ignore,w_120,h_120,c_fit,q_auto,f_auto/8d5cadb9e1b148cb84e525ce8be40e76.jpg" alt="">
+        </div>
         <div>
             <h3>Dr. Morepen Biotin+ Advanced Tablet for Healthy Hair, Skin & Nails Tablet</h3>
             <p>
@@ -45,6 +107,52 @@
             <li>Weight management</li>
             <li>Rejuvenates the body</li>
         </div>
+
+        <div id="cart">
+            <form>
+                <li>
+                    <input type="radio" id="m1" value="599" >
+                    <label for="m1"><i class='bx bx-rupee'></i>599 </label>
+                        <span id="span1"><i class='bx bx-rupee'>999</i></span> 
+                        <span id="span2">40% off</span>
+                    
+                </li>
+                <br>
+                <li>
+                    <input type="radio" id="m1" value="599" >
+                    
+                    <label for="m1"><i class='bx bx-rupee'></i>599  </label>
+                        <span style="font-size:medium; ;flex-direction:column;"> 
+                             + free shipping and 3% Extra NeuCoins with 
+                        </span>
+                        <span id="span3">
+                            <i>Care Plan</i>
+                        </span>
+                    
+                    
+    
+                </li>
+    
+                <p>Inclusive of all taxes</p>
+                <select id="">
+                    <option value="1">1 Packet</option>
+                    <option value="2">2 Packet</option>
+                    <option value="3">3 Packet</option>
+                    <option value="4">4 Packet</option>
+                    <option value="5">5 Packet</option>
+                    <option value="6">6 Packet</option>
+                    <option value="7">7 Packet</option>
+                    <option value="8">8 Packet</option>
+                    <option value="9">9 Packet</option>
+                    <option value="10">10 Packet</option>
+                </select>
+                <label for=""> of 60 tablets</label>
+                <br>
+
+                <input type="submit" value="ADD TO CART">
+            </form>
+        </div>
+
     </div>
 
     <div id="lowerBody">
@@ -194,3 +302,11 @@
     </div>
 </body>
 </html>
+<script>
+    let form = document.querySelector("form")
+    form.addEventListener("submit", (e)=>{
+        e.preventDefault()
+        console.log(form)
+    })
+</script>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
