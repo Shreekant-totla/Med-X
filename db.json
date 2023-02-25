@@ -1,424 +1,763 @@
 {
-    "product" : [
-        {
-            "product_Id": "1",
-            "name": "Women's Multivitamin Veg Tablet with Zinc, Vitamin C, Calcium, Vitamin D and Iron, Support Immunity, Bones & Overall Health",
-            "product_description":
-              "Women's Multivitamin, Zinc, Vitamin C, Calcium, Vitamin D, and Iron Immunity Booster Tablet is a health supplement that supports bone, skin, and eye health. It helps maintain hormonal balance and improves immunity. Calcium and Vitamin D3 help in maintaining healthy bones. Probiotics and prebiotics blend help improve digestion and restore normal flora of the gut.Women's Multivitamin is helpful for a healthy lifestyle for women",
-            "price": "₹ 348",
-            "image":
-              "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/qh1au45w8u7cfvf3lg3i.jpg",
-            "category": "Multivitamins",
-            "gender": "Female",
-            "age": "Adult",
-            "uses": "Hair,Nails & Skin",
-            "product_form": "Tablet"
-        },
-        {
-          "product_Id": "2",
-          "name": "Multivitamin Supreme, Zinc, Calcium and Vitamin D Capsule for Immunity, Energy, Overall Health",
-          "product_description":
-            "Multivitamin Supreme, Zinc, Calcium and Vitamin D Immunity Booster Capsule is your complete daily health supplement, packed with 25 essential vitamins and minerals that boost immunity, maintain cardiovascular health, and improve fitness and strength, enhance memory and concentration and support overall wellbeing.",
-          "price": "₹ 398",
-          "image":
-            "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/gmkrpf1imjj9djwvq4gq.jpg",
-          "category": "Multivitamins",
-          "gender": "Unisex",
-          "age": "Adult",
-          "uses": "Hair,Nails & Skin",
-          "product_form": "Capsule"
-        },
-        {
-          "product_Id": "3",
-          "name": "Zingavita Multi Vitamins with Probiotics & Prebiotics Tablet",
-          "product_description":
-            "Zingavita Multivitamins with Probiotics and Prebiotics Tablet: The go-getter in you deserves all the nourishment you can get. And that's why Zingavita presents multivitamins with a super blend of 43 vitamins, minerals, and herbs for your overall health and immunity.",
-          "price": "₹ 349",
-          "image":
-            "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/eb00c9b6206c449483ae7c1b73080e13.jpg",
-          "category": "Multivitamins",
-          "gender": "Unisex",
-          "age": "Adult",
-          "uses": "Hair,Nails & Skin",
-          "product_form": "Tablet"
-      },
-      {
-        "product_Id": "4",
-        "name": "HealthKart HK Vitals Multivitamin Multimineral, Amino Acids ,Taurine & Ginseng Extract Tablet",
-        "product_description":
-          "HealthKart HK Vitals Multivitamin Multimineral, Amino Acids, Taurine & Ginseng Extract Tablet is a multivitamin and minerals tablet with the goodness of ginseng extract, taurine and nine essential amino acids. It fulfils the micronutrient gaps in the everyday diet to support an active and fit lifestyle. The premium blend of vitamins, minerals, amino acids, and herbs helps to maintain overall wellness",
-        "price": "₹ 499",
-        "image":
-          "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/grcvrktohcvunrfvytzd.jpg",
-        "category": "Multivitamins",
-        "gender": "Unisex",
-        "age": "Adult",
-        "uses": "Hair,Nails & Skin",
-        "product_form": "Tablet"
+  "product": [
+    {
+      "product_Id": "1",
+      "name": "Women's Multivitamin Veg Tablet with Zinc, Vitamin C, Calcium, Vitamin D and Iron, Support Immunity, Bones & Overall Health",
+      "product_description": "Women's Multivitamin, Zinc, Vitamin C, Calcium, Vitamin D, and Iron Immunity Booster Tablet is a health supplement that supports bone, skin, and eye health. It helps maintain hormonal balance and improves immunity. Calcium and Vitamin D3 help in maintaining healthy bones. Probiotics and prebiotics blend help improve digestion and restore normal flora of the gut.Women's Multivitamin is helpful for a healthy lifestyle for women",
+      "price": "₹ 348",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/qh1au45w8u7cfvf3lg3i.jpg",
+      "category": "Multivitamins",
+      "gender": "Female",
+      "age": "Adult",
+      "uses": "Hair,Nails & Skin",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "2",
+      "name": "Multivitamin Supreme, Zinc, Calcium and Vitamin D Capsule for Immunity, Energy, Overall Health",
+      "product_description": "Multivitamin Supreme, Zinc, Calcium and Vitamin D Immunity Booster Capsule is your complete daily health supplement, packed with 25 essential vitamins and minerals that boost immunity, maintain cardiovascular health, and improve fitness and strength, enhance memory and concentration and support overall wellbeing.",
+      "price": "₹ 398",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/gmkrpf1imjj9djwvq4gq.jpg",
+      "category": "Multivitamins",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Weight Management",
+      "product_form": "Capsule"
+    },
+    {
+      "product_Id": "3",
+      "name": "Zingavita Multi Vitamins with Probiotics & Prebiotics Tablet",
+      "product_description": "Zingavita Multivitamins with Probiotics and Prebiotics Tablet: The go-getter in you deserves all the nourishment you can get. And that's why Zingavita presents multivitamins with a super blend of 43 vitamins, minerals, and herbs for your overall health and immunity.",
+      "price": "₹ 349",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/eb00c9b6206c449483ae7c1b73080e13.jpg",
+      "category": "Multivitamins",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Weight Management",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "4",
+      "name": "HealthKart HK Vitals Multivitamin Multimineral, Amino Acids ,Taurine & Ginseng Extract Tablet",
+      "product_description": "HealthKart HK Vitals Multivitamin Multimineral, Amino Acids, Taurine & Ginseng Extract Tablet is a multivitamin and minerals tablet with the goodness of ginseng extract, taurine and nine essential amino acids. It fulfils the micronutrient gaps in the everyday diet to support an active and fit lifestyle. The premium blend of vitamins, minerals, amino acids, and herbs helps to maintain overall wellness",
+      "price": "₹ 499",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/grcvrktohcvunrfvytzd.jpg",
+      "category": "Multivitamins",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Weight Management",
+      "product_form": "Tablet"
     },
     {
       "product_Id": "5",
       "name": "Revital H Men Multivitamin with Calcium, Zinc & Ginseng for Immunity, Strong Bones & Energy",
-      "product_description":
-        "Revital H multivitamin supplement capsules for daily health are a balanced combination of natural ginseng, 10 vitamins and 9 minerals which can help fill in nutritional gaps and support general well-being for a healthy, active lifestyle. Ginseng helps to improve concentration and increase oxygen consumption in the body. It helps to maintain energy and stamina throughout the day.",
+      "product_description": "Revital H multivitamin supplement capsules for daily health are a balanced combination of natural ginseng, 10 vitamins and 9 minerals which can help fill in nutritional gaps and support general well-being for a healthy, active lifestyle. Ginseng helps to improve concentration and increase oxygen consumption in the body. It helps to maintain energy and stamina throughout the day.",
       "price": "₹ 451",
-      "image":
-        "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/jmuuryvgit6mwwolt0ea.jpg",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/jmuuryvgit6mwwolt0ea.jpg",
       "category": "Multivitamins",
       "gender": "Male",
       "age": "Elderly",
-      "uses": "Hair,Nails & Skin",
+      "uses": "Weight Management",
       "product_form": "Capsule"
-  },
-  {
-    "product_Id": "6",
-    "name": "MuscleBlaze MB-Vite Multivitamin Tablet",
-    "product_description":
-      "MuscleBlaze MB-Vite Multivitamin with Immunity Boosters and Digestive Enzymes, 100% RDA of Vitamin C, D, Zinc just got better and stronger with the same premium quality but an even better formulation. These multivitamin tablets have all your essentials with 6 unique blends and 50+ ingredients to upkeep key micro-nutrients and amino acids in your body. Formulated for athletes and fitness enthusiasts to help boost immunity, fill nutrient gaps, enhance energy, build stamina, and support recovery and metabolic processes. The vitamins and minerals, amino acid, prebiotic and probiotic, enzymes, antioxidant, and metabolism blend helps elevate your fitness and stamina. These multivitamin tablets are made with premium ingredients that are FSSAI and HACCP-certified which ensures great quality and safety",
-    "price": "₹ 529",
-    "image":
-      "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/dgcszilwgcv0dzorjzdk.jpg",
-    "category": "Multivitamins",
-    "gender": "Male",
-    "age": "Adult",
-    "uses": "Hair,Nails & Skin",
-    "product_form": "Tablet"
-},
-{
-  "product_Id": "7",
-  "name": "Dr. Morepen Multi Vitamin Men with Omega 3 & Herbs, Natural Energy & Immunity Booster Tablet",
-  "product_description":
-    "Information about Dr. Morepen Multi Vitamin Men with Omega 3 & Herbs, Natural Energy & Immunity Booster Tablet",
-  "price": "₹ 549",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/aywb3kusfcv1tnyyt8qy.jpg",
-  "category": "Multivitamins",
-  "gender": "Male",
-  "age": "Adult",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Tablet"
-},
-{
-  "product_Id": "8",
-  "name": "Vicks ImmunoCold Daily Multivitamin Tablet",
-  "product_description":
-    "Vicks Immune Cold Daily Multivitamin Tablet: It is a 4-in-1 specially blended formula that supports your immune system’s health and fights against colds and coughs. Its potent antioxidants protect the immune cells from free radicals.",
-  "price": "₹ 97",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/2ae51f8dc4ab426caac889be4d3efe12.jpg",
-  "category": "Multivitamins",
-  "gender": "Unisex",
-  "age": "Kids",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Tablet"
-},
-{
-  "product_Id": "9",
-  "name": "Revital H for Woman Tablet with Multivitamins, Calcium, Zinc & Natural Ginseng for Daily Immunity Strong Bones, and Enhances Energy Level",
-  "product_description":
-    "Information about Revital H for Woman Tablet with Multivitamins, Calcium, Zinc & Natural Ginseng for Daily Immunity Strong Bones, and Enhances Energy Level. Revital H Woman Tablet is a combination of 12 vitamins, 18 minerals and ginseng that helps enhance mental and physical performance. It helps improve energy levels and boosts general health.",
-  "price": "₹ 342",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/xqljyyelnecasglguvf6.jpg",
-  "category": "Multivitamins",
-  "gender": "Female",
-  "age": "Adult",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Tablet"
-},
-{
-  "product_Id": "10",
-  "name": "Inlife Multivitamin & Minerals Capsule for Women",
-  "product_description":
-    "Inlife Multivitamins & Minerals Capsules for Women are a complete multivitamin complex designed to support every aspect of women's wellness. These capsules contain a combination of essential vitamins, minerals, and herbs that support female bodily functions. Inlife Multivitamins & Minerals Capsules for Women get quickly absorbed in the body and are easily digestible.",
-  "price": "₹ 444",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/b7kzmszjedslc80l0mkj.jpg",
-  "category": "Multivitamins",
-  "gender": "Female",
-  "age": "Adult",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Capsule "
-},
-{
-  "product_Id": "11",
-  "name": "Horlicks Junior Horlicks Health and Nutrition Drink Vanilla",
-  "product_description":
-    "Vicks Immune Cold Daily Multivitamin Tablet: It is a 4-in-1 specially blended formula that supports your immune system’s health and fights against colds and coughs. Its potent antioxidants protect the immune cells from free radicals.",
-  "price": "₹ 475",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/zqdi4bkhbseafni9rgei.jpg",
-  "category": "Multivitamins",
-  "gender": "Unisex",
-  "age": "Kids",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Powder"
-},
-{
-  "product_Id": "12",
-  "name": "Centrum Kids | Supports Overall Health (Veg) | World's No.1 Multivitamin",
-  "product_description":
-    "Centrum is the world's no. 1 multivitamin brand and is now in India. Centrum Kids Multivitamin and Mineral with probiotic gummies are designed to meet the special needs of growing children in terms of vitamin and mineral intake from the age of five. Centrum Kids Multi-Gummies is a daily nutritional supplement in a tasty gummy format that kids will love, while you can feel confident that your body can support your potential. Centrum Kids Multivitamin and Mineral with Probiotics is formulated with 13 essential nutrients to support healthy growth. Centrum formulations have been tailor-made for Indian diets and body needs. It is formulated with probiotic Bacillus Coagulans for gut health which aids digestion. It contains immune support nutrients such as vitamin C and zinc to aid immunity. It supports the immune system in fighting off infections. Centrum gummies are 100% vegetarian. These are, by nature, gluten-free gummies and are non-GMO. Don't worry, they are non-habit forming. Centrum multivitamin supplements are manufactured in an FSSAI-certified facility that is GMP certified. These daily multivitamin gummies are FSSAI compliant. You can refer the pack for usage and administration instructions or can consult your healthcare practitioner. For storage conditions, please refer to the pack. For references, please refer to Centrum India’s website.",
-  "price": "₹ 629",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/42e28e4351284a179779113d7db06bba.jpg",
-  "category": "Multivitamins",
-  "gender": "Unisex",
-  "age": "Kids",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Powder"
-},
-{
-  "product_Id": "13",
-  "name": "Centrum Adult 50+ | Supports Overall Health | World's No.1 Multivitamin",
-  "product_description":
-    "Centrum is the world's no. 1 multivitamin and is now in India. Getting older doesn’t mean you have to slow down, but it may mean you need to adjust your nutrient levels to respond to your body’s changing needs. Centrum Adult 50+ Multivitamin and Multimineral Supplement is a daily nutritional supplement to stay active and healthy so you can feel confident that your body can keep up with your active life. Centrum formulations have been tailor-made for Indian diets and body needs. Its ingredients with 23 vital nutrients support overall health. Vitamin C and zinc aid immunity. Vitamin C, E and B for a healthy heart, and plant-based botanical (Boswellia Serrata) with calcium and vitamin D to support healthy functioning joints. It also contains vitamin A for eye health and biotin, which supports healthy hair. Centrum tablets are 100% vegetarian and are non-habit forming. Centrum multivitamin supplements are manufactured in an FSSAI-certified facility that is GMP certified. These are, by nature, gluten-free tablets and are non-GMO. Centrum Multivitamin supplements are manufactured in an FSSAI-certified facility that is GMP certified.  You can refer pack for usage and administration instructions or can consult your health care practitioner. For storage conditions, please refer to the pack. For references, please refer to Centrum India’s website.",
-  "price": "₹ 639",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/68a7c0c170d947ed9ba5192a014bd3dd.jpg",
-  "category": "Multivitamins",
-  "gender": "Male",
-  "age": "Elderly",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Tablet"
-},
-{
-  "product_Id": "14",
-  "name": "Carbamide Forte Multivitamins for Women with Probiotics Vegetarian Tablet",
-  "product_description":
-    "Carbamide Forte Multivitamins with Probiotics for Women Vegetarian Tablet contains a super antioxidant, vigour and vitality blend that boosts the system under the stress and strains of everyday life. The multivitamin capsules for women are packed with scientifically studied vitamins and minerals to nourish, energize, and fuel female vitality at the cellular level. Novosules woman+ covers complete dietary requirements by giving recommended daily allowance of essential vitamins and minerals. These women's multivitamins contain a pre and probiotic blend with carefully chosen probiotic strains and 250 million CFU of total probiotics. Prebiotics are also added, which help multiply gut probiotics. It is packed with scientifically studied multivitamin supplements to nourish, energise, and fuel female vitality at the cellular level. It is free from chemicals, allergens, parabens, contaminants and GMOs.",
-  "price": "₹ 527",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/53db83f4331841a897d76d863d344bc1.jpg",
-  "category": "Multivitamins",
-  "gender": "Female",
-  "age": "Elderly",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Tablet"
-},
-{
-  "product_Id": "15",
-  "name": "HealthVit Zinc Gluconate 50mg Capsule",
-  "product_description":
-    "HealthVit Zinc Gluconate 50mg Capsule is formulated to maintain valuable nutritional support for the immune system, prostate, and eyes. Zinc is known to improve the immunity level of the body and also promote healthy neurological functions. Moreover, it is useful in regulating the blood glucose level of the body.",
-  "price": "₹ 476",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/vzkfjqf8wpgvnughy8ph.jpg",
-  "category": "Calcium and Minerals",
-  "gender": "Unisex",
-  "age": "Adult",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Capsule"
-},
-{
-  "product_Id": "16",
-  "name": "Zincovit Tablet",
-  "product_description":
-    "Zincovit Tablet is a nutritional health supplement enriched with multivitamins and multi-minerals that are essential for the proper functioning of the heart and nervous system and also boost immunity.",
-  "price": "₹ 89",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/ibcufhk27uqhpgy9kfcg.jpg",
-  "category": "Calcium and Minerals",
-  "gender": "Male",
-  "age": "Adult",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Tablet"
-},
-{
-  "product_Id": "17",
-  "name": "RawRX Organic Calcium and Vitamin D3 Tablet with Vitamin C, Magnesium and Zinc for Bone Health & Joint Pain",
-  "product_description":
-    "RawRX Organic Calcium and Vitamin D3 Tablet for Men & Women with Vitamin C, Coral Calcium Tablet for Bone Health & Joint Pain is sourced from the superfood algae, sustainably harvested off the coast of South America. Our natural plant-based supplement has calcium and so much more. Our D3 is vegan and soy-free, unlike most D3 supplements. Rather than sourcing D3 from animals, we source our D3 from algae.",
-  "price": "₹ 594",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/93888e0c67d44eae916513bf464e1e6a.jpg",
-  "category": "Calcium and Minerals",
-  "gender": "Unisex",
-  "age": "Adult",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Tablet"
-},
-{
-  "product_Id": "18",
-  "name": "Inlife Iron Folic Acid Supplement with Vitamin C, E, B12, Zinc & Selenium Tablet",
-  "product_description":
-    "Inlife Iron Folic Acid Supplement with Vitamin C, E, B12, Zinc and Selenium Tablets contain chelated form of iron which helps to prevent iron deficiency in the body. It is easy on the stomach and does not harm the digestive system.",
-  "price": "₹ 360",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/tjoec3grck4nnmnx2pzx.jpg",
-  "category": "Calcium and Minerals",
-  "gender": "Female",
-  "age": "Adult",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Tablet"
-},
-{
-  "product_Id": "19",
-  "name": "Biotrex Magnesium Citrate 330mg Capsule",
-  "product_description":
-    "Biotrex Magnesium Citrate 330mg Capsule is crucial for the absorption and metabolism of calcium in the body. It provides strength and firmness to the bones. On the other hand, Magnesium citrate functions as a laxative to overcome occasional constipation and enhances digestive functions. It also increases the water level in the intestines which usually results in a bowel movement. In addition to this, the capsule promotes cardiovascular health of the body.",
-  "price": "₹ 446",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/cropped/cpdc3dnttvusaghuuofc.jpg",
-  "category": "Calcium and Minerals",
-  "gender": "Unisex",
-  "age": "Adult",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Capsule"
-},
-{
-  "product_Id": "20",
-  "name": "NOW Foods Potassium Citrate 99mg Capsule",
-  "product_description":
-    "NOW Foods Potassium Citrate 99mg Capsule is formulated with potassium citrate, a urinary alkalinizing medication. It makes the urine less acidic. Potassium citrate works by crystallizing stone-forming salts such as calcium oxalate, calcium phosphate and uric acid within the urinary bladder by increasing the urinary pH and urine citrate levels.",
-  "price": "₹ 1408",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/cropped/c6yswyvohau8ur6njjoc.jpg",
-  "category": "Calcium and Minerals",
-  "gender": "Male",
-  "age": "Adult",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Capsule"
-},
-{
-  "product_Id": "21",
-  "name": "Chicnutrix Bounce Hair Recovery Complex, Biotin, Selenium Raspberry Effervescent Tablet",
-  "product_description":
-    "Chicnutrix Bounce Hair Recovery Complex, Biotin, Selenium Effervescent Tablet Mango Delight aims to deliver beauty and health, inside out, with a touch of science to your glamour quotient. Chicnutrix has FSSAI-approved products, in-house RandD with a strong scientific foundation, and the utmost quality and ingredient sourcing levels to provide you with the best nutritional supplements for a healthy and happy lifestyle. People try all the hair fall control products on the market but don’t follow some very basic hair care routines or don’t have the proper hair nutrition knowledge. Biotin and amino acids are an effective and natural first line of defence if nutritional deficiencies exist. Chicnutrix Bounce contains a strong hair recovery complex that contains all the essential amino acids for your hair health, biotin and selenium. Chicnutrix Bounce is 100% vegan, dermatologist approved, gluten-free, with no added sugar, and gentle on the stomach. It has a biotin, selenium, and hair recovery complex to help you give the right nutrition and reduce hair fall, making it one of the best hair fall control tablets. Biotin is one of the most vital vitamins for maintaining healthy hair. It aids in converting nutrients into energy, which is then used to build healthy hair. Biotin for hair benefits our hair, skin, and nails by assisting in the supplementation of keratin, the protein that makes up our hair, skin, and nails. Selenium eliminates the fungus that causes dandruff, which is why it's used in many hair treatments. It also regulates hormones and enzymes to activate antioxidants, which help fight free radical damage. In hair Recovery Complex (Amino acids), the optimal level of keratin production can be achieved by consuming enough amino acids. Hair development can be accelerated as a result of adequate keratin production. Amino acids, in addition to keratin formation, can increase red blood cell production. Increased red blood cell production can also aid in transferring oxygen and nutrients to the hair follicles, resulting in improved hair growth.",
-  "price": "₹ 540",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/cropped/eemkpk504yenenm1w9bu.png",
-  "category": "Calcium and Minerals",
-  "gender": "Female",
-  "age": "Adult",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Tablet"
-},
-{
-  "product_Id": "22",
-  "name": "Prosure Powder Orange",
-  "product_description":
-    "Prosure Powder contains Maltodextrin, sucrose, milk protein concentrate, calcium caseinate, marine oil, fructooligosaccharides, minerals, Stabilizer (Arabic gum), vegetable oils (medium chain triglycerides (MCT) oil, Soy oil, High oleic sunflower oil), Whey protein concentrate, Soy polysaccharide, Vitamins, Antioxidants (mixed tocopherols, soy lecithin) flavoring, Choline chloride, taurine, L-carnitine.",
-  "price": "₹ 1139",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/cropped/f6ggjqkhmqcwzk2rzib7.jpg",
-  "category": "Calcium and Minerals",
-  "gender": "Female",
-  "age": "Adult",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Powder"
-},
-{
-  "product_Id": "23",
-  "name": "Plix Olena Womens Protein & Superfoods (500gm Each) Chocolate",
-  "product_description":
-    "Plix Olena Womens Protein and Superfoods is especially designed to meet the protein requirements of women. It supplies the body with 20 g plant-based, vegan protein that increases muscle recovery and acts as an ideal workout supplement. It also contains Ayurvedic ingredients like blueberry, raspberry, grapeseed, pomegranate, shatavari and fenugreek, these ingredients to help support women's natural hormonal balance.",
-  "price": "₹ 1247",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/dn0ox3gegi7ylory6plx.jpg",
-  "category": "Calcium and Minerals",
-  "gender": "Female",
-  "age": "Adult",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Powder"
-},
-{
-  "product_Id": "24",
-  "name": "Himalayan Organics Vegan Omega 3 Vegetarian Capsule",
-  "product_description":
-    "Omega-3 is very essential for our body. Himalayan organics Vegan Omega-3 is a rich source of Omega-3-6-9 that helps improve bone, joint and heart health effectively. The goodness of flaxseed oil, Omega 3, Omega 6 and Omega 9 supports cardiovascular health and makes you feel lighter and energetic throughout the day. It helps vegans and vegetarians obtain adequate levels of nutrition by taking this supplement regularly. Omega-3 is good for the eyes as well.",
-  "price": "₹ 849",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/yiqgfgw1yyu2kemwauvv.jpg",
-  "category": "Plant based Supplements",
-  "gender": "Male",
-  "age": "Adult",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Capsule"
-},
-{
-  "product_Id": "25",
-  "name": "Wellbeing Nutrition Daily Greens Effervescent Tablet (15 Each)",
-  "product_description":
-    "Wellbeing Nutrition Daily Greens Effervescent Tablet is made from the freshest and most natural real greens to support the overall health of the body. Enriched with vitamins, minerals and 30+ antioxidant-rich superfoods to nourish the body, each tab serves complete nutrition for a day. It is full of health benefits and can work wonders if included in daily diets.",
-  "price": "₹ 350",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/yiqgfgw1yyu2kemwauvv.jpg",
-  "category": "Plant based Supplements",
-  "gender": "Male",
-  "age": "Adult",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Tablet"
-},
-{
-  "product_Id": "26",
-  "name": "Fast&Up Plant Protein Isolate Caramel Coffee",
-  "product_description":
-    "Packed with plant power, Fast and Up Plant Protein Isolate is scientifically formulated with a blend of premium quality plant protein sourced from yellow peas and brown rice, that wins on its quality, best in industry taste, smell and the highest protein content compared to most of the protein supplements in the market. It is also India’s first Informed-Sport Certified Plant Protein supplement. The very purpose of protein supplements is to help fulfil the requirements missing from the diet and enhance performance. The high plant protein isolate enables to achieve the same with a complete amino acid profile and maximum absorption. This pure vegan protein contains naturally occurring 6.0 g BCAA, 6.0 g glutamine along with added vegan coconut MCTs and digestive enzyme pepzyme AG tm for better digestion. Added vegan coconut MCTs boost energy and metabolism, promote fat loss and help build lean muscle. Made with quality ingredients and no artificial sweetener, this vegan protein has no bitter taste or unpleasant smell and does not cause bloating or stomach upsets. Fast and Up Plant Protein is unflavoured and has a smooth creamy texture for post-workout muscle recovery, muscle building and strength and for general well-being.",
-  "price": "₹ 2169",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/qsmtwglbkwtistkocz6w.jpg",
-  "category": "Plant based Supplements",
-  "gender": "Unisex",
-  "age": "Adult",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Powder"
-},
-{
-  "product_Id": "27",
-  "name": "Carbamide Forte Plant Based Multivitamin with Superfoods & Greens",
-  "product_description":
-    "Carbamide Forte Plant Based Multivitamin Tablets for men and women for immunity, energy and detox with superfoods, greens, vegetables, fruits and herbs supplement has specially formulated multivitamins for men and women made from plant-based whole foods. They have fortified your plant-based multivitamin supplement with real vitamins in a single tablet so that you get what is promised. ",
-  "price": "₹ 499",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/cbe3d4af100e4de7b26101dd0facddda.jpg",
-  "category": "Plant based Supplements",
-  "gender": "Male",
-  "age": "Adult",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Tablet"
-},
-{
-  "product_Id": "28",
-  "name": "Oziva Plant Based Biotin Xtra Capsule for Hair Repair, Growth & Regeneration",
-  "product_description":
-    "Oziva Plant Based Biotin Xtra Capsule provides the goodness of 100% clean and plant-based biotin and keratin builder blend. These biotin capsules help nourish your hair from the inside thus promoting 2X better hair regeneration, hair repair and growth",
-  "price": "₹ 454",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/klegnssahxialzmcrpn3.jpg",
-  "category": "Plant based Supplements",
-  "gender": "Female",
-  "age": "Adult",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Capsule"
-},
-{
-  "product_Id": "29",
-  "name": "Swisse Ultiboost Vegan Calcium+Vitamin D Tablet",
-  "product_description":
-    "Swiss Beauty Ultiboost Vegan Calcium+Vitamin D Tablet is a high-quality formula that can help maintain healthy teeth and bone density, as well as provide a supply of calcium to help reduce osteoporosis when food consumption is insufficient.",
-  "price": "₹ 974",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/gh9rlizdydnnhg3xfqal.jpg",
-  "category": "Plant based Supplements",
-  "gender": "Male",
-  "age": "Adult",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Tablet"
-},
-{
-  "product_Id": "30",
-  "name": "Nutrabay Wellness All-Natural Plant Protein + Superfoods Gourmet Chocolate",
-  "product_description":
-    "Nutrabay Wellness All-Natural Plant Protein + Superfoods Gourmet Chocolate is made with pea protein, brown rice protein, and vitamins and minerals that might help to maintain the body holistically. It is vegetarian and is manufactured in India.",
-  "price": "₹ 794",
-  "image":
-    "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/khckemwmzb0uqu2hoyip.jpg",
-  "category": "Plant based Supplements",
-  "gender": "Male",
-  "age": "Adult",
-  "uses": "Hair,Nails & Skin",
-  "product_form": "Powder"
-}
+    },
+    {
+      "product_Id": "6",
+      "name": "MuscleBlaze MB-Vite Multivitamin Tablet",
+      "product_description": "MuscleBlaze MB-Vite Multivitamin with Immunity Boosters and Digestive Enzymes, 100% RDA of Vitamin C, D, Zinc just got better and stronger with the same premium quality but an even better formulation. These multivitamin tablets have all your essentials with 6 unique blends and 50+ ingredients to upkeep key micro-nutrients and amino acids in your body. Formulated for athletes and fitness enthusiasts to help boost immunity, fill nutrient gaps, enhance energy, build stamina, and support recovery and metabolic processes. The vitamins and minerals, amino acid, prebiotic and probiotic, enzymes, antioxidant, and metabolism blend helps elevate your fitness and stamina. These multivitamin tablets are made with premium ingredients that are FSSAI and HACCP-certified which ensures great quality and safety",
+      "price": "₹ 529",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/dgcszilwgcv0dzorjzdk.jpg",
+      "category": "Multivitamins",
+      "gender": "Male",
+      "age": "Adult",
+      "uses": "Bone,Joint & Muscle Care",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "7",
+      "name": "Dr. Morepen Multi Vitamin Men with Omega 3 & Herbs, Natural Energy & Immunity Booster Tablet",
+      "product_description": "Information about Dr. Morepen Multi Vitamin Men with Omega 3 & Herbs, Natural Energy & Immunity Booster Tablet",
+      "price": "₹ 549",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/aywb3kusfcv1tnyyt8qy.jpg",
+      "category": "Multivitamins",
+      "gender": "Male",
+      "age": "Adult",
+      "uses": "Bone,Joint & Muscle Care",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "8",
+      "name": "Vicks ImmunoCold Daily Multivitamin Tablet",
+      "product_description": "Vicks Immune Cold Daily Multivitamin Tablet: It is a 4-in-1 specially blended formula that supports your immune system’s health and fights against colds and coughs. Its potent antioxidants protect the immune cells from free radicals.",
+      "price": "₹ 97",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/2ae51f8dc4ab426caac889be4d3efe12.jpg",
+      "category": "Multivitamins",
+      "gender": "Unisex",
+      "age": "Kids",
+      "uses": "Weight Management",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "9",
+      "name": "Revital H for Woman Tablet with Multivitamins, Calcium, Zinc & Natural Ginseng for Daily Immunity Strong Bones, and Enhances Energy Level",
+      "product_description": "Information about Revital H for Woman Tablet with Multivitamins, Calcium, Zinc & Natural Ginseng for Daily Immunity Strong Bones, and Enhances Energy Level. Revital H Woman Tablet is a combination of 12 vitamins, 18 minerals and ginseng that helps enhance mental and physical performance. It helps improve energy levels and boosts general health.",
+      "price": "₹ 342",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/xqljyyelnecasglguvf6.jpg",
+      "category": "Multivitamins",
+      "gender": "Female",
+      "age": "Adult",
+      "uses": "Bone,Joint & Muscle Care",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "10",
+      "name": "Inlife Multivitamin & Minerals Capsule for Women",
+      "product_description": "Inlife Multivitamins & Minerals Capsules for Women are a complete multivitamin complex designed to support every aspect of women's wellness. These capsules contain a combination of essential vitamins, minerals, and herbs that support female bodily functions. Inlife Multivitamins & Minerals Capsules for Women get quickly absorbed in the body and are easily digestible.",
+      "price": "₹ 444",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/b7kzmszjedslc80l0mkj.jpg",
+      "category": "Multivitamins",
+      "gender": "Female",
+      "age": "Adult",
+      "uses": "Bone,Joint & Muscle Care",
+      "product_form": "Capsule "
+    },
+    {
+      "product_Id": "11",
+      "name": "Horlicks Junior Horlicks Health and Nutrition Drink Vanilla",
+      "product_description": "Vicks Immune Cold Daily Multivitamin Tablet: It is a 4-in-1 specially blended formula that supports your immune system’s health and fights against colds and coughs. Its potent antioxidants protect the immune cells from free radicals.",
+      "price": "₹ 475",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/zqdi4bkhbseafni9rgei.jpg",
+      "category": "Multivitamins",
+      "gender": "Unisex",
+      "age": "Kids",
+      "uses": "Mind Care",
+      "product_form": "Powder"
+    },
+    {
+      "product_Id": "12",
+      "name": "Centrum Kids | Supports Overall Health (Veg) | World's No.1 Multivitamin",
+      "product_description": "Centrum is the world's no. 1 multivitamin brand and is now in India. Centrum Kids Multivitamin and Mineral with probiotic gummies are designed to meet the special needs of growing children in terms of vitamin and mineral intake from the age of five. Centrum Kids Multi-Gummies is a daily nutritional supplement in a tasty gummy format that kids will love, while you can feel confident that your body can support your potential. Centrum Kids Multivitamin and Mineral with Probiotics is formulated with 13 essential nutrients to support healthy growth. Centrum formulations have been tailor-made for Indian diets and body needs. It is formulated with probiotic Bacillus Coagulans for gut health which aids digestion. It contains immune support nutrients such as vitamin C and zinc to aid immunity. It supports the immune system in fighting off infections. Centrum gummies are 100% vegetarian. These are, by nature, gluten-free gummies and are non-GMO. Don't worry, they are non-habit forming. Centrum multivitamin supplements are manufactured in an FSSAI-certified facility that is GMP certified. These daily multivitamin gummies are FSSAI compliant. You can refer the pack for usage and administration instructions or can consult your healthcare practitioner. For storage conditions, please refer to the pack. For references, please refer to Centrum India’s website.",
+      "price": "₹ 629",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/42e28e4351284a179779113d7db06bba.jpg",
+      "category": "Multivitamins",
+      "gender": "Unisex",
+      "age": "Kids",
+      "uses": "Mind Care",
+      "product_form": "Powder"
+    },
+    {
+      "product_Id": "13",
+      "name": "Centrum Adult 50+ | Supports Overall Health | World's No.1 Multivitamin",
+      "product_description": "Centrum is the world's no. 1 multivitamin and is now in India. Getting older doesn’t mean you have to slow down, but it may mean you need to adjust your nutrient levels to respond to your body’s changing needs. Centrum Adult 50+ Multivitamin and Multimineral Supplement is a daily nutritional supplement to stay active and healthy so you can feel confident that your body can keep up with your active life. Centrum formulations have been tailor-made for Indian diets and body needs. Its ingredients with 23 vital nutrients support overall health. Vitamin C and zinc aid immunity. Vitamin C, E and B for a healthy heart, and plant-based botanical (Boswellia Serrata) with calcium and vitamin D to support healthy functioning joints. It also contains vitamin A for eye health and biotin, which supports healthy hair. Centrum tablets are 100% vegetarian and are non-habit forming. Centrum multivitamin supplements are manufactured in an FSSAI-certified facility that is GMP certified. These are, by nature, gluten-free tablets and are non-GMO. Centrum Multivitamin supplements are manufactured in an FSSAI-certified facility that is GMP certified.  You can refer pack for usage and administration instructions or can consult your health care practitioner. For storage conditions, please refer to the pack. For references, please refer to Centrum India’s website.",
+      "price": "₹ 639",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/68a7c0c170d947ed9ba5192a014bd3dd.jpg",
+      "category": "Multivitamins",
+      "gender": "Male",
+      "age": "Elderly",
+      "uses": "Mind Care",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "14",
+      "name": "Carbamide Forte Multivitamins for Women with Probiotics Vegetarian Tablet",
+      "product_description": "Carbamide Forte Multivitamins with Probiotics for Women Vegetarian Tablet contains a super antioxidant, vigour and vitality blend that boosts the system under the stress and strains of everyday life. The multivitamin capsules for women are packed with scientifically studied vitamins and minerals to nourish, energize, and fuel female vitality at the cellular level. Novosules woman+ covers complete dietary requirements by giving recommended daily allowance of essential vitamins and minerals. These women's multivitamins contain a pre and probiotic blend with carefully chosen probiotic strains and 250 million CFU of total probiotics. Prebiotics are also added, which help multiply gut probiotics. It is packed with scientifically studied multivitamin supplements to nourish, energise, and fuel female vitality at the cellular level. It is free from chemicals, allergens, parabens, contaminants and GMOs.",
+      "price": "₹ 527",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/53db83f4331841a897d76d863d344bc1.jpg",
+      "category": "Multivitamins",
+      "gender": "Female",
+      "age": "Elderly",
+      "uses": "Mind Care",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "15",
+      "name": "HealthVit Zinc Gluconate 50mg Capsule",
+      "product_description": "HealthVit Zinc Gluconate 50mg Capsule is formulated to maintain valuable nutritional support for the immune system, prostate, and eyes. Zinc is known to improve the immunity level of the body and also promote healthy neurological functions. Moreover, it is useful in regulating the blood glucose level of the body.",
+      "price": "₹ 476",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/vzkfjqf8wpgvnughy8ph.jpg",
+      "category": "Calcium and Minerals",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Mind Care",
+      "product_form": "Capsule"
+    },
+    {
+      "product_Id": "16",
+      "name": "Zincovit Tablet",
+      "product_description": "Zincovit Tablet is a nutritional health supplement enriched with multivitamins and multi-minerals that are essential for the proper functioning of the heart and nervous system and also boost immunity.",
+      "price": "₹ 89",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/ibcufhk27uqhpgy9kfcg.jpg",
+      "category": "Calcium and Minerals",
+      "gender": "Male",
+      "age": "Adult",
+      "uses": "Cardiac Care",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "17",
+      "name": "RawRX Organic Calcium and Vitamin D3 Tablet with Vitamin C, Magnesium and Zinc for Bone Health & Joint Pain",
+      "product_description": "RawRX Organic Calcium and Vitamin D3 Tablet for Men & Women with Vitamin C, Coral Calcium Tablet for Bone Health & Joint Pain is sourced from the superfood algae, sustainably harvested off the coast of South America. Our natural plant-based supplement has calcium and so much more. Our D3 is vegan and soy-free, unlike most D3 supplements. Rather than sourcing D3 from animals, we source our D3 from algae.",
+      "price": "₹ 594",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/93888e0c67d44eae916513bf464e1e6a.jpg",
+      "category": "Calcium and Minerals",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Cardiac Care",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "18",
+      "name": "Inlife Iron Folic Acid Supplement with Vitamin C, E, B12, Zinc & Selenium Tablet",
+      "product_description": "Inlife Iron Folic Acid Supplement with Vitamin C, E, B12, Zinc and Selenium Tablets contain chelated form of iron which helps to prevent iron deficiency in the body. It is easy on the stomach and does not harm the digestive system.",
+      "price": "₹ 360",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/tjoec3grck4nnmnx2pzx.jpg",
+      "category": "Calcium and Minerals",
+      "gender": "Female",
+      "age": "Adult",
+      "uses": "Cardiac Care",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "19",
+      "name": "Biotrex Magnesium Citrate 330mg Capsule",
+      "product_description": "Biotrex Magnesium Citrate 330mg Capsule is crucial for the absorption and metabolism of calcium in the body. It provides strength and firmness to the bones. On the other hand, Magnesium citrate functions as a laxative to overcome occasional constipation and enhances digestive functions. It also increases the water level in the intestines which usually results in a bowel movement. In addition to this, the capsule promotes cardiovascular health of the body.",
+      "price": "₹ 446",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/cropped/cpdc3dnttvusaghuuofc.jpg",
+      "category": "Calcium and Minerals",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Cardiac Care",
+      "product_form": "Capsule"
+    },
+    {
+      "product_Id": "20",
+      "name": "NOW Foods Potassium Citrate 99mg Capsule",
+      "product_description": "NOW Foods Potassium Citrate 99mg Capsule is formulated with potassium citrate, a urinary alkalinizing medication. It makes the urine less acidic. Potassium citrate works by crystallizing stone-forming salts such as calcium oxalate, calcium phosphate and uric acid within the urinary bladder by increasing the urinary pH and urine citrate levels.",
+      "price": "₹ 1408",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/cropped/c6yswyvohau8ur6njjoc.jpg",
+      "category": "Calcium and Minerals",
+      "gender": "Male",
+      "age": "Adult",
+      "uses": "Cold & Cough",
+      "product_form": "Capsule"
+    },
+    {
+      "product_Id": "21",
+      "name": "Chicnutrix Bounce Hair Recovery Complex, Biotin, Selenium Raspberry Effervescent Tablet",
+      "product_description": "Chicnutrix Bounce Hair Recovery Complex, Biotin, Selenium Effervescent Tablet Mango Delight aims to deliver beauty and health, inside out, with a touch of science to your glamour quotient. Chicnutrix has FSSAI-approved products, in-house RandD with a strong scientific foundation, and the utmost quality and ingredient sourcing levels to provide you with the best nutritional supplements for a healthy and happy lifestyle. People try all the hair fall control products on the market but don’t follow some very basic hair care routines or don’t have the proper hair nutrition knowledge. Biotin and amino acids are an effective and natural first line of defence if nutritional deficiencies exist. Chicnutrix Bounce contains a strong hair recovery complex that contains all the essential amino acids for your hair health, biotin and selenium. Chicnutrix Bounce is 100% vegan, dermatologist approved, gluten-free, with no added sugar, and gentle on the stomach. It has a biotin, selenium, and hair recovery complex to help you give the right nutrition and reduce hair fall, making it one of the best hair fall control tablets. Biotin is one of the most vital vitamins for maintaining healthy hair. It aids in converting nutrients into energy, which is then used to build healthy hair. Biotin for hair benefits our hair, skin, and nails by assisting in the supplementation of keratin, the protein that makes up our hair, skin, and nails. Selenium eliminates the fungus that causes dandruff, which is why it's used in many hair treatments. It also regulates hormones and enzymes to activate antioxidants, which help fight free radical damage. In hair Recovery Complex (Amino acids), the optimal level of keratin production can be achieved by consuming enough amino acids. Hair development can be accelerated as a result of adequate keratin production. Amino acids, in addition to keratin formation, can increase red blood cell production. Increased red blood cell production can also aid in transferring oxygen and nutrients to the hair follicles, resulting in improved hair growth.",
+      "price": "₹ 540",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/cropped/eemkpk504yenenm1w9bu.png",
+      "category": "Calcium and Minerals",
+      "gender": "Female",
+      "age": "Adult",
+      "uses": "Cold & Cough",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "22",
+      "name": "Prosure Powder Orange",
+      "product_description": "Prosure Powder contains Maltodextrin, sucrose, milk protein concentrate, calcium caseinate, marine oil, fructooligosaccharides, minerals, Stabilizer (Arabic gum), vegetable oils (medium chain triglycerides (MCT) oil, Soy oil, High oleic sunflower oil), Whey protein concentrate, Soy polysaccharide, Vitamins, Antioxidants (mixed tocopherols, soy lecithin) flavoring, Choline chloride, taurine, L-carnitine.",
+      "price": "₹ 1139",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/cropped/f6ggjqkhmqcwzk2rzib7.jpg",
+      "category": "Calcium and Minerals",
+      "gender": "Female",
+      "age": "Adult",
+      "uses": "Cold & Cough",
+      "product_form": "Powder"
+    },
+    {
+      "product_Id": "23",
+      "name": "Plix Olena Womens Protein & Superfoods (500gm Each) Chocolate",
+      "product_description": "Plix Olena Womens Protein and Superfoods is especially designed to meet the protein requirements of women. It supplies the body with 20 g plant-based, vegan protein that increases muscle recovery and acts as an ideal workout supplement. It also contains Ayurvedic ingredients like blueberry, raspberry, grapeseed, pomegranate, shatavari and fenugreek, these ingredients to help support women's natural hormonal balance.",
+      "price": "₹ 1247",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/dn0ox3gegi7ylory6plx.jpg",
+      "category": "Calcium and Minerals",
+      "gender": "Female",
+      "age": "Adult",
+      "uses": "Immunity Booster",
+      "product_form": "Powder"
+    },
+    {
+      "product_Id": "24",
+      "name": "Himalayan Organics Vegan Omega 3 Vegetarian Capsule",
+      "product_description": "Omega-3 is very essential for our body. Himalayan organics Vegan Omega-3 is a rich source of Omega-3-6-9 that helps improve bone, joint and heart health effectively. The goodness of flaxseed oil, Omega 3, Omega 6 and Omega 9 supports cardiovascular health and makes you feel lighter and energetic throughout the day. It helps vegans and vegetarians obtain adequate levels of nutrition by taking this supplement regularly. Omega-3 is good for the eyes as well.",
+      "price": "₹ 849",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/yiqgfgw1yyu2kemwauvv.jpg",
+      "category": "Plant based Supplements",
+      "gender": "Male",
+      "age": "Adult",
+      "uses": "Immunity Booster",
+      "product_form": "Capsule"
+    },
+    {
+      "product_Id": "25",
+      "name": "Wellbeing Nutrition Daily Greens Effervescent Tablet (15 Each)",
+      "product_description": "Wellbeing Nutrition Daily Greens Effervescent Tablet is made from the freshest and most natural real greens to support the overall health of the body. Enriched with vitamins, minerals and 30+ antioxidant-rich superfoods to nourish the body, each tab serves complete nutrition for a day. It is full of health benefits and can work wonders if included in daily diets.",
+      "price": "₹ 350",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/yiqgfgw1yyu2kemwauvv.jpg",
+      "category": "Plant based Supplements",
+      "gender": "Male",
+      "age": "Adult",
+      "uses": "Immunity Booster",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "26",
+      "name": "Fast&Up Plant Protein Isolate Caramel Coffee",
+      "product_description": "Packed with plant power, Fast and Up Plant Protein Isolate is scientifically formulated with a blend of premium quality plant protein sourced from yellow peas and brown rice, that wins on its quality, best in industry taste, smell and the highest protein content compared to most of the protein supplements in the market. It is also India’s first Informed-Sport Certified Plant Protein supplement. The very purpose of protein supplements is to help fulfil the requirements missing from the diet and enhance performance. The high plant protein isolate enables to achieve the same with a complete amino acid profile and maximum absorption. This pure vegan protein contains naturally occurring 6.0 g BCAA, 6.0 g glutamine along with added vegan coconut MCTs and digestive enzyme pepzyme AG tm for better digestion. Added vegan coconut MCTs boost energy and metabolism, promote fat loss and help build lean muscle. Made with quality ingredients and no artificial sweetener, this vegan protein has no bitter taste or unpleasant smell and does not cause bloating or stomach upsets. Fast and Up Plant Protein is unflavoured and has a smooth creamy texture for post-workout muscle recovery, muscle building and strength and for general well-being.",
+      "price": "₹ 2169",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/qsmtwglbkwtistkocz6w.jpg",
+      "category": "Plant based Supplements",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Stomach Care",
+      "product_form": "Powder"
+    },
+    {
+      "product_Id": "27",
+      "name": "Carbamide Forte Plant Based Multivitamin with Superfoods & Greens",
+      "product_description": "Carbamide Forte Plant Based Multivitamin Tablets for men and women for immunity, energy and detox with superfoods, greens, vegetables, fruits and herbs supplement has specially formulated multivitamins for men and women made from plant-based whole foods. They have fortified your plant-based multivitamin supplement with real vitamins in a single tablet so that you get what is promised. ",
+      "price": "₹ 499",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/cbe3d4af100e4de7b26101dd0facddda.jpg",
+      "category": "Plant based Supplements",
+      "gender": "Male",
+      "age": "Adult",
+      "uses": "Stomach Care",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "28",
+      "name": "Oziva Plant Based Biotin Xtra Capsule for Hair Repair, Growth & Regeneration",
+      "product_description": "Oziva Plant Based Biotin Xtra Capsule provides the goodness of 100% clean and plant-based biotin and keratin builder blend. These biotin capsules help nourish your hair from the inside thus promoting 2X better hair regeneration, hair repair and growth",
+      "price": "₹ 454",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/klegnssahxialzmcrpn3.jpg",
+      "category": "Plant based Supplements",
+      "gender": "Female",
+      "age": "Adult",
+      "uses": "Stomach Care",
+      "product_form": "Capsule"
+    },
+    {
+      "product_Id": "29",
+      "name": "Swisse Ultiboost Vegan Calcium+Vitamin D Tablet",
+      "product_description": "Swiss Beauty Ultiboost Vegan Calcium+Vitamin D Tablet is a high-quality formula that can help maintain healthy teeth and bone density, as well as provide a supply of calcium to help reduce osteoporosis when food consumption is insufficient.",
+      "price": "₹ 974",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/gh9rlizdydnnhg3xfqal.jpg",
+      "category": "Plant based Supplements",
+      "gender": "Male",
+      "age": "Adult",
+      "uses": "Stomach Care",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "30",
+      "name": "Nutrabay Wellness All-Natural Plant Protein + Superfoods Gourmet Chocolate",
+      "product_description": "Nutrabay Wellness All-Natural Plant Protein + Superfoods Gourmet Chocolate is made with pea protein, brown rice protein, and vitamins and minerals that might help to maintain the body holistically. It is vegetarian and is manufactured in India.",
+      "price": "₹ 794",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/khckemwmzb0uqu2hoyip.jpg",
+      "category": "Plant based Supplements",
+      "gender": "Male",
+      "age": "Adult",
+      "uses": "Stomach Care",
+      "product_form": "Powder"
+    },
+    {
+      "product_Id": "31",
+      "name": "Biotin + Tablet",
+      "product_description": "Biotin is a vital nutrient in the B-vitamin complex group that helps promote growth and overall health. It can help your body convert protein, fat, and carbohydrates into glucose energy to promote a better functioning metabolism. It can be used as nutritional supplementation for dietary shortage or imbalance, which may cause hair loss or total alopecia, brittle nails, skin rash in infants, and mild depression.",
+      "price": "₹ 298",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/ol2kbjitmuh8e4rs865z.jpg",
+      "category": "Biotin",
+      "gender": "Female",
+      "age": "Adult",
+      "uses": "Hair,Nails & Skin",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "32",
+      "name": "Perfectil Tablet",
+      "product_description": "Perfectil Skin, Hair, Nail Supplement Tablet has been formulated to complement daily skin and hair care routines with a range of over 20 micronutrients. Each tablet contains micronutrients, including riboflavin (vitamin B2), niacin (vitamin B3) and biotin, contributing to the maintenance of normal skin. It aso comprises of minerals, selenium and zinc which contribute to healthy hair and nail maintenance.",
+      "price": "₹ 400",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/r33qnfrme9xfozrw5gwk.jpg",
+      "category": "Biotin",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Hair,Nails & Skin",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "33",
+      "name": "Swisse Beauty Biotin+ with Nicotinamide, Rose Hips & Vitamin C Tablet",
+      "product_description": "Swisse Beauty Biotin+ with Nicotinamide, Rose Hips & Vitamin C Tablet provides the goodness of biotin, along with the additional benefits of nicotinamide, rosehip and vitamin C. It helps maintain healthy hair, skin and nails. Besides, it also supports collagen production.",
+      "price": "₹ 669",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/axhhyhjdyfb5dh0wahom.jpg",
+      "category": "Biotin",
+      "gender": "Female",
+      "age": "Elderly",
+      "uses": "Hair,Nails & Skin",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "34",
+      "name": "HealthKart HK Vitals Biotin Tablet",
+      "product_description": "Healthkart Biotin Maximum Strength for Hair Skin & Nails-10000 mcg, Biotin Tablets is a dietary supplement that helps fulfil your bodily requirement of vitamin B7. It supports keratin synthesis and building keratin infrastructure in your body. Keratins help form the tissues of the hair, nails and outer layer of the skin. HK Vitals Biotin helps ensure enriching care for hair, skin and nail. Biotin also helps to provide radiance to the skin and prevent nail brittleness. It helps  metabolize fats and protein to provide energy and avoid fatigue.",
+      "price": "₹ 499",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/twpuzix7nrwivbtg0n80.jpg",
+      "category": "Biotin",
+      "gender": "Female",
+      "age": "Adult",
+      "uses": "Hair,Nails & Skin",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "35",
+      "name": "Power Gummies - Hair & Nail Vitamins with Biotin",
+      "product_description": "Power Gummies are tasty, chewable unisex vitamin dietary health supplements curated for adults. These help combat hair issues and enhance skin and nail health.",
+      "price": "₹ 840",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_auto,f_auto/5a34b45b7f284dd5ae17710100f5b0fa.jpg",
+      "category": "Biotin",
+      "gender": "Unisex",
+      "age": "Child",
+      "uses": "Hair,Nails & Skin",
+      "product_form": "Gummies"
+    },
+    {
+      "product_Id": "36",
+      "name": "Zingavita Biotin Tablet",
+      "product_description": "When your hair looks good, you feel good. But squeezing in time for your beauty routine may not always work out. That’s where our Biotin supplements come to the rescue. Zingavita Biotin tablets help improve hair thickness and volume. It stimulates keratin production to help make the hair stronger and reduce hair fall.",
+      "price": "₹ 275",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/pnwluor5nkj6k6xhw81h.jpg",
+      "category": "Biotin",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Hair,Nails & Skin",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "37",
+      "name": "Wellwoman Hairfollic Hair Supplement Tablet",
+      "product_description": "Wellwoman Hairfollic Hair Supplement Tablet is a multivitamin formulation that helps to maintain hair health and provides nutrients. The formulation is based on the latest scientific research to deliver the nutrients via the bloodstream for optimum results. The tablet contains amino acids which are structural components of hair. Copper contributes to hair pigmentation. Biotin, Selenium, and Zinc help support hair health. The Tricologic complex is a proprietary combination of selenium, zinc, biomarine, and grape seed extract.",
+      "price": "₹ 453",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/da53ml3uc1gpctmhanfm.jpg",
+      "category": "Biotin",
+      "gender": "Female",
+      "age": "Adult",
+      "uses": "Hair,Nails & Skin",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "38",
+      "name": "Carbamide Forte Biotin 10,000mcg Tablet",
+      "product_description": "Carbamide Forte Biotin 10,000mcg Vegetarian Tablet contains biotin, which is a B vitamin that plays a key role in the body and is an important nutrient for the growth and maintenance of hair, skin and nails.  It gives moisturized skin and healthier, stronger nails. The biotin hair supplement makes hair grow faster, fuller, and healthier from the roots. These biotin capsules support fatty acid production, increasing cell growth, nail strength, nail growth, and the bulb size of the hair follicle, helping hair appear fuller. Biotin is a water-soluble vitamin that acts as a coenzyme to metabolise proteins, fats and carbohydrates. Moreover, all ingredients used in biotin capsules are completely vegetarian.",
+      "price": "₹ 549",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/g8sutaon3j3kmg9eeipv.jpg",
+      "category": "Biotin",
+      "gender": "Male",
+      "age": "Elderly",
+      "uses": "Hair,Nails & Skin",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "39",
+      "name": "Trichospire -F Hair Kit",
+      "product_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste in ipsum dolores iusto, quaerat, corporis non illum natus tenetur perspiciatis nulla fugiat vero, asperiores sequi cum deleniti rem accusamus pariatur?",
+      "price": "₹ 963",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/bsidmjarnv6rrovmf7dl.jpg",
+      "category": "Biotin",
+      "gender": "Female",
+      "age": "Adult",
+      "uses": "Hair,Nails & Skin",
+      "product_form": "Hair Kit"
+    },
+    {
+      "product_Id": "40",
+      "name": "Hairful 10 Tablet For Healthy Hair",
+      "product_description": "HairFul Healthy Hair Supplement Tablet can help manage hair fall and strengthen, stimulate and nourish the hair. HairFul tablet is enriched with a unique blend of essential nutrients necessary to prevent hair loss and all hair fall-related problems. It may help to improve hair growth. It can work on cellular levels and within the scalp. It can boost hair's health by making it stronger, thicker, and silkier. Both of these actions improve hair growth. These hair regrowth tablets contain a rich formulation of vitamins, amino acids, and minerals that may promote healthy hair. Vitamins are needed for hair growth. Biotin is a water-soluble vitamin, part of the vitamin B6 family. Its deficiency is known to cause hair loss along with signs of skin rashes and brittle nails. This is why biotin is a common vitamin used in supplements for hair growth.The vitamin can improve hair growth and prevent hair loss in adults and kids. Vitamin B6 can act as a coenzyme in synthesising nucleic acid and red blood cells, responsible for oxygen supply and thus hair growth. It can stimulate the rebuilding of hair follicles, prevent greying of hair and hair loss, and regulate sebum secretion.Vitamin supplements may help maintain the efficiency of cells. They can activate the enzymes essential for cellular functions and help create energy from the food you eat. These capsules are generally safe with little or no side effects. If you are taking other medications or diet supplements, it is best to inform your doctor to avoid drug interaction. Apart from taking this medicine, learn about the food sources of vitamins so that you can get enough of these vitamins through diet as well. It is a biotin tablet for hair. The tablet can help manage hair growth. This is a biotin tablet for hair growth and a hair supplement for women. It is one of the best multivitamin tablets for hair growth.",
+      "price": "₹ 165",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/he2k1rfit0qix5rflpcw.jpg",
+      "category": "Biotin",
+      "gender": "Male",
+      "age": "Adult",
+      "uses": "Hair,Nails & Skin",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "41",
+      "name": "Wellbeing Nutrition Melts Into Nano Iron Oral Thin Strip",
+      "product_description": "HairFul Healthy Hair Supplement Tablet can help manage hair fall and strengthen, stimulate and nourish the hair. HairFul tablet is enriched with a unique blend of essential nutrients necessary to prevent hair loss and all hair fall-related problems. It may help to improve hair growth. It can work on cellular levels and within the scalp. It can boost hair's health by making it stronger, thicker, and silkier. Both of these actions improve hair growth. These hair regrowth tablets contain a rich formulation of vitamins, amino acids, and minerals that may promote healthy hair. Vitamins are needed for hair growth. Biotin is a water-soluble vitamin, part of the vitamin B6 family. Its deficiency is known to cause hair loss along with signs of skin rashes and brittle nails. This is why biotin is a common vitamin used in supplements for hair growth.The vitamin can improve hair growth and prevent hair loss in adults and kids. Vitamin B6 can act as a coenzyme in synthesising nucleic acid and red blood cells, responsible for oxygen supply and thus hair growth. It can stimulate the rebuilding of hair follicles, prevent greying of hair and hair loss, and regulate sebum secretion.Vitamin supplements may help maintain the efficiency of cells. They can activate the enzymes essential for cellular functions and help create energy from the food you eat. These capsules are generally safe with little or no side effects. If you are taking other medications or diet supplements, it is best to inform your doctor to avoid drug interaction. Apart from taking this medicine, learn about the food sources of vitamins so that you can get enough of these vitamins through diet as well. It is a biotin tablet for hair. The tablet can help manage hair growth. This is a biotin tablet for hair growth and a hair supplement for women. It is one of the best multivitamin tablets for hair growth.",
+      "price": "₹ 594",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/jsysp4rcoytjgx6gl173.jpg",
+      "category": "Biotin",
+      "gender": "Male",
+      "age": "Elderly",
+      "uses": "Hair,Nails & Skin",
+      "product_form": "Oral Strip"
+    },
+
+    {
+      "product_Id": "42",
+      "name": "Health OK with Natural Ginseng and Taurine, Multivitamins, Minerals & Amino Acids, 24 Hours of Active Energy, Improves Overall Health, Boosts Immunity, 100% Vegetarian Tablet",
+      "product_description": "A hectic routine, a fast-paced lifestyle, and age are some major factors that soak up your vigour and leave you all drained. To overcome this, you need a supplement that can keep you active 24x7 and maintain your energetic self, helping you overcome all the tiresomeness and fatigue.Health OK Multivitamin Tablets contain natural ginseng and taurine power that helps provide daily energy. It also contains vitamins C, D, and 18 other vitamins and minerals that help improve overall health. ",
+      "price": "₹ 253",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_auto,f_auto/52ef6f69a310453db46e138899aa66a3.jpg",
+      "category": "Immunity Essentials",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Mind Care",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "43",
+      "name": "Maxirich Gold Advanced Daily Supplement-Multivitamin with Ginseng Extract for Energy & Immunity",
+      "product_description": "Cipla Maxirich Gold Advanced is a daily multivitamin supplement with ginseng for more energy. It is infused with the goodness of one of the most popular herbal medicines in the world to boost immunity, improve memory and ensure energy release. It contains ginseng extract, 10 vitamins, vitamin B complex and 9 minerals. It promotes well-being, helps the mind and body to relax and remain stress-free.",
+      "price": "₹ 59",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/qilibdowwmhew303ojpq.jpg",
+      "category": "Immunity Essentials",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Mind Care",
+      "product_form": "Capsules"
+    },
+    {
+      "product_Id": "44",
+      "name": "Zingavita Strong Immunity Multivitamin Gummies for kids (with Blueberry & Elderberry) Tangy Mango",
+      "product_description": "Zingavita Strong Immunity Multivitamin Gummies for kids (with Blueberry & Elderberry) Tangy Mango Flavor is packed with meticulously sourced vitamins such as zinc, vitamin A and vitamin C to cover nutritional gaps and fortify the little one’s inner defences so that they can fight off nasty bugs and germs. The gummies are manufactured in FSSAI approved, US FDA registered facility. They are vegan, Non-GMO, gluten-free, gelatin-free, allergen-free and do not contain any artificial colours or flavours. This means that the child will get all of the health benefits with no downsides.",
+      "price": "₹ 249",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/mvisrgufol3alhhmvlmm.jpg",
+      "category": "Immunity Essentials",
+      "gender": "Unisex",
+      "age": "Child",
+      "uses": "Immunity Booster",
+      "product_form": "Powder"
+    },
+    {
+      "product_Id": "45",
+      "name": "Complan Nutrition and Health Drink Royale Chocolate Refill",
+      "product_description": "Complan Nutrition and Health Drink Royale Chocolate is a scientifically designed nutrition and health drink with a clinically proven formula to give children 2x faster growth and support their memory and concentration. It is one of the best health drinks for child growth as it contains 34 vital nutrients including the power of 100% milk protein. Complan can make delicious nutrition shake for kids as it is rich in nutrients. It has iron, iodine, vitamin B12 which supports brain development and functioning as well as vitamin A, E, and C which supports immunity. Give Complan to your children two times a day as a part of their daily balanced diet and help them grow 2x faster and support their memory and concentration. Refer pack for more details.",
+      "price": "₹ 290",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/r0jiwwt9v5meopd4jbdq.jpg",
+      "category": "Immunity Essentials",
+      "gender": "Unisex",
+      "age": "Child",
+      "uses": "Mind Care",
+      "product_form": "Powder"
+    },
+    {
+      "product_Id": "46",
+      "name": "Mex-X Senior 50+ Multivitamin & Multimineral Veg Tablet with Zinc, Vitamin C, Calcium and Vitamin D, Supports Immunity, Strength & Overall Health",
+      "product_description": "Tata 1mg Senior 50+ Multivitamin & Multimineral Immunity Booster Zinc, Vitamin C, Calcium, and Vitamin D Veg Tablet is a health supplement that contains 24 essential vitamins and minerals to fulfil the need for micronutrients in older adults. It may improve the immune system and support overall health. General health blend may enhance memory, prevent ageing, and support eye and heart health.",
+      "price": "₹ 239",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/fvj4yg4go9xjxlb0jfrv.jpg",
+      "category": "Immunity Essentials",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Immunity Booster",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "47",
+      "name": "Saffola Immuniveda Kadha Mix (4gm Each)",
+      "product_description": "Saffola Immuniveda Kadha Mix is a unique ayurvedic recipe enriched with ashwagandha, black pepper, tulsi, ginger and other herbs that help boost immunity. These natural ingredients help relieve cough, cold and sore throat and support respiratory health.",
+      "price": "₹ 195",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…ad,q_auto,f_auto/cropped/kthtizfa1fkotvnumh5i.png",
+      "category": "Immunity Essentials",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Immunity Booster",
+      "product_form": "Powder"
+    },
+    {
+      "product_Id": "48",
+      "name": "Seacod Cod Liver Oil",
+      "product_description": "While adults are already struggling to deal with mental and physical fatigue, kids are not behind anymore. Their tender minds and fragile bodies bear the stress that might make them weak and vulnerable to viral and bacterial infections. The ongoing sedentary and exhausting lifestyle is draining their energies, and the requisite amounts of omega 3 fatty acids, vitamin A, and vitamin D are hardly met. As a result, they, especially children, can develop a weak immune system, becoming more vulnerable to infections affecting their overall health. Adding Seacod cod liver oil to the daily diet can support better health. Seacod is India’s largest selling cod liver oil*. It is an omega 3 supplement with added vitamin A and D, which can be elemental in developing an active, healthy lifestyle throughout the year. This cod in liver oil for women, men, and kids is an ideal way to meet the required nutritional gaps. Here are some science-backed facts to support the importance of cod liver oil in the diet. A study by the Journal of Dietary Supplements has revealed that children deficient in omega 3 fatty acids can tend to show signs of behavioural disorders, lack of concentration, and poor performance on the educational front. Also, a large-scale survey by Statista in 2019 revealed that 70% of Indian women and 59% of Indian men were unhealthy. These facts stress the need for cod liver oil as a dietary supplement.",
+      "price": "₹ 203",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_auto,f_auto/cd4087b2d8624065a49ce19d218f3e2a.jpg",
+      "category": "Immunity Essentials",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Bone,Joint & Muscle Care",
+      "product_form": "Capsules"
+    },
+    {
+      "product_Id": "49",
+      "name": "Tata 1mg Women's Multivitamin Veg Tablet with Zinc, Vitamin C, Calcium, Vitamin D and Iron, Support Immunity, Bones & Overall Health",
+      "product_description": "Tata 1mg Women's Multivitamin, Zinc, Vitamin C, Calcium, Vitamin D, and Iron Immunity Booster Tablet is a health supplement that supports bone, skin, and eye health. It helps maintain hormonal balance and improves immunity. Calcium and Vitamin D3 help in maintaining healthy bones. Probiotics and prebiotics blend help improve digestion and restore normal flora of the gut. 1mg Women's Multivitamin is helpful for a healthy lifestyle for women",
+      "price": "₹ 243",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/jv4fjubstbcvlqyimatv.jpg",
+      "category": "Immunity Essentials",
+      "gender": "Female",
+      "age": "Adult",
+      "uses": "Bone,Joint & Muscle Care",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "50",
+      "name": "Himalaya Wellness Pure Herbs Lasuna Cardiac Wellness Tablet",
+      "product_description": "Himalaya Wellness Pure Herbs Lasuna Cardiac Wellness Tablet contains Lasuna (Allium sativum) bulb extract. Lasuna lowers blood lipid levels by modulating key enzymes in the liver responsible for cholesterol biosynthesis. It also helps prevent the hardening of blood vessels by reducing lipid accumulation in the arteries. Lasuna is a potent antioxidant that eliminates free radicals that trigger an imbalance in the normal ability of blood vessels to constrict and dilate, and thus promote normal artery vasodilation.",
+      "price": "₹ 185",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/h44nza7ela5gkurwpuhu.jpg",
+      "category": "Immunity Essentials",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Cardiac Care",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "51",
+      "name": "Depura 60000 IU Vitamin D3 Oral Solution, Helps Keep Bones Healthy, Aids in Boosting Immunity Sugar Free",
+      "product_description": "It is a vitamin D3 oral solution that promotes your overall health and well-being. Vitamin D is a fat-soluble vitamin that helps the body fight against infections and supports a healthy immune system. It plays a vital role in developing and maintaining healthy bones and assists with the absorption of calcium, magnesium, and phosphorus.",
+      "price": "₹ 85",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/atrzjjj1uxm5slptazi6.jpg",
+      "category": "Immunity Essentials",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Cardiac Care",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "52",
+      "name": "Dabur Ayush 64 Tablet",
+      "product_description": "Dabur Ayush 64 Tablet is a polyherbal formulation developed in compliance with all regulatory requirements and quality and pharmacopoeial standards by the Central Council for Research in Ayurvedic Sciences (CCRAS). It has been scientifically tested and found to be useful in the treatment of asymptomatic, mild and moderate viral infection as an adjunct to standard care through robust clinical trials conducted in the country.",
+      "price": "₹ 303",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/xcl9etcd5jxu4cjigroa.jpg",
+      "category": "Immunity Essentials",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Cold & Cough",
+      "product_form": "Tablet"
+    },
+
+    {
+      "product_Id": "53",
+      "name": "Med-X Salmon Omega 3 Fish Oil Capsule.",
+      "product_description": "Med-X Salmon Omega 3 Fish Oil Capsule is a dietary supplement that promotes heart health. It is formulated with salmon oil, a rich source of omega-3 fatty acids like DHA and EPA. These can inhibit your body’s inflammatory response and may help manage symptoms associated with certain inflammatory conditions.",
+      "price": "₹ 423",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…,f_auto/0fa72f2c-072d-4c6a-bc52-446edab403a4.jpeg",
+      "category": "Omega & Fish Oil",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Cardiac Care",
+      "product_form": "Tablet"
+    },
+    {
+      "product_Id": "54",
+      "name": "WOW Life Science Omega 3 Softgel Capsule",
+      "product_description": "WOW Life Science Omega 3 Softgel Capsule is a dietary supplement that can help support the nervous system, keep the joints supple and mobile, and help maintain healthy cholesterol levels. This product is suitable for the keto diet, is mercury-free, and does not cause burps. It can help increase the absorption of essential fatty acids.",
+      "price": "₹ 789",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_auto,f_auto/9debbba19e15458ab68c0ac36cb38f37.jpg",
+      "category": "Omega & Fish Oil",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Cardiac Care",
+      "product_form": "Capsules"
+    },
+    {
+      "product_Id": "55",
+      "name": "MuscleBlaze Fish Oil 1000mg Soft Gelatin Capsule",
+      "product_description": "MuscleBlaze Fish Oil 1000mg Soft Gelatin Capsule is now India's first and only certified Fish Oil for Purity and Accuracy by the reputed lab Labdoor, USA. It contains omega-3 fatty acids including 180mg Eicosapentaenoic acid (EPA) and 120mg Docosahexaenoic acid (DHA). They contain good fats and antioxidants that not only boost your immunity but also help in keeping fitness buffs, athletes, and bodybuilders fit and active.",
+      "price": "₹ 1099",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/uwimvlsrkb3z0esxy2qr.jpg",
+      "category": "Omega & Fish Oil",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Cardiac Care",
+      "product_form": "Capsules"
+    },
+    {
+      "product_Id": "56",
+      "name": "Swisse Ultiboost Odourless High Strength Wild Fish Oil 1500mg Capsule",
+      "product_description": "Swisse Ultiboost High Strength Odourless Wild Fish Oil 1500Mg 200 Capsule is a capsule supplement that has anti-inflammatory and healthy mood balance properties. Daily intake of fish oil supplements boosts cognitive health, helps maintain blood pressure and triglyceride levels and improves vision. Omega 3 fatty acids are not produced by the body naturally and hence a capsule-based supplement helps.",
+      "price": "₹ 1499",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…ad,q_auto,f_auto/cropped/yhlztr1xvbtmue0qwosc.jpg",
+      "category": "Omega & Fish Oil",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Mind Care",
+      "product_form": "Capsules"
+    },
+    {
+      "product_Id": "57",
+      "name": "Neuherbs Deep-Sea Fish Oil 2500mg Soft Gels",
+      "product_description": "Neuherbs Deep-Sea Fish Oil 2500mg Soft Gels contains the right amount of nutrients and fulfills daily requirement of omega 3 fatty acids. The fish oil is very useful for joints and bone development and promotes overall health of the body. It contains no traces of heavy metals such as mercury and is utra-purified, refined using molecular distillation and comes with an anti-reflux formula. It is without preservatives, chemicals, artificial flavor, and color.",
+      "price": "₹ 769",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_auto,f_auto/c41b6673aed24c9db9a54e4b414acde3.jpg",
+      "category": "Omega & Fish Oil",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Mind Care",
+      "product_form": "Capsules"
+    },
+    {
+      "product_Id": "58",
+      "name": "Dr. Morepen Cod Liver Oil Softgel",
+      "product_description": "Dr. Morepen Cod Liver Oil Softgel has been extracted from the purest source of nature, liver of Cod Fish found in the Atlantic region, using advanced extraction technology. It is a powerhouse of vitamin A and D and is enriched with natural Omega-3 fatty acids, which are essential for the heart, brain, eyes, bones and vital organs.The richness of the EPA and DHA of Omega-3 fatty acid in cod fish oil helps keep cholesterol levels in check and reduces triglycerides to support healthy heart function. Cod Fish Oil is one of the richest sources of naturally occurring Vitamin A and D required to maintain eyes and bones health. Vitamin-D also plays a vital role in improving cognitive performance to help boost memory, concentration power and calcium absorption. Why Omega-3? Omega-3 fatty acids are essential nutrients found in Cod Fish that we need to reduce the risk of heart diseases and keep the brain and eyes healthy. Our bodies may not produce them on their own, but they can be derived from our diets. Omega-3 is the building block of the cells and does 17 functions in the body.",
+      "price": "₹ 503",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/rd09g3y6zgknxi3i5uw8.jpg",
+      "category": "Omega & Fish Oil",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Mind Care",
+      "product_form": "Capsules"
+    },
+    {
+      "product_Id": "59",
+      "name": "Seacod Cod Liver Oil",
+      "product_description": "While adults are already struggling to deal with mental and physical fatigue, kids are not behind anymore. Their tender minds and fragile bodies bear the stress that might make them weak and vulnerable to viral and bacterial infections. The ongoing sedentary and exhausting lifestyle is draining their energies, and the requisite amounts of omega 3 fatty acids, vitamin A, and vitamin D are hardly met. As a result, they, especially children, can develop a weak immune system, becoming more vulnerable to infections affecting their overall health. Adding Seacod cod liver oil to the daily diet can support better health. Seacod is India’s largest selling cod liver oil*. It is an omega 3 supplement with added vitamin A and D, which can be elemental in developing an active, healthy lifestyle throughout the year. This cod in liver oil for women, men, and kids is an ideal way to meet the required nutritional gaps. Here are some science-backed facts to support the importance of cod liver oil in the diet. A study by the Journal of Dietary Supplements has revealed that children deficient in omega 3 fatty acids can tend to show signs of behavioural disorders, lack of concentration, and poor performance on the educational front. Also, a large-scale survey by Statista in 2019 revealed that 70% of Indian women and 59% of Indian men were unhealthy. These facts stress the need for cod liver oil as a dietary supplement.",
+      "price": "₹ 203",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_auto,f_auto/cd4087b2d8624065a49ce19d218f3e2a.jpg",
+      "category": "Omega & Fish Oil",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Bone,Joint & Muscle Care",
+      "product_form": "Capsules"
+    },
+    {
+      "product_Id": "60",
+      "name": "GNC Triple Strength Fish Oil Softgel",
+      "product_description": "GNC Triple Strength Fish Oil Softgel is a dietary supplement that contains thrice the amount of EPA and DHA (900MG), allowing the body to take up omega 3 more efficiently. It is extracted from deep-ocean fishes and is further processed to ensure that it is free from mercury, lead, and other harmful contaminants. It can help keep the heart and the eyes healthy, improve mental focus and concentration, hydrate the skin for a glowing complexion, and promote better joint functioning by supporting anti-inflammatory response. The enteric coating of the capsules prevents unpleasant fishy burps.",
+      "price": "₹ 709",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_auto,f_auto/9432a1aa5ebe47d580e84d7fb8ea0a68.jpg",
+      "category": "Omega & Fish Oil",
+      "gender": "Female",
+      "age": "Adult",
+      "uses": "Bone,Joint & Muscle Care",
+      "product_form": "Soft gels"
+    },
+    {
+      "product_Id": "61",
+      "name": "TrueBasics Omega 3 Fish Oil Triple Strength Soft Gelatin Soft Gels",
+      "product_description": "TrueBasics Omega 3 Fish Oil Capsules for Men and Women, Triple Strength with 1250mg of Omega (560mg EPA & 400mg DHA), for Healthy Heart, Eyes & Joints is enriched with 560 mg of EPA and 400 mg of DHA, which is beneficial for the heart, joints, eyes, and brain health. Its advanced delivery system eliminates the fishy aftertaste and provides better absorption. It helps to reduce muscle soreness and inflammation.",
+      "price": "₹ 799",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_auto,f_auto/af66704814d845878de70afb775bb46a.jpg",
+      "category": "Omega & Fish Oil",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Bone,Joint & Muscle Care",
+      "product_form": "Soft gels"
+    },
+    {
+      "product_Id": "62",
+      "name": "Organic India Flaxseed Oil Veg Soft Gels",
+      "product_description": "Organic India Flaxseed Oil Veg Capsule provides omega 3 and supports heart health. It helps with cases of high cholesterol, low immune states, dry eyes, joint pain.",
+      "price": "₹ 455",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_700,c_pad,q_auto,f_auto/vukqiaefhtycxfjiq1jl.jpg",
+      "category": "Omega & Fish Oil",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Bone,Joint & Muscle Care",
+      "product_form": "Soft gels"
+    },
+    {
+      "product_Id": "63",
+      "name": "Zingavita Omega 3 Fish Oil 1000mg Soft Gelatin Soft Gels",
+      "product_description": "Dabur Ayush 64 Tablet is a polyherbal formulation developed in compliance with all regulatory requirements and quality and pharmacopoeial standards by the Central Council for Research in Ayurvedic Sciences (CCRAS). It has been scientifically tested and found to be useful in the treatment of asymptomatic, mild and moderate viral infection as an adjunct to standard care through robust clinical trials conducted in the country.",
+      "price": "₹ 699",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_690,h_70…_auto,f_auto/e8ca6035fae6493d8353d8128cf3524c.jpg",
+      "category": "Omega & Fish Oil",
+      "gender": "Unisex",
+      "age": "Adult",
+      "uses": "Bone,Joint & Muscle Care",
+      "product_form": "Soft gels"
+    }
   ]
 }
+
