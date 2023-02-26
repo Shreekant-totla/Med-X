@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        nav{
+            display: flex;
+            border: 0px solid ;
+            width: 100%;
+            justify-content: space-between;
+            height: 40px;
+            background-color: #ffffff;
+
+        }
+        nav>div{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            width:100%;
+        }
+        
+        #INP{
+            display: flex;
+            align-items: center;
+            
+            background-color: #f8f8f8;
+            height: auto;
+            border:0px solid blue;
+            width: 70%;
+            
+        }
+        nav>div:nth-child(1){
+            display: flex;
+        }
+        nav>div:nth-child(1)
+        img{
+            border:0px solid red;
+            height: 100%;
+            width:15%;
+            margin-right: 10px ;
+        }
+        nav>div:nth-child(1)
+        div>input{
+            border: 0px solid ;
+            width: 200%;
+            font-size: xx-small;
+            background-color: #f8f8f8;
+            padding: 10px;
+        }
+        nav>div:nth-child(2){
+            text-align: end;
+            width: 10%;
+        }
+        nav>div:nth-child(2)
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: small;
+        }
+        #noCart{
+            margin: auto;
+            width: 30%;
+            padding: 10px;
+            text-align: center;
+        }
+        #noCart>img{
+            width:50%
+        }
+        #noCart>button{
+            background-color: #ff6f61;
+            color: white;
+            border-radius: 5px;
+            padding: 15px 7px;
+            border: 00px;
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        body{
+            background-color: #f8f8f8;
+        }
+        footer{
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+        }
+        footer>div:nth-child(1)
+        p>a{
+            text-decoration: none;
+            color: #ff6f61;
+        }
+        footer>div{
+            width: 47%;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <img src="./medxlogo.png" alt="">
+        
+            <div id="INP">
+                <input type="search"  id="searchName" placeholder="Search for Medicines and Health Products">
+                <span id="searchBttn"><box-icon name='search-alt-2'></box-icon></span>
+            </div>
+        </div>
+        <div><a href="">Need Help?</a></div>
+    </nav>
+
+    <div id="cartDisplay">
+        <!-- append cart id here -->
+        <div>
+           
+        </div>
+
+    </div>
+
+    <footer>
+        <!-- enter footer -->
+        <div>
+            <hr>
+            <p>
+                Tata 1mg is a technology platform to facilitate transaction of business. The products and services are offered for <br>
+                 sale by the sellers. The user authorizes the delivery personel to be his agent for delivery of the goods. For details <br>
+                  read <a href="">terms and conditions</a>.
+            </p>
+        </div>
+        <div>
+            <hr>
+            <div>
+                <div>
+                    <p>*1mg Cash will be credited 7 days after your complete order is delivered in <br>
+                        case of Products and in case of Lab Services 1mg Cash will be credited within <br>
+                        24 hours from the time of generation of test report. 1mg Cash will not be  <br> 
+                       credited in case a return request is initiated for the order.
+                   </p>
+                </div>
+                <div>
+                    <p>**Coupon Discount value may change if the total order value changes.</p>
+                </div>
+                <div>
+                    <p>***Items in your cart will always reflect the most recent price as compared to <br>
+                         the prices in their product detail page.</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+<script>
+    let container = document.querySelector("#cartDisplay")
+    let cartItems = JSON.parse(localStorage.getItem("cart"))||[];
+    let cartArr = JSON.parse(localStorage.getItem('cart'))
+    if(cartItems.length===0){
+        container.innerHTML =`
+        <div id="noCart">
+            <img src="https://www.1mg.com/images/online_consultation/empty-cart-icon.svg" alt="" >
+            <h1>Oops!</h1>
+            <p>Looks like there is no item in your cart yet.</p>
+            <button>ADD MEDICINES</button>
+            button.addEventListener("click", function(){
+                window.location.href="./display.html"
+            })
+        </div>
+        `
+    }
+    else{
+        displayData(cartArr)
+    }
+    
+    // displayData(cartArr)
+
+    function displayData(cartArr){
+        cartArr.innerHTML = null;
+        cartArr.forEach((item,i)=>{
+            let card = document.createElement("div") 
+            card.setAttribute("class", "card")
+            let info = document.createElement("div")
+            let name = document.createElement("h3");
+            name.innerText = item.name;
+            let pri = document.createElement("h2");
+            let x = item.price.split(" ");
+            price = x[1]
+            pri.innerText = x[0] +" "+(x[1] * item.select) 
+            info.append(name,pri);
+
+            card.append(info)
+
+            let addRemove = document.createElement("div");
+            let card2 = document.createElement("div") 
+            card2.setAttribute("class", "card2")
+
+            let remove = document.createElement("a")
+            remove.href = "#";
+            remove.setAttribute("id","remove")
+            remove.innerHTML = `<i class="ri-delete-bin-5-line"></i> Remove` 
+            card2.append(remove)
+            remove.addEventListener("click",()=>{
+                mySplice(i,1)
+                
+
+            })
+
+
+            let card3 = document.createElement("div") 
+            card3.setAttribute("class", "card3")        
+            
+            let decrement = document.createElement("button")
+            decrement.innerText = "-"
+            decrement.setAttribute("id", "decrement")
+            decrement.addEventListener("click",()=>{
+                if(item.select==0){
+                    mySplice(i,1)
+                }
+                else if (item.select>1){
+                    pri.innerText -= x[1]
+                }
+                
+            })
+            
+            let increment = document.createElement("button")
+            increment.innerText = "+"
+            increment.setAttribute("id", "increment")
+            increment.addEventListener("click",()=>{
+                if (item.select>1){
+                    pri.innerText += x[1]
+                }
+                
+            })
+
+            card3.append(increment,decrement)
+
+            addRemove.append(card2,card3)
+
+
+
+
+            container.append(card,addRemove)
+
+        })
+        
+
+        function mySplice(i,x){
+            container.innerHTML = null;
+                cartArr.splice(i,x);
+                displayData(cartArr)
+        }
+        
+        // card.innerHTML = `
+        // <div>
+        //         <h3>Dr. Morepen Biotin+ Advanced Tablet for Healthy Hair, Skin & Nails Tablet</h3>
+        //         <h3>₹499</h3>
+
+        //     </div>
+        //     <div></div>
+        //     <div>
+        //         <div>
+        //             <a href="#" id="remove" onclick="RemoveItem()"><i class="ri-delete-bin-5-line"></i>Remove</a>
+        //         </div>
+        //         <div>
+        //             <button ></button>
+        //         </div>
+        //     </div>
+
+        // `
+        
+    }
+
+</script>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>

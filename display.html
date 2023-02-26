@@ -5,9 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+         #disP{
+            display: grid;
+            border:2px solid pink;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+        }
+        #divImg{
+            border:3px solid rgb(215, 124, 12);
+        }
+        #imgX{
+            border:2px solid rgb(255, 0, 89);
+        }
+        #divName{
+            border:1px solid rgb(18, 110, 221);
+        }
+        #divMoney{
+            border:1px solid rgb(26, 219, 39);
+        }
+
+        
+    </style>
 </head>
 <body>
-   
+    <div id="disP">
+        <!-- display Products -->
+        
+        
+    </div>
     
 </body>
 </html>
@@ -55,26 +81,64 @@
     //             <input type="submit" value="ADD TO CART">
     //         </form>
     let form = document.querySelector("#cart>form")
+    
 
-    //      "product_Id": "1",
-    //     "name": "Women's Multivitamin Veg Tablet with Zinc, Vitamin C, Calcium, Vitamin D and Iron, Support Immunity, Bones & Overall Health",
-    //     "product_description": "Women's Multivitamin, Zinc, Vitamin C, Calcium, Vitamin D, and Iron Immunity Booster Tablet is a health supplement that supports bone, skin, and eye health. It helps maintain hormonal balance and improves immunity. Calcium and Vitamin D3 help in maintaining healthy bones. Probiotics and prebiotics blend help improve digestion and restore normal flora of the gut.Women's Multivitamin is helpful for a healthy lifestyle for women",
-    //     "price": "₹ 348",
-    //     "image": "https://onemg.gumlet.io/l_watermark_346,w_120,h_120,c_fit,q_auto,f_auto/qh1au45w8u7cfvf3lg3i.jpg",
-    //     "category": "Multivitamins",
-    //     "gender": "Female",
-    //     "age": "Adult",
-    //     "uses": "Hair,Nails & Skin",
-    //     "product_form": "Tablet"
 
-//     Dr. Morepen Biotin+ Advanced Tablet for Healthy Hair, Skin & Nails Tablet
-// bottle of 60 tablets
-// ₹1198
-// MRP₹1998
-// delete iconRemove
-// decrease --
-// 2
-// increase ++
+const url = "http://localhost:3000/product"
+let x = fetched (url)
+console.log(x)
+
+window.addEventListener("load", (event) => {
+    console.log("page is fully loaded");
+    fetched (url)
+});
+    function fetched (data){
+        fetch(data)
+        .then((res) => res.json())
+        .then((data) =>{
+            
+            display(data)
+        })
+    }
+
+
+
+    function displayViewProduct(data){
+        
+            img.src = data.image;
+            name.textContent = data.name; 
+            desc.textContent = data.product_description;
+            productForm.textContent = data.product_form;
+            money.value = data.price;
+            money2.textContent = data.price;
+            money3.textContent = data.price;
+            console.log(data)
+            
+        
+    }
+
+let container = document.querySelector("#disP")
+
+function display(data){
+    data.forEach((el)=>{
+        let div = document.createElement("div");
+        div.setAttribute("id","divImg")
+        div.innerHTML = 
+        `
+            <img id="imgX" src=${el.image} alt="">
+            <h3 id="divName">${el.name}</h3>
+            <p>MRP</p> <span id="divMoney">${el.price}</span>
+        
+        `
+        div.addEventListener("click", ()=>{
+            localStorage.setItem("product",JSON.stringify(el))
+            window.location.href="./index.html"
+        })
+        container.append(div)
+
+       })
+}
+
 
 
 </script>

@@ -5,184 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <style>
-        body{
-            font-size: larger;
-            background-color: aliceblue;
-        }
-        #upperBody{
-            display: flex;
-            border: 0px solid red;
-            margin: 30px;
-            background-color: white;
-            width: 95%;
-            padding: 10px;
-
-        }
-        #upperBody>div:nth-child(1){
-            width: 25%;
-            
-        }
-        #upperBody>div:nth-child(2){
-            width: 60%;
-            margin-left:10px ;
-            font-size: larger;
-            font-family: arial,'Times New Roman', Times, serif monospace;
-        }
-        #upperBody>div:nth-child(3){
-            border-radius: 20px;
-            width: 30%;
-            margin: auto;
-            margin-left: 1.5%;
-            background-color: aliceblue;
-            
-        }
-        #upperBody>div{
-            border:0px solid green;
-            padding: 20px;
-           
-        }
-        #upperBody>#image>img{
-            width: 100%;
-            height:90%;
-            padding: 10px;
-        }
-        #info{
-            width:40%
-        }
-        #info>h1{
-            font-size:x-large;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-        #info>p a{
-            color: rebeccapurple;
-            text-decoration: none;
-            color:rgb(253, 56, 21);
-        }
-
-        #lowerBody{
-            border:0px solid blue;
-            margin: 30px;            
-            background-color: white;
-            padding: 20px;
-        }
-        #span1>i{
-            text-decoration: line-through;
-            font-style: italic;
-            font-size:17px;
-            color: rgb(133, 125, 125);
-        }
-        #span2{
-            font-size: smaller;
-            color: rgb(2, 194, 2);
-            padding:3px;
-            background-color: rgb(205, 250, 205);
-        }
-        #cart>select{
-            border: 1px solid rgb(228, 232, 228);
-            font-size: 15px;
-            padding: 8px 20px;
-            width: 26%; 
-            border-radius: 4px;
-            color: grey;
-            margin-bottom: 15px;
-            margin-right: 5px;
-        }
-        #cart>div{
-            list-style: none;
-            font-size: x-large;
-            display: flex;
-            align-items: center;
-        }
-        #m{
-            height:30px;
-            width:2em;
-            margin-top: 1px;
-            padding: 100px;
-            accent-color: rgba(255, 58, 3, 0.724);
-        }
-        #m1{
-            display: flex;
-            flex-direction: row-reverse;
-        }
-        #cart{
-            padding: 15px;
-
-        }
-        #cart>#button{
-            border: 0px solid black;
-            background-color: rgba(255, 58, 3, 0.724);
-            color: white;
-            width: 100%;
-            font-size: medium;
-            padding: 20px;
-            font-weight: bolder;
-            border-radius: 5px;
-        }
-        #cart>form>p{
-            font-size: x-small;
-        }
-        #span3{
-            background-color: brown; 
-            width: 25%;
-            color: white;padding: 5px;
-            border-radius: 31px 20px 100px 10px;
-            font-size: small;
-        }
-        
-        #review>img{
-            width: 100%;
-        }
-        #lowerBody>div{
-            box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
-            margin: 10px ;
-            padding: 15px;
-            border-radius: 20px;
-            background-color: white;
-        }
-        #key>li{
-            box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
-            margin: 10px 10px;
-            border-radius: 20px;
-            padding: 20px;
-            background-color: white;
-        }
-
-    </style>
 </head>
 <body>
-
     
-</body>
-</html>
-<script>
-
-    window.addEventListener("load", (event) => {
-        console.log("page is fully loaded");
-        displayViewProduct()
-    });
-    let product = JSON.parse(localStorage.getItem("product"))
-
-    function displayViewProduct(){
-        document.querySelector("body").innerHTML = null
-        // let product = JSON.parse(localStorage.getItem("product"))
-        // let price = product.price.split(" ")
-        // console.log(price)
-        // let x  = price[1]
-        // if(x > 300 ){
-        // price = price[0]+" "+ x
-        // }
-        
-        let Mydata =  `
-        <div id="upperBody">
+    <!-- <div id="upperBody">
         <div id="image">
-            <img id="img" src=${product.image} alt="">
+            <img id="img" src="https://onemg.gumlet.io/l_watermark_346,w_120,h_120/a_ignore,w_120,h_120,c_fit,q_auto,f_auto/8d5cadb9e1b148cb84e525ce8be40e76.jpg" alt="">
         </div>
-        <div id="info">
-            <h1 id="name">${product.name}</h1>
+        <div>
+            <h3 id="name">Dr. Morepen Biotin+ Advanced Tablet for Healthy Hair, Skin & Nails Tablet</h3>
             <p>
-                <a href="">Med-X Limited</a> 
+                <a href="">Dr. Morepen Limited</a> 
                 <br>
                 <a href=""> 4.149
                     <span>
@@ -200,15 +33,32 @@
         </div>
 
         <div id="cart">
-                <div id="cartDiv">
-                    <input type="radio" id="m" value=${product.price} >
-                    <label for="m1">${product.price} </label>
-                        <span id="span2">40% off</span>        
-                </div>                  
-                
+            <form>
+                <li>
+                    <input type="radio" id="m" value="599" >
+                    <label for="m1"><i class='bx bx-rupee'></i>599 </label>
+                        <span id="span1"><i class='bx bx-rupee'>999</i></span> 
+                        <span id="span2">40% off</span>
+                    
+                </li>
+                <br>
+                <li>
+                    <input type="radio" id="m" value="599" >
+                    
+                    <label for="m1"><i class='bx bx-rupee'></i>599  </label>
+                        <span style="font-size:medium; ;flex-direction:column;"> 
+                             + free shipping and 3% Extra NeuCoins with 
+                        </span>
+                        <span id="span3">
+                            <i>Care Plan</i>
+                        </span>
+                    
+                    
+    
+                </li>
     
                 <p>Inclusive of all taxes</p>
-                <select id="select">
+                <select id="">
                     <option value="1">1 Packet</option>
                     <option value="2">2 Packet</option>
                     <option value="3">3 Packet</option>
@@ -223,17 +73,27 @@
                 <label for=""> of 60 tablets</label>
                 <br>
 
-                <button onclick="clickButton(product)" id="button" >ADD TO CART</button>
+                <input type="submit" value="ADD TO CART">
+            </form>
         </div>
 
     </div>
 
     <div id="lowerBody">
-        <h4>Information about <span id="p_name">${product.name}</span></h4>
-        <label for=""><b id="p-name">${product.name}</b></label>
+        <h4>Information about <span id="p_name">Dr. Morepen Biotin+ Advanced Tablet for Healthy Hair, Skin & Nails Tablet</span></h4>
+        <label for=""><b id="p-name">Dr Morepen Biotin+ Advanced</b></label>
         <br>
         <div id="desc">
-            ${product.product_description}
+            Do you know that deficiency of certain nutrients can lead to hair loss and other skin and nails related issues? <br>
+             Biotin is among the essential B vitamins whose deficiency can cause hair and skin-related problems. Our body <br>
+              needs biotin to metabolize carbohydrates, fats, and amino acids. They are the building blocks of protein. Biotin <br>
+               is also recommended for strengthening hair and nails. Symptoms of biotin deficiency include hair loss, dry, <br>
+                scaly skin, brittle nails and cracking in the corners of the mouth. Dr. Morepen’s Biotin+ Advanced is a <br>
+                 scientifically crafted formula that offers 360 degrees of care for hair, skin, nails, and weight management. This <br>
+                  advanced vegetarian supplement is a potent blend of maximum strength biotin, amla extract, D calcium <br>
+                   pantothenate, selenium, zinc, and other essential vitamins and minerals that stimulate keratin production and <br>
+                    provide essential nutrients and antioxidants to boost hair growth, strengthen nails and maintain glowing skin.
+
         </div>
 
         
@@ -272,8 +132,7 @@
                 <b><span >productForm</span>:</b>
                 <span id="productForm"> 
                     <!-- add id="product_form" -->
-                    ${product.product_form}
-                </span>
+                <!-- </span>
             </li>
             <li>
                 <b><span>Stronger nails:</span></b>
@@ -373,64 +232,6 @@
             <li>This product is not to be used as a substitute for a varied diet</li>
         </div>
 
-    </div>
-
-    <div id="review">
-        <img src="./review.png" alt="">
-
-    </div>
-    
-        `
-
-        document.querySelector("body").innerHTML = Mydata
-        
-    }
-
-
-    // <div id="cart">
-    //             <div>
-    //                 <input type="radio" id="m" value=${product.price} >
-    //                 <label for="m1">${product.price} </label>
-    //                     <span id="span1">  </i></span> 
-    //                     <span id="span2">40% off</span>        
-    //             </div>                  
-                
-    
-    //             <p>Inclusive of all taxes</p>
-    //             <select id="select">
-    //                 <option value="1">1 Packet</option>
-    //                 <option value="2">2 Packet</option>
-    //                 <option value="3">3 Packet</option>
-    //                 <option value="4">4 Packet</option>
-    //                 <option value="5">5 Packet</option>
-    //                 <option value="6">6 Packet</option>
-    //                 <option value="7">7 Packet</option>
-    //                 <option value="8">8 Packet</option>
-    //                 <option value="9">9 Packet</option>
-    //                 <option value="10">10 Packet</option>
-    //             </select>
-    //             <label for=""> of 60 tablets</label>
-    //             <br>
-
-    //             <button onclick="clickButton()" id="button" >ADD TO CART</button>
-    //     </div>
-    let cartArr = JSON.parse(localStorage.getItem('cart'))||[]
-    function clickButton(product){
-        let select = document.querySelector('#select').value;
-        let obj = product;
-        obj.select = select;
-        cartArr.push(obj)
-        localStorage.setItem("cart",JSON.stringify(cartArr))
-        alert("Product added to cart")
-        
-        cartArr.forEach((el)=>{
-            console.log(el.product_Id)
-        })
-
-        window.location.href="./mycart.html"
-        
-    }
-
-
-</script>
-<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    </div> --> -->
+</body>
+</html>
