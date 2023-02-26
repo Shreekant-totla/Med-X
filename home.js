@@ -28,10 +28,51 @@ window.addEventListener("load", function () {
 
   
   
+ // signup///////////////////////////////////////////
 
-//   fetch("http://localhost:3000/product")
-//   .then((res)=>res.json())
-//   .then(data=>{
-//     console.log(data);
-//   })
-// }
+ let nameup = document.getElementById("nameup");
+ let phoneup=document.getElementById("mobileup")
+ let emailup = document.getElementById("emailup");
+ let passwordup = document.getElementById("passwordup");
+ 
+ let personData = JSON.parse(localStorage.getItem("account-data"))||[];
+ document.getElementById("up").addEventListener("submit", (e) => {
+   e.preventDefault();
+   let obj = {
+     Name: nameup.value,
+     Email: emailup.value,
+     Password: passwordup.value,
+     MobileNo:phoneup.value
+   }
+   personData.push(obj);
+   localStorage.setItem("account-data", JSON.stringify(personData));
+   window.location.href ="./index.html"
+ })
+
+// sign in////////////////////////
+ let emailin=document.getElementById("emailin")
+
+ let passwordin=document.getElementById("passwordin");
+
+ let storeddata=JSON.parse(localStorage.getItem("account-data"))||[];
+ document.getElementById("in").addEventListener("submit",(e)=>{
+   e.preventDefault();
+   
+    storeddata.forEach((el)=>{
+     if(emailin.value===el.Email  && passwordin.value ===el.Password){
+       
+       alert("Login Sucessfull")
+      
+       document.getElementById("login").innerText=`Hello Mr. ${el.Name}`;
+       $('.signup, .signin, #pop').hide();
+       
+     }
+     else{
+     
+       alert("Wrong Credentials")
+
+     }
+    })
+   }
+
+ )
