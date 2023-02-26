@@ -46,7 +46,9 @@ window.addEventListener("load", function () {
    }
    personData.push(obj);
    localStorage.setItem("account-data", JSON.stringify(personData));
-   window.location.href ="./index.html"
+   window.location.href = "./home.html"
+   document.getElementById("login").innerText=`Hello Mr. ${el.Name}`;
+       $('.signup, .signin, #pop').hide();
  })
 
 // sign in////////////////////////
