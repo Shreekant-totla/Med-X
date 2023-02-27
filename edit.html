@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- BOX ICON -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="./edit.css" />
+</head>
+
+<body>
+   
+    <!-- <div class="editconatiner">
+        append here
+    </div> -->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- BOX ICON -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="./edit.css" />
+</head>
+
+<body>
+   <!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<i class='bx bxs-smile'></i>
+			<span class="text">AdminHub</span>
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="admin.html">
+					<i class='bx bxs-dashboard' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href="store.html" >
+					<i class='bx bxs-shopping-bag-alt' ></i>
+					<span class="text">My Store</span>
+				</a>
+			</li>
+			<li>
+				<a href="edit.html" >
+					<i class='bx bxs-doughnut-chart' ></i>
+					<span class="text">Edit</span>
+				</a>
+			</li>
+			<li>
+				<a href="register.html">
+					<i class='bx bxs-message-dots' ></i>
+					<span class="text">Registered User</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-group' ></i>
+					<span class="text">Team</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu">
+			<li>
+				<a href="#">
+					<i class='bx bxs-cog' ></i>
+					<span class="text">Settings</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bxs-log-out-circle' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+
+
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu' ></i>
+			<a href="#" class="nav-link">Categories</a>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			<a href="#" class="notification">
+				<i class='bx bxs-bell' ></i>
+				<span class="num">8</span>
+			</a>
+			<a href="#" class="profile">
+				<img src="img/people.png">
+			</a>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+        <div class="container">
+            <div class="row">
+              <div class="column">
+                <h1>Med-X Data</h1>
+                <!-- <p>Cute little app</p> -->
+              </div>
+            </div>
+      
+            <div class="row">
+              <div class="columns four sidebar-one" id="sidebar-one">
+                <h4 id="htag">Actions</h4>
+                <div class="main">
+
+                </div>
+                <h4 id="htag">Add Product</h4>
+                <input
+                  type="text"
+                  id="Product-id"
+                  class="u-full-width"
+                  placeholder="Product Id"
+                />
+                <input
+                  type="text"
+                  id="Product-name"
+                  class="u-full-width"
+                  placeholder="Name"
+                />
+                <input
+                  type="text"
+                  id="Product-des"
+                  class="u-full-width"
+                  placeholder="Product Description"
+                />
+                <input
+                  type="number"
+                  id="Product-price"
+                  class="u-full-width"
+                  placeholder="price"
+                />
+                <input
+                  type="text"
+                  id="Product-image"
+                  class="u-full-width"
+                  placeholder="Image Url"
+                />
+                <!-- <input
+                  type="text"
+                  id="Product-cat"
+                  class="u-full-width"
+                  placeholder="category"
+                /> -->
+                <select name="" id="Product-cat" class="u-full-width">
+                  <option value="">Select Category</option>
+                  <option value="Multivitamins">Multivitamins</option>
+                  <option value="Calcium and Minerals">Calcium and Minerals</option>
+                  <option value="Plant based Supplements">Plant based Supplements</option>
+                  <option value="Biotin">Biotin</option>
+                  <option value="Immunity Essentials">Immunity Essentials</option>
+                  <option value="Omega & Fish Oil">Omega & Fish Oil</option>
+                </select>
+                <!-- <input
+                  type="text"
+                  id="Product-Gender"
+                  class="u-full-width"
+                  placeholder="Gender" 
+                />-->
+                  <select name="" id="Product-Gender" class="u-full-width">
+                    <option value="">Select Gender</option>
+                    <option value="Unisex">Unisex</option>
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
+                  </select>
+                
+                <!-- <input
+                  type="text"
+                  id="Product-Age"
+                  class="u-full-width"
+                  placeholder="Age"
+                /> -->
+      
+                <select name="" id="Product-Age" class="u-full-width">
+                  <option value="">Select Age</option>
+                  <option value="Elderly">Elderly</option>
+                  <option value="Adult">Adult</option>
+                  <option value="Child">Child</option>
+                </select>
+      
+                <input
+                  type="text"
+                  id="Product-uses"
+                  class="u-full-width"
+                  placeholder="Uses"
+                />
+                <input
+                  type="text"
+                  id="Product-form"
+                  class="u-full-width"
+                  placeholder="Product form"
+                />
+                <button id="add-Product" class="u-full-width button button-primary">
+                  Add Product
+                </button>
+               
+      
+                <h4 id="htag">Update Product Data</h4>
+                <input
+                  type="text"
+                  id="update-product-id"
+                  class="u-full-width"
+                  placeholder="ID"
+                />
+                <input
+                  type="text"
+                  id="update-product-name"
+                  class="u-full-width"
+                  placeholder="Name"
+                />
+                <input
+                  type="text"
+                  id="update-product-image"
+                  class="u-full-width"
+                  placeholder="Image Url"
+                />
+                <select name="" id="update-product-cat" class="u-full-width">
+                    <option value="">Select Category</option>
+                    <option value="Multivitamins">Multivitamins</option>
+                    <option value="Calcium and Minerals">Calcium and Minerals</option>
+                    <option value="Plant based Supplements">Plant based Supplements</option>
+                    <option value="Biotin">Biotin</option>
+                    <option value="Immunity Essentials">Immunity Essentials</option>
+                    <option value="Omega & Fish Oil">Omega & Fish Oil</option>
+                  </select>
+                <input
+                  type="number"
+                  id="update-product-price"
+                  class="u-full-width"
+                  placeholder="Price"
+                />
+                <button
+                  id="update-product"
+                  class="u-full-width button button-primary"
+                >
+                  Update all fields
+                </button>
+                
+      
+                <h4 id="htag">Update Product Price</h4>
+                <input
+                  type="text"
+                  id="update-score-product-id"
+                  class="u-full-width"
+                  placeholder="ID"
+                />
+                <input
+                  type="number"
+                  id="update-score-product-salary"
+                  class="u-full-width"
+                  placeholder="Salary"
+                />
+                <button
+                  id="update-score-product"
+                  class="u-full-width button button-primary"
+                >
+                  Update Product Price
+                </button>
+                
+      
+                <!-- <h4>Sort Based On Price</h4>
+                <button
+                  id="sort-low-to-high"
+                  class="u-full-width button button-primary"
+                >
+                  Sort Low To High
+                </button>
+                <button
+                  id="sort-high-to-low"
+                  class="u-full-width button button-primary"
+                >
+                  Sort High To Low
+                </button>
+                <hr /> -->
+      
+                <!-- <h4>Filter Based On Salary</h4>
+                <button
+                  id="filter-less-than-1L"
+                  class="u-full-width button button-primary"
+                >
+                  less than 1L
+                </button>
+                <button
+                  id="filter-more-than-equal-1L"
+                  class="u-full-width button button-primary"
+                >
+                  more than or equal 1L
+                </button>
+                <hr /> -->
+      
+      
+      
+                <!-- <hr /> -->
+      
+                
+                
+              </div>
+      
+              <div class="columns eight main">
+                <div class="notifications-wrapper" id="notifications-wrapper"></div>
+                <div class="data-list-wrapper" id="data-list-wrapper"></div>
+              </div>
+            </div>
+          </div>
+		<!-- MAIN -->
+	</section>
+	<!-- CONTENT -->
+
+  
+  
+      
+</body>
+    <script>
+       let displaydata=JSON.parse(localStorage.getItem("product"))||[];
+       console.log(displaydata)
+       //add products to json
+let dispmain=document.querySelector(".main")
+let mainSection = document.getElementById("data-list-wrapper");
+let proIdInput = document.getElementById("Product-id");
+let proNameInput = document.getElementById("Product-image");
+let proDesInput = document.getElementById("Product-des");
+let proPriceInput = document.getElementById("Product-price");
+let proCatInput = document.getElementById("Product-cat");
+let proGenInput = document.getElementById("Product-Gender");
+let proAgeInput = document.getElementById("Product-Age");
+let proUseInput = document.getElementById("Product-uses");
+let proFormInput = document.getElementById("Product-form");
+let proImgInput = document.getElementById("Product-image");
+let proBtn= document.getElementById("add-Product");
+
+// let productsData =[];  //employeesdata to productsdata
+
+// ***** Event listeners ***** //
+
+//step-1, Display list of employees on page load
+//step-1 at 
+window.addEventListener("load", () => {
+  fetchAndRenderProduct();    //for step-1
+});
+
+function fetchAndRenderProduct(){   //for step-1
+  fetch(`http://127.0.0.1:9090/employees`)
+  .then((res)=>res.json())
+  .then((data)=>{
+    console.log(data);
+    productsData=data;
+    // renderCardList(displaydata);  // (for step-1)
+    
+  })
+}
+
+proBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  let id= proIdInput.value;
+  let name= proNameInput.value;
+  let img= proImgInput.value;
+  let des= proDesInput.value;
+  let price= proPriceInput.value;
+  let cat= proCatInput.value;
+  let gender= proGenInput.value;
+  let age= proAgeInput.value;
+  let use= proUseInput.value;
+  let form= proFormInput.value;
+  console.log("2");
+  
+  addProduct(id,name,img,des,price,cat,gender,age,use,form);
+  alert("Product added");
+  fetchAndRenderProduct();
+});
+
+function addProduct(id,name,img,des,price,cat,gender,age,use,form)
+{
+  fetch(`http://127.0.0.1:9090/employees`,{
+    method: 'POST',
+  body:JSON.stringify({
+    product_Id:id,
+    name:name,
+    product_description:des,
+    price:price,
+    category:cat,
+    gender:gender,
+    age:age,
+    uses:use,
+    product_form:form,
+    image:img
+  }),
+  headers:{
+    "content-type":"application/json" 
+  }
+  })
+}
+
+function renderCardList(cardData) {
+    
+    for(let item in cardData)
+    {
+        dispmain.innerHTML="";
+        let card = document.createElement("div");
+			card.classList.add("card");
+            let card1= document.createElement("div");
+			card1.classList.add("card1");
+			let card2= document.createElement("div");
+			card2.classList.add("card2");
+
+            let img= document.createElement("img");
+            img.src=cardData["image"];
+
+            let proid= document.createElement("h3");
+            proid.innerText=cardData["product_Id"];
+
+            let name= document.createElement("h3");
+            name.innerText=cardData["name"];
+
+            let price= document.createElement("p");
+            price.innerText=`₹ ${cardData["price"]}`;
+
+            let cat= document.createElement("p");
+            cat.innerText=cardData["category"];
+
+            card1.append(img);
+            card2.append(proid,name,price,cat);
+			card.append(card1,card2);
+            dispmain.append(card);
+    }
+
+  mainSection.innerHTML = cardList;
+}
+
+// function getCard(id, name, desc, price, img) {    //for step-1
+//   let card = `
+//       <div class="card" data-id=${id} >
+//         <div class="card__img">
+//         <img src=${img} alt="product image"/>
+//         </div>
+//         <div class="card__body">
+//           <h3 class="card__item card__title">${id}</h3>
+//           <h3 class="card__item card__title">${name}</h3>
+//           <h3 class="card__item_dep">${desc}</h3>
+//           <h3 class="card__item_salary">${price}</h3>
+//           </div>
+//           <a href="" data-id=${id} class="card__item card__link">Edit</a>
+//         </div>
+//       </div>
+//   `;
+//   return card;
+// }
+
+
+//update data
+
+let updateproIdInput = document.getElementById("update-product-id");
+let updateproNameInput = document.getElementById("update-product-name");
+let updateproImageInput = document.getElementById("update-product-image");
+let updateproCatInput = document.getElementById("update-product-cat");
+let updateproPriceInput = document.getElementById("update-product-price");
+let updateproUpdateBtn = document.getElementById("update-product");
+ 
+//update price 
+let updateScoreproId = document.getElementById("update-score-product-id");
+let updateScoreproSalary = document.getElementById(
+  "update-score-product-salary"
+);
+let updateScoreproSalaryButton = document.getElementById(
+  "update-score-product"
+);
+
+
+//updtae data
+
+updateproUpdateBtn.addEventListener("click", function (e) {
+  e.preventDefault();
+  let id=updateproIdInput.value;
+let name=updateproNameInput.value;
+let image= updateproImageInput.value;
+let cat= updateproCatInput.value;
+let price= updateproPriceInput.value;
+console.log(id,name,image,cat,price);
+  updateproducts(id,name,image,cat,price);
+  alert("Product details updated");
+  fetchAndRenderProduct(); 
+});
+
+function updateproducts(product_Id,name,image,cat,price) {
+    // console.log(id)
+ fetch(`http://127.0.0.1:9090/employees/${product_Id}`,{
+    method: 'PUT',
+    body: JSON.stringify({
+     
+      name:name,
+      image:image,
+    category:cat,
+    price:price,
+    
+    }),
+    headers: {
+      "content-type":"application/json"
+    }
+  })
+}
+
+//update salary
+updateScoreproSalaryButton.addEventListener("click", function () {
+  let id=updateScoreproId.value;
+  let salary_updated= updateScoreproSalary.value;
+  updatesalary(id,salary_updated);
+  alert("salary updated");
+  fetchAndRenderProduct();
+});
+
+function updatesalary(id,salary_updated){
+  fetch(`http://127.0.0.1:9090/employees/${id}`,{
+    method: "PATCH",
+    body: JSON.stringify({
+        
+      price:salary_updated,
+    }),
+    headers:{
+      "content-type":"application/json" 
+    }
+  })
+}
+    </script>
+</html>
+    

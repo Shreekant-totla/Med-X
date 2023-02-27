@@ -1,0 +1,2535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitamins & supplements</title>
+    <style>
+        body{
+    margin:0%;
+background-color: rgb(225, 224, 224);
+
+
+    }
+    /* DIV */
+    #navbar{
+        /* border: 1px solid red; */
+        background-color: white;
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 20px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        }
+        #navbar_logo{
+        /* border: 1px solid black; */
+        width: 160px;
+        
+        
+        }
+        #navbar_logo img{
+           width: 100%;
+           height: 50px;
+        }
+            
+        #navbar_anch{
+        /* border: 1px solid black; */
+        margin-left: -50px;
+        display: flex;
+        gap: 20px;   
+        }
+        #navbar_lnsp{
+        /* border: 1px solid black; */
+        display: flex;
+        gap: 10px;
+        word-spacing: 10px;   
+        }
+        #navbar_cart{
+        /* border: 1px solid black; */
+        display: flex;
+        gap: 15px;  
+        }
+        /* ANCHOR TAGS */
+        #navbar a{
+            text-decoration: none;
+            color: rgb(25, 23, 23);
+            word-spacing: 2px;
+            font-size: 15px;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        #navbar span{
+            color: white;
+            background-color: #ff6f61;
+            box-sizing: border-box;
+            padding: 5px;
+            font-size: 8px;
+            border-radius: 5px;
+            margin-left: -5px;
+        }
+        #navbar a:hover{
+            color: #ff6f61;
+        }
+        #navbar_anch a:nth-child(1){
+            color: #ff6f61;
+        
+        }
+    #Allcategories>p{
+        margin-left: 31px;
+    }
+    #Nutritionalcontent{
+        display: flex;
+      margin-left: 20px;
+    }
+    #Allcategories>h4{
+        margin-left: 18px;
+    }
+    #productpage{
+        display: flex;
+    }
+    #Allcategories{
+        margin-left: 40px;
+    }
+    #searchproduct{
+        padding: 7px;
+        margin-left: 10px;
+    }
+    #FILTERS_BRANDS{
+        display: flex;
+    }
+    #BRANDS_No>div{
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+    #FILTERS_Name>div{
+        padding-left: 10px;
+    }
+    #searchuses{
+        padding: 7px;
+        margin-left: 12px;
+    }
+    #USES{
+      display: flex;
+    }
+   #USES_No>div{
+    padding-left: 7px;
+    padding-top: 2px;
+}
+#USES_Name>div{
+    padding-left: 10px;
+   
+}
+#searchdiscount{
+    padding: 7px;
+    margin-left: 7px;
+}
+#DISCOUNT_form{
+    display: flex;
+}
+#DISCOUNT_No>div{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+#DISCOUNT_Name>div{
+    padding-left: 10px;
+}
+#Age_form{
+    display: flex;
+}
+#Age_No>div{
+    padding-left: 32px;
+    padding-top: 3px;  
+}
+#Age_Name>div{
+    padding-left: 10px;
+}
+#Gender_form{
+    display: flex;
+}
+#Gender_No>div{
+    padding-left: 30px;
+    padding-top: 3px;
+}
+#Gender_Name{
+    padding-left: 10px;
+}
+#searchproductform{
+    padding: 7px;
+}    
+#PRODUCT_FORM{
+    display: flex;
+}
+#Product_Name{
+    padding-left: 10px;
+}
+#searchproductforms{
+    padding-left: 10px;
+}
+#searchproducttags{
+    padding-left: 10px;
+}
+#ProductTags_Name>div{
+    padding-left: 10px;
+}
+#Product_No>div{
+    padding-left: 10px;
+    padding-top: 2px;
+}
+#PRODUCT_TAGS{
+    display: flex;
+}
+#ProductTags_No>div{
+    padding-left: 14px;
+    padding-top: 2px; 
+}
+#searchproducttag{
+    padding: 7px;
+}
+#Allcategories{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    background-color: white;
+    margin-top: 16px;
+}
+#productnav{
+    display: flex;
+}
+#productpageright{
+    margin-left: 25px;
+}
+#Flash{
+    display: flex;
+    justify-content: space-between;
+
+}
+#Super_savings_deals{
+    display: flex;
+    justify-content: space-between; 
+}
+#Super_savings_deals_button{
+    background-color: rgb(204, 55, 55);
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;  
+}
+#Flash_button{
+    background-color: rgb(204, 55, 55);
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#Allcategories>h5{
+    color: rgb(235, 115, 115);
+    padding-left: 12px;
+}
+#Allcategories>h3{
+    padding-left: 12px;
+}
+#productdivfirst{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   background-color: white;
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+}
+#productdivfirst>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+#productdivfirst>div{
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+#productdivfirst>button{
+    border: none;
+    color: rgb(224, 66, 66);
+}
+.ratingbutton{
+    margin-bottom: 25px;
+}
+.style_price__196ew{
+    margin-top: 5px;
+}
+.style_price__196ew>button{
+    margin-left: 85px;
+    border: none;
+    color: rgb(231, 79, 79);
+}
+#productdivsecond{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: white;
+}
+#productthird{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: white;
+}
+#productfour{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: white;
+}
+#productfive{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: white; 
+}
+#productfour{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    /* grid-auto-rows: auto; */
+    margin-bottom: 27px;
+}
+#productfour>div{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#productfour>div>p{
+    text-align: center;
+    margin-bottom: 35px;
+}
+#productfive{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    /* grid-auto-rows: auto; */
+    gap:14px;
+    margin-bottom: 27px; 
+}
+#productfive.maindeals{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: white;  
+}
+.maindeals:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: white;  
+
+}
+.maindeals{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+  #productfive .submaindealspricers {
+   margin-bottom: 25px;
+   
+  }
+
+.style_name__3YOZc {
+    color: #212121;
+    margin-bottom: 3px;
+    height: 44px;
+    word-wrap: break-word;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.style__packet {
+    font-size: 12px;
+    color: #757575;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden;
+}
+.style_price-container__3DXin {
+    height: 40px;
+    padding-bottom: 5px;
+}
+
+
+.submaindeals{
+    color: #212121;
+    margin-bottom: 3px;
+    height: 44px;
+    word-wrap: break-word;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 5px;
+}
+.submaindealsbox{
+    font-size: 12px;
+    color: #757575;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 11px;
+}
+.submaindealspricers button{
+     margin-left: 50px;
+     border: none;
+     color: rgb(228, 66, 66);
+}
+.dealsratingbutton{
+   
+    margin-bottom: 11px;
+}
+.dealsratingbutton button{
+    background-color: rgb(20, 139, 20);
+    border: none;
+    color: white;
+}
+#productdivsecond{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+#productdivsecond>div{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#productdivsecond>div>button{
+    margin-bottom: 15px;
+    color: rgb(226, 90, 90);
+    border: none;
+    margin-left: 100px;
+}
+#productdivsecond>div>img{
+    margin: auto;
+    text-align: center;
+    padding-left: 15px;
+    /* border: 1px solid red; */
+}
+#productdivsecond>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#productdivsecond>div>.space{
+margin-top: 22px;
+}
+.ratingbutton>a>button{
+    background-color: rgb(17, 122, 17);
+    border: none;
+    color: white;
+}
+#productsix{
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    /* grid-template-rows:auto ; */
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.card1 img{
+    display: block;
+   margin: auto;
+   
+}
+.card1 button{
+    margin-left: 170px;
+    border: none;
+    color: rgb(238, 98, 98);
+}
+.card1{
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: white;
+    width: 100%;
+}
+.card1 h3{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card1 img{
+    width: 60%;
+    height: 170px;
+   
+}
+/* #productsixsubdiv{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+} */
+#navbar2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 60px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+/* navbar 2 both div */
+/* #navbar2 div{
+    display: flex;
+    /* border: 1px solid black; */
+    /* gap: 20px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+} */ 
+/* div 1 */
+/* navbar location */
+/* #navbar2 select{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+} */
+/* navbar search */
+
+#navbar2 input:nth-child(1){
+    width: 400px;
+    height: 38px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+    
+}
+#navbar2 input:nth-child(2){
+    width: 100px;
+    height: 38px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #ff6f61;
+    color: white;
+    
+}
+/* location & seacrch icon */
+/* #navbar2_inp #location{
+    position: absolute;
+    left: 8%;
+}
+#navbar2_inp #search{
+    position: absolute;
+    left: 47%;
+}  */
+/* div 2 */
+#navbar2 button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff6f61;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 700;
+}
+#navbar2_h3btn button:hover{
+    background-color: black;
+}
+/* /////////////////////////////////////////////////////////////////// */
+/* dorp down */
+#menu{
+/* border: 1px solid red; */
+width: 100%;
+height: 30px;
+margin-top: 2px;
+display: flex;
+/* align-items: center; */
+justify-content: center;
+background-color: white;
+}
+#menu a:hover{
+    color: #ff6f61;
+}
+#menu > ul{
+    background: white;
+    
+}
+#menu ul{
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+#menu ul a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 32px;
+    padding: 0 15px;
+    font-weight: 500;
+    display: block;
+}
+#menu ul li{
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li:hover{
+    color: #ff6f61;
+}
+#menu ul ul{
+    position: absolute;
+    background:white;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+#menu ul ul li{
+    float: none;
+    width: 220px;
+}
+#menu ul ul li:hover{
+    border-left: 3px solid black;
+}
+#menu ul ul ul{
+    left: 100%;
+    top: 0 ;
+}
+#menu ul li:hover > ul{
+    display: block;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* slideshow csss */
+#section_ss{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,70px);
+}
+#section_ss div:nth-child(1){
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end:4 ;
+/* border: 1px solid red; */
+}
+#section_ss div:nth-child(2){
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:1 ;
+    grid-row-end: 4;
+    /* border: 1px solid red; */
+}
+#section_ss div:nth-child(3){
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 14px;
+    background-color: white;
+    
+}
+#section_ss img{
+    width: 100%;
+    height: 100%;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+/* popup cssss////////////////////////////////////////// */
+/* #pop{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	@@ -525,7 +525,197 @@ grid-row-end:4 ;
+        color: white;
+    } */
+
+
+    /* //////////////////////////////////////////////////////// */
+    /* FOOTER CSSSS */
+    /* part 1 */
+    #paragraph{
+        /* border: 2px solid red; */
+        box-sizing: border-box;
+        width: 100%;
+        padding: 20px;
+        line-height: 30px;
+        font-size: 15px;
+        margin-top: 1px;
+        background-color: white;
+    }
+    #paragraph h3{
+        font-size: 21px;
+
+    }
+    #paragraph h5{
+        font-size: 17px;
+
+    }
+    #paragraph p{
+        color: rgb(64, 64, 64);
+    }
+    /* paart 2 */
+    #footer1{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,100px);
+        background-color: white;
+        margin-top: 1px;
+        text-align: center;
+        align-items: center;
+        letter-spacing: 2px;
+        
+    }
+    #footer1 div:nth-child(1){
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end:2 ;
+    }
+    #footer1 div:nth-child(2){
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #footer1 div:nth-child(3){
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #footer1 div:nth-child(4){
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    /* part    3///// */
+    #footer2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin-top: 1px;
+        height: 80px;
+        background-color: white;
+        box-sizing: border-box;
+        letter-spacing: 1px;
+       
+
+    }
+    /* #footer2 h2{
+        
+    } */
+    #footer2 input{
+        height: 35px;
+        width: 25%;
+        padding-left: 8%;
+        border: none;
+        border-radius: 5px;
+        background-color: rgba(128, 128, 128, 0.199);
+        letter-spacing: 1px;
+    }
+    #footer2 button{
+        height: 35px;
+        width: 10%;
+        border: none;
+        background-color: #ff6f61;
+        border-radius: 5px;
+        color: white;
+    }
+    #footer3{
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        justify-content: space-between;
+        padding: 50px;
+        line-height: 25px;
+        background-color: white;
+        margin-top: 1px;
+        
+    }
+    #footer3 > div{
+        text-align: start;
+        /* border: 1px solid green; */
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    #footer3 ul{
+        text-align: start;
+        list-style: none;
+        color:rgb(88, 88, 88) ;
+    }
+    #footer3 p{
+        color:rgb(88, 88, 88) ;
+    }
+    #footer3 h3{
+        margin-left: 12%;
+    }
+    #footer3 button{
+        height: 35px;
+        width: 40%;
+        border: none;
+        background-color: #ff6f61;
+        border-radius: 5px;
+        color: white;
+    }
+
+    /* /////////////////////////////////////////////////////////////////////////////////////// */
+    /* sliding */
+    .parent{
+        display: flex;
+        justify-content: center;
+        height: fit-content;
+        align-items: center;
+        width:100%;
+        /* margin: auto; */
+        margin-top: -40px;
+        /* border: 2px solid green; */
+        background-color: white;
+        gap: 2px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        box-sizing: border-box;
+        
+      }
+      .parent-1{
+        width:100%;
+        /* border: 1px solid red; */
+        height: 410px;
+        margin: auto;
+        margin-top: 0;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        box-sizing: border-box;
+    }
+      .parent-1>p{
+        padding-left: 20px;
+        font-size: 20px;
+        padding-top: 5px;
+        align-items: center;
+      }
+      .child{
+        width:20%;
+        /* border: 2px solid red; */
+        /* margin-left: 10px;
+        margin-right: 10px; */
+        height:100%;
+        margin-top: 0px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        /* background-color: rgb(241, 240, 240); */
+        display: none;
+        padding-top: 0;
+        box-sizing: border-box;
+        padding: 15px;
+        border-radius: 4px;
+       
+        
+      }
+      .child:hover{
+        /* border: 2px solid #ff6f61; */
+        cursor: pointer;
+        transform: scale(1.01);
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+      }
+      .title_product{
+        
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .child p{
+        margin-top: -5px; 
+        padding-left: 15px;
+        
+        /* overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis; */
+        
+      }
+      #same{
+        padding-left: 50px;
+        color: #047511;
+      }
+      .child p:nth-child(2)
+      {
+        /* margin-top: 0px; */
+        line-height: 5px;
+      }
+      .child img{
+        width:90%;
+        height:180px;
+        
+        
+        /* background-color: rgb(241, 240, 240); */
+      }
+      .child button{
+        margin-left: 15px;
+        background-color: aliceblue;
+        color: #fb4646;
+        border:1px solid  #ee3535;
+        cursor: pointer;
+      }
+      #leftarrow{
+        margin-left: 12px;
+        width: 3%;
+        display: inline-block;
+      }
+      #rightarrow{
+        margin-right: 12px;
+        width:3%;
+        display: inline-block;
+      }
+    
+      #leftarrow button, #rightarrow button{
+        /* font-weight: bold; */
+        cursor: pointer;
+        font-size: 35px;
+        margin-top: 35px;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        border:1px solid #ff6f61;
+        color: #ff6f61;
+        opacity: 1;
+        background-color: white;
+        
+      }
+      
+      #leftarrow button{
+        margin-left:-40px;
+      }
+      #right_arrow_btn:hover{
+        transform: scale(1.1);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      }
+      #left_arrow_btn:hover{
+        transform: scale(1.1);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      }
+/* /////////////////////////////////////////////////////////////////////// */
+/* bar css */
+#bar{
+width: 100%;
+height: 250px;
+background-color: white;
+box-sizing: border-box;
+padding: 30px 100px 30px 100px;
+margin-top: 1px;
+
+}
+#bar img{
+width: 100%;
+height: 100%;
+}
+/* /////////////////////////////////////////////////////////////////// */
+#cat1{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+    background-color: white;
+    height: fit-content;
+    margin-top: 1px;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    gap: 1px;
+    
+
+}
+#cat1 div{
+    /* border: 1px solid red; */
+ display: flex;
+ flex-direction: column;
+ box-sizing: border-box;
+ width: 100%;
+ height: 100%;
+ padding: 40px 60px;
+ text-align: center;
+ font-size: 13px;
+ box-sizing: border-box;
+ border-radius: 5px;
+
+ 
+
+}
+#cat1 div:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    transform: scale(1.01);
+}
+#cat1 img{
+    width: 100%;
+}
+#cat1 a{
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+}
+#cat1 a:hover{
+    color: #ff6f61;
+    transform: scale(1.1);
+}
+@media only screen and (max-width: 400px) {
+    .wrapper{
+        width: 80%;
+        flex-direction: column-reverse;
+    }
+    .column{
+        width: 100%;
+    }
+    .close{
+        top: 0;
+        right: 10px;
+        margin: 0;
+    }
+}
+    </style>
+
+    <script src="https://kit.fontawesome.com/4052196a9f.js" crossorigin="anonymous"></script>
+
+    
+</head>
+<body>
+    <div id="navbar">
+
+        <div id="navbar_logo">
+            <!-- LOGO -->
+            <a href="./index.html"><img src="./medxlogo.png" alt="error"></a> 
+            
+        </div>
+
+        <div id="navbar_anch">
+            <!-- ANCHOR -->
+            <a href="sachin.html">MEDICINES</a>
+            <a href="">LAB TEST <span class="navbar_span_tag">SAFE</span></a>
+            <a href="">CONSULT DOCTORS</a>
+            <a href="">COVID-19</a>
+            <a href="">AYURVEDA</a>
+            <a href="">CARE PLAN <span class="navbar_span_tag">SAVE MORE</span></a>
+        </div>
+
+        <div id="navbar_lnsp">
+            <!-- LOGIN & SIGN UP -->
+            <a href="#popup" class="trigger" id="login">SIGN IN / SIGN UP</a>
+
+        </div>
+
+        <div id="navbar_cart">
+            <!-- CART & NEED Help -->
+            <a href="" id="top"><i class="fa fa-cart-plus" aria-hidden="true">0</i></a>
+            <a href="">Need Help ?</a>
+        </div>
+
+    </div>
+     <!-- second navbar  -->
+     <div id="navbar2">
+
+        <!-- <div id="navbar2_inp"> -->
+            <!-- <i id="location" class="fa fa-map-marker" aria-hidden="true"></i>
+            <select id="">
+                <option value="New Delhi">New Delhi</option>
+                <option value="Bengaluru">Bengaluru</option>
+                <option value="Kolkata">Kolkata</option>
+            </select> -->
+            
+            <form>
+                <input type="text" placeholder="Scarch Product by title, supllier, sku,category, brand etc... " id="search">
+                <input type="submit"  value="Scerch" id="scr_button" />
+            </form>
+                
+            
+            
+        <!-- </div> -->
+        <!-- <div id="navbar2_h3btn"> -->
+            <h3>QUICK BUY! Get 25% off on medicines*</h3>
+            <button>Quick order</button>
+        <!-- </div> -->
+    </div>
+ </div>
+ <div>
+    <!-- third navbar -->
+
+    <div id="menu">
+        <ul>
+            <!-- 1st -->
+            <li>
+                <a href="">Health Resource Center <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                <ul id="a">
+                    <li><a href="">All Diseases</a></li>
+                    <li><a href="">All Medicines</a></li>
+                    <li><a href="">Medicine by Theraputic Class</a></li>
+                </ul>
+            </li>
+            <!-- 2nd -->
+            <li>
+                <a href="">Vitamins & Nutrition <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                <ul>
+                    <li><a href="">Vitamins & Supplements</a>
+                        <ul>
+                            <li><a href="">Multivitamins</a></li>
+                            <li><a href="">Vitamins A-Z</a></li>
+                            <li><a href="">Mineral Supplements</a></li>
+                            <li><a href="">Vitamins B12 & B Complex</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Nutritional Drink</a>
+                        <ul>
+                            <li><a href="">Adults Daily Nutrition</a></li>
+                            <li><a href="">Kids Nutrition (2-15 Yrs)</a></li>
+                            <li><a href="">Women Nutrition</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Healthy Snacks & Drink</a>
+                        <ul>
+                            <li><a href="">Green Tea & Herbal Tea</a></li>
+                            <li><a href="">Apple Cider Vineger</a></li>
+                            <li><a href="">Energy Foods</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Protin Supplements</a>
+                        <ul>
+                            <li><a href="">Whey Protin</a></li>
+                            <li><a href="">Amino Acids</a></li>
+                            <li><a href="">Mass Gainers</a></li>
+                            <li><a href="">Workout Essential</a></li>
+                            <li><a href="">Fat Burners</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Omega & Fish Oil</a>
+                        <ul>
+                            <li><a href="">Fish Oil</a></li>
+                            <li><a href="">Cod Liver Oil</a></li>
+                            <li><a href="">Flax Seed Oil</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Immunity Boosters</a>
+                        <ul>
+                            <li><a href="">Chyawanprasha</a></li>
+                            <li><a href="">Vitamin C</a></li>
+                            <li><a href="">Herbal Teas</a></li>
+                            <li><a href="">Antiocidant Supplements</a></li>
+                            <li><a href="">Ayurvedic Supplements</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Specialiy Supplements</a>
+                        <ul>
+                            <li><a href="">Plant based Supplements</a></li>
+                            <li><a href="">Beauty Supplements</a></li>
+                            <li><a href="">Pre and Products</a></li>
+                            <li><a href="">Glucosamine</a></li>
+                            <li><a href="">Collagen</a></li>
+                            <li><a href="">Antioxidants</a></li>
+                            <li><a href="">Biotin</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Weight Managements</a>
+                        <ul>
+                            <li><a href="">Weight Managemnt Herbs</a></li>
+                            <li><a href="">Meal Replacments</a></li>
+                            <li><a href="">Weight Gain</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <!-- 3rd -->
+            <li>
+                <a href="">Diabets <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                <ul>
+                    <li><a href="">Diabetes Monitoring</a>
+                        <ul>
+                            <li><a href="">Blood Glucose Monitor</a></li>
+                            <li><a href="">Test Strips & Lancets</a></li>
+                            <li><a href="">Syringes & Pens</a></li>
+                            <li><a href="">Continuous glucose monitors</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Sugar Free</a></li>
+                    <li><a href="">Diabetic Medicine</a>
+                        <ul>
+                            <li><a href="">Vitamins, Minerals & Antioxidants</a></li>
+                            <li><a href="">Homeopathy Medicines</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Sugar Substitutes</a></li>
+                    <li><a href="">Diabetic Diet</a>
+                        <ul>
+                            <li><a href="">Juices & Vinegars</a></li>
+                            <li><a href="">Diabetics Nutrition Supplements</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Diabetic Footwear</a></li>
+                </ul>
+            </li>
+            <!-- 4th -->
+            <li>
+                <a href="">Healthcare Devices <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                <ul>
+                    <li><a href="">Top brands in Healthcare Devices</a>
+                        <ul>
+                            <li><a href="">Dr. Morepen Devices</a></li>
+                            <li><a href="">Accu-chek</a></li>
+                            <li><a href="">One Touch</a></li>
+                            <li><a href="">Omron</a></li>
+                            <li><a href="">Contour</a></li>
+                            <li><a href="">Dr Trust</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">BP Monitor</a></li>
+                    <li><a href="">Oxygen Concentrators & Cans</a></li>
+                    <li><a href="">Thermometers</a>
+                        <ul>
+                            <li><a href="">IR Thermometers</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Weighing Scales</a></li>
+                    <li><a href="">Masks (N95, Surgical and more)</a>
+                        <ul>
+                            <li><a href="">FAce Shield</a></li>
+                            <li><a href="">Surgical Masks</a></li>
+                            <li><a href="">N95 Masks</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Nebulizer & Vaporizers</a></li>
+                    <li><a href="">Oximeters & Pedometers</a></li>
+                    <li><a href="">Vitals Signs Monitors & Wearables</a></li>
+                    <li><a href="">Body Massager</a></li>
+                    <li><a href="">Diabetes Monitors</a></li>
+                    <li><a href="">Mobility Equipments</a></li>
+                    <li><a href="">Exercise Equipments</a></li>
+                    <li><a href="">Doctor's Corner</a>
+                        <ul>
+                            <li><a href="">Stethoscopes</a></li>
+                            <li><a href="">Tapes & Bandages</a></li>
+                            <li><a href="">Clinical Diagnostic Equipments</a></li>
+                            <li><a href="">Dressings & Wounds Care</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Supports & Braces</a>
+                        <ul>
+                            <li><a href="">Neck & Shoulder Support</a></li>
+                            <li><a href="">Knee & Leg Support</a></li>
+                            <li><a href="">Back & Abdomen Support</a></li>
+                            <li><a href="">Ankle & Foot Support</a></li>
+                            <li><a href="">Hand & Wrist Braces</a></li>
+                            <li><a href="">Arm & Elbow Support</a></li>
+                            <li><a href="">Cervical Pillows</a></li>
+                            <li><a href="">Compression & Sleeves</a></li>
+                            <li><a href="">Heel Support</a></li>
+                            <li><a href="">Crepe Bandage</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <!-- 5th -->
+            <li>
+                <a href="">Personal Care <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                <ul>
+                    <li><a href="">Sexual Wellness</a>
+                        <ul>
+                            <li><a href="">Condoms</a></li>
+                            <li><a href="">Lubricants & Massage Gels</a></li>
+                            <li><a href="">Personal body massagers</a></li>
+                            <li><a href="">Men Performance Enhancers</a></li>
+                            <li><a href="">Sexual Health Supplements</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Skin Care</a>
+                        <ul>
+                            <li><a href="">Body Lotions</a></li>
+                            <li><a href="">Mosquito Repellents</a></li>
+                            <li><a href="">Lio balm</a></li>
+                            <li><a href="">Acne Care</a></li>
+                            <li><a href="">Bath Essential</a></li>
+                            <li><a href="">Facewash</a></li>
+                            <li><a href="">Sanitizers & Handwash</a></li>
+                            <li><a href="">Sunscreen</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Body Care</a>
+                        <ul>
+                            <li><a href="">Baby & Infant Food</a></li>
+                            <li><a href="">Baby Diapers, wipes & more</a></li>
+                            <li><a href="">Nursing & Feeding</a></li>
+                            <li><a href="">Baby Bath Essential</a></li>
+                            <li><a href="">Baby Skin Care</a></li>
+                            <li><a href="">Baby Health Care</a></li>
+                            <li><a href="">Baby Oral Health</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Hair Care</a>
+                        <ul>
+                            <li><a href="">Shampoo</a></li>
+                            <li><a href="">Hair Conditioners</a></li>
+                            <li><a href="">Hair Growth Supplements</a></li>
+                            <li><a href="">Hair Oil</a></li>
+                            <li><a href="">Hair Growth Products</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Elderly Care</a>
+                        <ul>
+                            <li><a href="">Adult Diapers</a></li>
+                            <li><a href="">Bone & Joint Health</a></li>
+                            <li><a href="">Living & Safety Aids</a></li>
+                            <li><a href="">Orthopaedic Supports</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Women Care</a>
+                        <ul>
+                            <li><a href="">Feminine Hygiene</a></li>
+                            <li><a href="">Women Care Supplements</a></li>
+                            <li><a href="">Mother Care</a></li>
+                            <li><a href="">Menopause</a></li>
+                            <li><a href="">Polycystic Ovary Syndrome</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Men Care</a>
+                        <ul>
+                            <li><a href="">Men Grooming</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Oral Care</a></li>
+                    <li><a href="">Pet Acre</a>
+                        <ul>
+                            <li><a href="">Pet Grooming</a></li>
+                            <li><a href="">Pet Food</a></li>
+                            <li><a href="">Pet Health Care</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <!-- 6th -->
+            <li>
+                <a href="">Healt Condition <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                <ul>
+                    <li><a href="">Stomach Care</a></li>
+                    <li><a href="">Heart Care</a></li>
+                    <li><a href="">Bone, Joint & Muscle Care</a></li>
+                    <li><a href="">Pain Relief</a>
+                        <ul>
+                            <li><a href="">Heating Aids</a></li>
+                            <li><a href="">Omnigel products</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Eye Care</a>
+                        <ul>
+                            <li><a href="">Eye Lubricants</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Ear Care</a>
+                        <ul>
+                            <li><a href="">Hearing Aid Devices</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">First Aid</a></li>
+                    <li><a href="">Liver Care</a></li>
+                    <li><a href="">Cold & Cough</a></li>
+                    <li><a href="">Fever</a></li>
+                    <li><a href="">Mental Wellness</a></li>
+                    <li><a href="">Kidney Care</a></li>
+                    <li><a href="">Respiratory Care</a></li>
+                    <li><a href="">Piles, Fissures & Fistula</a></li>
+                    <li><a href="">Smokeing Cessation</a></li>
+                    <li><a href="">Derma Care</a></li>
+                </ul>
+            </li>
+            <!-- 7th -->
+            <li>
+                <a href="">Ayurveda Product <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                <ul>
+                    <li><a href="">Ayurveda Top Brands</a>
+                        <ul>
+                            <li><a href="">Dabur</a></li>
+                            <li><a href="">Sri Sri Tattva</a></li>
+                            <li><a href="">Kerala Ayurveda</a></li>
+                            <li><a href="">Jiva Ayurveda</a></li>
+                            <li><a href="">Patanjali</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Chyawanprasha</a></li>
+                    <li><a href="">Popular categories</a>
+                        <ul>
+                            <li><a href="">Herbal Juice</a></li>
+                            <li><a href="">Ayurvedic Immunity Boosters</a></li>
+                            <li><a href="">Explore Popular Herbs</a></li>
+                            <li><a href="">Herbal Supplements</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Top Health Concerns</a>
+                        <ul>
+                            <li><a href="">Ayurvedic Respiratory Care</a></li>
+                            <li><a href="">Cough, Cold & Fever</a></li>
+                            <li><a href="">Sexual Wellness</a></li>
+                            <li><a href="">Bone, Joint and Muscle Care</a></li>
+                            <li><a href="">Stomach Care</a></li>
+                            <li><a href="">Diabetes Care.</a></li>
+                            <li><a href="">Liver Care</a></li>
+                            <li><a href="">Mind Care</a></li>
+                            <li><a href="">Cardiac Care</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Unani Medicines</a>
+                        <ul>
+                            <li><a href="">Hamdard Unani</a></li>
+                            <li><a href="">AMU Dawakhana</a></li>
+                            <li><a href="">Rex Remedies</a></li>
+                            <li><a href="">Dehlvi Remedies</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Ayurvedic Medicine</a></li>
+                </ul>
+            </li>
+            <!-- 8th -->
+            <li>
+                <a href="">Homeopathy <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                <ul>
+                    <li><a href="">Homeopathy Top Brands</a>
+                        <ul>
+                            <li><a href="">SBL Homeopathy</a></li>
+                            <li><a href="">Dr Reckeweg</a></li>
+                            <li><a href="">Dr Willmar Schwabe India</a></li>
+                            <li><a href="">Adel Pekana</a></li>
+                            <li><a href="">BJAIN Homeopathy</a></li>
+                            <li><a href="">Bakson's</a></li>
+                            <li><a href="">Allen</a></li>
+                            <li><a href="">Wheezal</a></li>
+                            <li><a href="">Dr Willmar Schwabe Germany</a></li>
+                            <li><a href="">Haslab</a></li>
+                            <li><a href="">Medisynth</a></li>
+                            <li><a href="">Boiron</a></li>
+                            <li><a href="">Bhandari</a></li>
+                            <li><a href="">Dr Bakshi Bakson</a></li>
+                            <li><a href="">Dr Batra's</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Homeopathy Wellness Combos</a></li>
+                    <li><a href="">Homeopathy Popular Categories</a>
+                        <ul>
+                            <li><a href="">Homeopathic Care for Cold & Cough</a></li>
+                            <li><a href="">Homeopathic Respiratory Care</a></li>
+                            <li><a href="">Homeopathy Covid Essential</a></li>
+                            <li><a href="">Sexual Health</a></li>
+                            <li><a href="">Hair Care Products</a></li>
+                            <li><a href="">Skin Care Products</a></li>
+                            <li><a href="">Children's Health</a></li>
+                            <li><a href="">Women's Health</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Homeopathy Medicines</a>
+                        <ul>
+                            <li><a href="">Homeopathic Drops</a></li>
+                            <li><a href="">Dilutions</a></li>
+                            <li><a href="">Mother Tinctures</a></li>
+                            <li><a href="">Triturations</a></li>
+                            <li><a href="">Bio Combinations</a></li>
+                            <li><a href="">Millesimal LM Potencies</a></li>
+                            <li><a href="">Biochemis</a></li>
+                            <li><a href="">Bach Flower Remedies</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <!-- 9th -->
+            <li>
+                <a href="">Featured <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                <ul>
+                    <li><a href="">Winter Care</a>
+                        <ul>
+                            <li><a href="">Boday & Skin Care</a></li>
+                            <li><a href="">Winter HAir & Scalp Care</a></li>
+                            <li><a href="">Cough & Cold</a></li>
+                            <li><a href="">Fever & Headache</a></li>
+                            <li><a href="">Vaporizers & Nebulizer</a></li>
+                            <li><a href="">Heating Aid</a></li>
+                            <li><a href="">Winter Combos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Flash Deals</a></li>
+                    <li><a href="">TATA 1mg Health Products</a></li>
+                    <li><a href="">Trending Now</a></li>
+                    <li><a href="">New Arrivals on TATA 1mg</a></li>
+                    <li><a href="">Buy More, Save More</a></li>
+                    <li><a href="">Minimum 33% Off</a></li>
+                    <li><a href="">Popular Combo Deals</a></li>
+                    <li><a href="">Deals of the Day</a></li>
+                    <li><a href="">Top Brands</a>
+                        <ul>
+                            <li><a href="">Accu-chek</a></li>
+                            <li><a href="">Ensure</a></li>
+                            <li><a href="">Revital</a></li>
+                            <li><a href="">Optimum Nutrition (ON)</a></li>
+                            <li><a href="">Dr. Morepen</a></li>
+                            <li><a href="">Pediasure</a></li>
+                            <li><a href="">Teddy</a></li>
+                            <li><a href="">Scalpe</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Super savings</a></li>
+                    <li><a href="">Best Seller</a></li>
+                </ul>
+            </li>
+            <!-- 10th -->
+            <li>
+                <a href="">Covid Essential <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                <ul>
+                    <li><a href="">Covid-19 Self test kits</a></li>
+                    <li><a href="">Oxygen Cans & Concentrators</a></li>
+                    <li><a href="">Masks</a></li>
+                    <li><a href="">Sanitixers & Handwash Products</a></li>
+                    <li><a href="">Support Your Immunity</a></li>
+                    <li><a href="">Thermometer</a></li>
+                    <li><a href="">Chyawanprasha</a></li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+ </div>
+ <div  id="productpage" style=" background-color:  rgb(225, 224, 224);">
+    <div id="Allcategories">
+    <h3>CATEGORIES</h3>
+    <h3 style="font-size: 15px;">VITAMINS & NUTRITION</h3>
+    <h5>Vitamins & Supplements -</h5>
+    <p>Multivitamins</p>
+    <p>Vitamins A-Z</p>
+   <p>MIneral B12 & B Complex</p>
+   <div id="Nutritionalcontent">
+   <div id="Nutritional">
+   <p>Nutritional Drinks</p>
+   <p>Healthy Snacks & Drinks</p>
+   <p>Protein Supplements</p>
+   <p>Omega & FIsh Oil</p>
+   <p>Immunity Boosters </p>
+   <p>Specialty Supplement</p>
+   <p>Weight Management</p>
+  </div>
+  <div id="addtion_symbol">
+   <p>+</p>
+   <p>+ </p>
+   <p>+</p>
+   <p>+</p>
+   <p>+</p>
+   <p>+</p>
+   <p>+</p>
+  </div>
+ </div>
+ <h4>FILTERS</h4>
+ <hr>
+ <!-- Brand -->
+ <h4>BRANDS</h4>
+ <div id="searchproducts">
+ <input id="searchproduct" type="text" placeholder="search Uses">
+</div>
+<div id="FILTERS_BRANDS" >
+<div id="FILTERS_Name" >
+<div id="HealthVit">
+<input type="checkbox">
+<span>HealthVit</span>
+</div>
+<div id="HealthyHey">
+ <input type="checkbox">
+<span>HealthyHey</span>
+</div>
+<div id="Inlife">
+    <input type="checkbox">
+    <span>Inlife</span>
+</div>
+<div id="Goldenacacia">
+    <input type="checkbox">
+    <span>Goldenacacia</span>
+</div>
+<div id="NOW_Foods">
+    <input type="checkbox">
+    <span>NOW Foods</span>
+</div>
+<div id="Dr_Willmar">
+    <input type="checkbox">
+    <span>Dr Willmar</span>
+</div>
+<div id="SBL">
+    <input type="checkbox">
+    <span>SBL</span>
+</div>
+<div id="Carbamide">
+    <input type="checkbox">
+    <span>Carbamide Forte</span>
+</div>
+<div id="MuscleBlaze">
+    <input type="checkbox">
+    <span>MuscleBlaze</span>
+</div>
+<div id="Unived">
+    <input type="checkbox">
+    <span>Unived</span>
+</div>
+<div id="Bjain">
+    <input type="checkbox">
+    <span>Bjain</span> 
+</div>
+<div id="HealthKart">
+    <input type="checkbox">
+    <span>HealthKart</span>
+</div>
+</div>
+<div id="BRANDS_No">
+    <div>
+    <span>266</span>
+    </div>
+    <div>
+    <span>234</span>
+    </div>
+    <div>
+    <span>221</span>
+    </div>
+    <div>
+    <span>155</span>
+    </div>
+    <div>
+    <span>144</span>
+     </div>
+     <div>
+    <span>132</span>
+    </div>
+    <div>
+    <span>132</span>
+    </div>
+    <div>
+    <span>126</span>
+     </div>
+     <div>
+    <span>107</span>
+    </div>
+    <div>
+    <span>105</span>
+    </div>
+    <div>
+        <span>90</span>
+    </div>
+</div>
+</div>
+<hr>
+<h4>USES</h4>
+<div id="searchuseses">
+    <input id="searchuses" type="text" placeholder="search Uses">
+   </div>
+   <div id="USES" >
+    <div id="USES_Name" >
+    <div id="Nutritional">
+    <input type="checkbox">
+    <span>Nutritional</span>
+    </div>
+    <div id="Bone_Joint">
+     <input type="checkbox">
+    <span>Bone, Joint</span>
+    </div>
+    <div id="Immunity">
+        <input type="checkbox">
+        <span>Immunity</span>
+    </div>
+    <div id="Mind_Care">
+        <input type="checkbox">
+        <span>Mind Care</span>
+    </div>
+    <div id="Skin_Care">
+        <input type="checkbox">
+        <span>Skin Care</span>
+    </div>
+    <div id="Stomach_Care">
+        <input type="checkbox">
+        <span>Stomach Care</span>
+    </div>
+    <div id="Cardiac_Care">
+        <input type="checkbox">
+        <span>Cardiac Care</span>
+    </div>
+    <div id="Weight">
+        <input type="checkbox">
+        <span>Weight Management</span>
+    </div>
+    <div id="Women_Care">
+        <input type="checkbox">
+        <span>Women Care</span>
+    </div>
+    <div id="Hair_Care">
+        <input type="checkbox">
+        <span>Hair Care</span>
+    </div>
+    <div id="Eye_Care">
+        <input type="checkbox">
+        <span>Eye & Ear Care</span> 
+    </div>
+    <div id="Men_care">
+        <input type="checkbox">
+        <span>Men Care</span>
+    </div>
+    </div>
+    <div id="USES_No" >
+        <div>
+        <span>11371</span>
+        </div>
+        <div>
+        <span>3289</span>
+        </div>
+        <div>
+        <span>1789</span>
+        </div>
+        <div>
+        <span>1372</span>
+        </div>
+        <div>
+        <span>1251</span>
+         </div>
+         <div>
+        <span>977</span>
+        </div>
+        <div>
+        <span>890</span>
+        </div>
+        <div>
+        <span>844</span>
+         </div>
+         <div>
+        <span>752</span>
+        </div>
+        <div>
+        <span>703</span>
+        </div>
+        <div>
+            <span>362</span>
+        </div>
+        <div>
+            <span>326</span>
+        </div>
+        
+    </div>
+    </div>
+    <hr>
+    <div id="DISCOUNTtag">
+        <h4 style="padding-left: 20px;">DISCOUNT</h4>
+        <div id="searchdiscounts">
+            <input id="searchdiscount" type="text" placeholder="search Uses">
+           </div>
+           <div id="DISCOUNT_form">
+            <div id="DISCOUNT_Name">
+                <div id="Less_then">
+                    <input type="checkbox">
+                    <span>Less then 10%</span>
+                    </div> 
+                    <div id="ten_above">
+                    <input type="checkbox">
+                   <span>10% and above</span>
+                   </div>
+                   <div id="tweenty_above">
+                    <input type="checkbox">
+                    <span>20% and above</span>
+                    </div>
+                    <div id="thirty_above">
+                        <input type="checkbox">
+                        <span>30% and above</span>
+                        </div>
+            </div>
+            <div id="DISCOUNT_No">
+                <div>
+                    <span>6317</span>
+                    </div>
+                    <div>
+                   <span>9663</span>
+                  </div>
+                  <div>
+                 <span>3369</span>
+                 </div>
+                 <div>
+                    <span>2222</span>
+                    </div>
+            </div>
+           </div>
+           <hr>
+           <div id="Product_formtag" >
+            <h4 style="padding-left: 20px;">PRODUCT FORM</h4>
+            <div id="searchproductforms">
+                <input id="searchproductform" type="text" placeholder="search Uses">
+               </div>
+               <div id="PRODUCT_FORM">
+            <div id="Product_Name" >
+            <div id="Syrup">
+            <input type="checkbox">
+            <span>Tablet</span>
+            </div>
+            <div id="Bottle">
+             <input type="checkbox">
+            <span>Bottle</span>
+            </div>
+            <div id="Vegicap">
+                <input type="checkbox">
+                <span>Capsule</span>
+            </div>
+            <div id="Gummy">
+                <input type="checkbox">
+                <span>Gummy</span>
+            </div>
+            <div id="Chewable">
+                <input type="checkbox">
+                <span>Chewable Tablet</span>
+            </div>
+            <div id="Dilution">
+                <input type="checkbox">
+                <span>Dilution</span>
+            </div>
+            <div id="Granules">
+                <input type="checkbox">
+                <span>Granules</span>
+            </div>
+            <div id="Sachet">
+                <input type="checkbox">
+                <span>Sachet</span>
+            </div>
+            <div id="Oral_Drop">
+                <input type="checkbox">
+                <span>Oral Drops</span>
+            </div>
+            <div id="Liquid">
+                <input type="checkbox">
+                <span>Liquid</span>
+            </div>
+            <div id="Pack">
+                <input type="checkbox">
+                <span>Pack</span> 
+            </div>
+            <div id="Suspension">
+                <input type="checkbox">
+                <span>Suspension</span>
+            </div>
+            </div>
+            <div id="Product_No" >
+                <div>
+                <span>6369</span>
+                </div>
+                <div>
+                <span>3169</span>
+                </div>
+                <div>
+                <span>2259</span>
+                </div>
+                <div>
+                <span>1491</span>
+                </div>
+                <div>
+                <span>1356</span>
+                 </div>
+                 <div>
+                <span>591</span>
+                </div>
+                <div>
+                <span>568</span>
+                </div>
+                <div>
+                <span>386</span>
+                 </div>
+                 <div>
+                <span>339</span>
+                </div>
+                <div>
+                <span>303</span>
+                </div>
+                <div>
+                    <span>192</span>
+                </div>
+                <div>
+                    <span>188</span>
+                </div>
+                
+            </div>
+          </div>
+            </div>
+            <hr>
+            <div id="Product_tags" >
+                <h4 style="padding-left: 20px;">PRODUCT TAGS</h4>
+                <div id="searchproducttags">
+                    <input id="searchproducttag" type="text" placeholder="search Uses">
+                   </div>
+                   <div id="PRODUCT_TAGS">
+                <div id="ProductTags_Name" >
+                <div id="Antioxidant">
+                <input type="checkbox">
+                <span>Antioxidant</span>
+                </div>
+                <div id="Selenium">
+                 <input type="checkbox">
+                <span>Selenium</span>
+                </div>
+                <div id="Oxidative">
+                    <input type="checkbox">
+                    <span>Oxidative</span>
+                </div>
+                <div id="Anaemia">
+                    <input type="checkbox">
+                    <span>Anaemia</span>
+                </div>
+                <div id="Homocysteine">
+                    <input type="checkbox">
+                    <span>Homocysteine</span>
+                </div>
+                <div id="Lipoic">
+                    <input type="checkbox">
+                    <span>Lipoic</span>
+                </div>
+                <div id="Lycopene">
+                    <input type="checkbox">
+                    <span>Lycopene</span>
+                </div>
+                <div id="Lactation">
+                    <input type="checkbox">
+                    <span>Lactation</span>
+                </div>
+                <div id="Biotin">
+                    <input type="checkbox">
+                    <span>Biotin</span>
+                </div>
+                <div id="Sulphate">
+                    <input type="checkbox">
+                    <span>Sulphate</span>
+                </div>
+                <div id="Manganese">
+                    <input type="checkbox">
+                    <span>Manganese</span> 
+                </div>
+                <div id="Neuropathy">
+                    <input type="checkbox">
+                    <span>Neuropathy</span>
+                </div>
+                </div>
+                <div id="ProductTags_No" >
+                    <div>
+                    <span>355</span>
+                    </div>
+                    <div>
+                    <span>147</span>
+                    </div>
+                    <div>
+                    <span>118</span>
+                    </div>
+                    <div>
+                    <span>111</span>
+                    </div>
+                    <div>
+                    <span>111</span>
+                     </div>
+                     <div>
+                    <span>110</span>
+                    </div>
+                    <div>
+                    <span>98</span>
+                    </div> 
+
+                    <div>
+                    <span>91</span>
+                     </div>
+                     <div>
+                    <span>89</span>
+                    </div>
+                    <div>
+                    <span>86</span>
+                    </div>
+                    <div>
+                        <span>86</span>
+                    </div>
+                    <div>
+                        <span>82</span>
+                    </div>
+                    
+                </div>
+              </div>
+              <hr>
+              <h4 style="padding-left: 20px;">AGE</h4>
+              <div id="Age_form">
+                <div id="Age_Name">
+                    <div id="All">
+                        <input type="checkbox">
+                        <span>All</span>
+                        </div> 
+                        <div id="Child">
+                        <input type="checkbox">
+                       <span>Child</span>
+                       </div>
+                       <div id="Adult">
+                        <input type="checkbox">
+                        <span>Adult</span>
+                        </div>
+                        <div id="Elderly">
+                            <input type="checkbox">
+                            <span>Elderly</span>
+                            </div>
+                </div>
+                <div id="Age_No">
+                    <div>
+                        <span>5269</span>
+                        </div>
+                        <div>
+                       <span>138</span>
+                      </div>
+                      <div>
+                     <span>10</span>
+                     </div>
+                     <div>
+                        <span>4</span>
+                        </div>
+                </div>
+               </div>
+               <hr>
+               <h4 style="padding-left: 20px;">GENDER</h4>
+               <div id="Gender_form">
+                <div id="Gender_Name">
+                    <div id="Unisex">
+                        <input type="checkbox">
+                        <span>Unisex</span>
+                        </div> 
+                        <div id="Female">
+                        <input type="checkbox">
+                       <span>Female</span>
+                       </div>
+                       <div id="Male">
+                        <input type="checkbox">
+                        <span>Male</span>
+                        </div>
+                </div>
+                <div id="Gender_No">
+                    <div>
+                        <span>5173</span>
+                        </div>
+                        <div>
+                       <span>138</span>
+                      </div>
+                      <div>
+                     <span>66</span>
+                     </div>
+                </div>
+               </div>
+                </div>
+    </div>
+</div>
+<div id="productpageright">
+    
+    <div id="productnav">
+        <p style="color:red">Home ></p>
+    
+        <p style="color:red"> OTC Categories ></p>
+        
+        <p> Vitamins & Nutrition</p>
+    </div>
+    <h2>VITAMINS & NUTRITION</h2>
+    <img src="https://onemg.gumlet.io/ec544aee-a021-49e5-a77b-b27356e79669_1675682492.jpg?w=1062&h=124&format=auto" alt="error">
+    
+<!-- /////////////////////////////////////////////////// -->
+<div style="display: flex; justify-content: space-between; align-items: center;">
+    <p style="font-size: 21px;">All Products</p>
+
+    <div style="display: flex; ">
+        <select id="filter">
+            <option value="">ALL CATEGORIES</option>
+            <option value="Multivitamins">Multivitamins</option>
+            <option value="Plant based Supplements">Plant based Supplements</option>
+            <option value="Calcium and Minerals">Calcium and Minerals</option>
+            <option value="Immunity Essentials">Immunity Essentials</option>
+            <option value="Biotin">Biotin</option>
+            <option value="Omega & Fish Oil">Omega & Fish Oil</option>
+          </select>
+    </div>
+</div>
+    <div id="productsix">
+        <!-- <div id="productsixsubdiv"></div> -->
+    </div>
+
+<div id="prductdiv">
+
+<p style="font-size: 21px;">Shop by category</p>
+<div id="productfour" >
+   <div>
+       <img src="https://onemg.gumlet.io/q_auto,h_150,f_auto,a_ignore,c_fit,w_150/243caedb-3746-48e1-a262-e0a9a2ed6ad3.png" alt="">
+       <p>Multivitamins<p>
+   </div>
+   <div >
+       <img src="https://onemg.gumlet.io/q_auto,h_150,f_auto,a_ignore,c_fit,w_150/ljyfbx2xugr0evrtzn8y.jpg" alt="">
+      <p>Calcium and Minerals<p>
+   </div>
+   <div >
+       <img src="https://onemg.gumlet.io/q_auto,h_150,f_auto,a_ignore,c_fit,w_150/wdmr9b68xfgac9po9c4v.png" alt="">
+     <p>Plant based Supplements</p>
+   </div>
+   <div >
+       <img src="https://onemg.gumlet.io/q_auto,h_150,f_auto,a_ignore,c_fit,w_150/nga8o103x9tr0tnxa9ci.jpg" alt="">
+       <p>Biotin</p>
+   </div>
+   <div >
+       <img src="https://onemg.gumlet.io/q_auto,h_150,f_auto,a_ignore,c_fit,w_150/nsqbbcpoksf2hgexpkud.png" alt="">
+      <p>Immunity Boosters</p>
+   </div>
+
+    <!-- <div id="button_>">
+    </div> -->
+
+    </div>
+<img src="https://onemg.gumlet.io/056f4387-f3d0-423b-a439-7cb9680c2564_1673662712.jpg?blur=80&format=auto" alt="error">
+ <p style="font-size: 21px;">In the Sportlight</p>
+ <div id="productdivsecond">
+   <div>
+    <img src="https://onemg.gumlet.io/images/c_fit,q_auto,h_150,w_150,f_auto/9264f3fc4352468c8385a8c82117281a/nutrabay-gold-vital-whey-protein-powder-belgian-chocolate.jpg" alt="">
+    <div class="style_name_3YOZc stylelarge-font__2dBUf">Nutrabay Gold Vital Whey <br>Protein Powder Belgian ...</div>
+    <div class="space"></div>
+    <div class="style__packet">packet of 1 kg Powder</div>
+    <div class="style_price-container_3DXin"><div><div><span class="stylemrp-tag_3T8Mr">MRP</span><span class="stylestrike-price_3Ag3J">₹1499</span><span class="stylediscount-percent_1CBqr" style="margin-left: 10px; color: green;">36% off</span></div><div class="styleprice__196ew">₹949</div></div></div>     <button>ADD</button>
+</div>
+<div>
+    <img src="https://onemg.gumlet.io/images/c_fit,h_150,f_auto,w_150,q_auto/e5722339955b423b9e5cdaa70b9f43f9/dr.-morepen-omega-3-triple-strength-1250mg-deep-sea-fish-oil-with-dha-epa-900mg-softgel.jpg" >
+    <div class="style_name_3YOZc stylelarge-font__2dBUf">Dr. Morepen Omega 3 <br>Triple Strength 1250mg...</div>
+    <div class="ratingbutton"><a href="#"><button>4.5 *</button></a>
+        <span>370 ratings</span>
+    </div>
+    <div class="space"></div>
+    <div class="style__packet">bootle of 60 soft gelatin caps...</div>
+    <div class="style_price-container_3DXin"><div><div><span class="stylemrp-tag_3T8Mr">MRP</span><span class="stylestrike-price_3Ag3J">₹1099</span><span class="stylediscount-percent_1CBqr" style="margin-left: 10px; color: green;">35% off</span></div><div class="styleprice__196ew">₹714</div></div></div>     <button>ADD</button>
+</div>
+<div>
+    <img src="https://onemg.gumlet.io/images/c_fit,h_150,f_auto,w_150,q_auto/fdukwvwc9dikwlufstoi/eno-powder-orange.jpg" style="padding-left: 20px" alt="">
+    <div class="style_name_3YOZc stylelarge-font__2dBUf">Eno Power Orangegit </div>
+    <div class="ratingbutton"><a href="#"><button>4.5 *</button></a>
+        <span>370 ratings</span>
+    </div>
+    <div class="space"></div>
+    <div class="style__packet">bootle of 60 soft gelatin caps...</div>
+    <div class="style_price-container_3DXin"><div><div><span class="stylemrp-tag_3T8Mr">MRP</span><span class="stylestrike-price_3Ag3J">₹1099</span><span class="stylediscount-percent_1CBqr" style="margin-left: 10px; color: green;">35% off</span></div><div class="styleprice__196ew">₹714</div></div></div>     <button>ADD</button>
+</div>
+<div>
+    <img src="https://onemg.gumlet.io/images/c_fit,h_150,f_auto,w_150,q_auto/b92863aee7d64ea486934f8d374b1d28/nutrabay-l-carnitine-vitamin-b5-liquid-orange.jpg" style="padding-left: 40px;"alt="">
+    <div class="style_name_3YOZc stylelarge-font__2dBUf">Eno Power Orange</div>
+    <div class="ratingbutton"><a href="#"><button>4.5 *</button></a>
+        <span>370 ratings</span>
+    </div>
+    <div class="space"></div>
+    <div class="style__packet">bootle of 60 soft gelatin caps...</div>
+    <div class="style_price-container_3DXin"><div><div><span class="stylemrp-tag_3T8Mr">MRP</span><span class="stylestrike-price_3Ag3J">₹1099</span><span class="stylediscount-percent_1CBqr" style="margin-left: 10px; color: green;">35% off</span></div><div class="styleprice__196ew">₹714</div></div></div>     <button>ADD</button>
+</div>
+<div>
+    <img src="https://onemg.gumlet.io/images/c_fit,h_150,f_auto,w_150,q_auto/bea1kzgoetmrvmzd5lhg/eno-powder-regular.jpg" style="padding-left: 40px;" alt="">
+    <div class="style_name_3YOZc stylelarge-font__2dBUf">Nutrabay Gold Vital Whey <br>Protein Powder Belgian ...</div>
+    <div class="space"></div>
+    <div class="style__packet">packet of 1 kg Powder</div>
+    <div class="style_price-container_3DXin"><div><div><span class="stylemrp-tag_3T8Mr">MRP</span><span class="stylestrike-price_3Ag3J">₹1499</span><span class="stylediscount-percent_1CBqr" style="margin-left: 10px; color: green;">36% off</span></div><div class="styleprice__196ew">₹949</div></div></div>     <button>ADD</button>
+</div>
+ </div>
+ <p style="font-size: 21px;">Top Deals</p>
+    <div id="productdivfirst">
+        
+        <div>
+            <img src="https://onemg.gumlet.io/images/c_fit,q_auto,h_150,w_150,f_auto/8d5cadb9e1b148cb84e525ce8be40e76/dr.-morepen-biotin-advanced-tablet-for-healthy-hair-skin-nails-tablet.jpg"alt="">
+            <div class="style_name_3YOZc stylelarge-font__2dBUf">Dr. Morepen Biotin + <br> Advanced Tablet for...</div>
+            <div class="style__packet">bootle of 60 soft gelatin caps...</div>
+
+            <div class="ratingbutton"><a href="#"><button>4.2 *</button></a>
+                <span>30 ratings</span>
+            </div>
+            <div class="space"></div>
+            <div class="style_price-container_3DXin"><div><div><span class="stylemrp-tag_3T8Mr">MRP</span><span class="stylestrike-price_3Ag3J">₹999</span><span class="stylediscount-percent_1CBqr" style="margin-left: 10px; color: green;">40% off</span></div><div class="styleprice__196ew">₹599 <button>ADD</button></div></div></div>     
+        </div>
+
+        <div>
+            <img src="https://onemg.gumlet.io/images/c_fit,q_auto,h_150,w_150,f_auto/adbec46cf8ca44aaa7563592da61d570/centrum-women-supports-overall-health-veg-world-s-no.1-multivitamin.jpg"alt="" style="padding-left: 20px;">
+            <div class="style_name_3YOZc stylelarge-font__2dBUf">Centrum Women |<br> Supports Overall Health...</div>
+            <div class="style__packet">bootle of 60 soft gelatin caps...</div>
+
+            <div class="ratingbutton"><a href="#"><button>4.4 *</button></a>
+                <span>60 ratings</span>
+            </div>
+            <div class="space"></div>
+            <div class="style_price-container_3DXin"><div><div><span class="stylemrp-tag_3T8Mr">MRP</span><span class="stylestrike-price_3Ag3J">₹495</span><span class="stylediscount-percent_1CBqr" style="margin-left: 10px; color: green;">5% off</span></div><div class="styleprice__196ew">₹470 <button>ADD</button></div></div></div>     
+        </div>
+        <div>
+            <img src="https://onemg.gumlet.io/images/c_fit,q_auto,h_150,w_150,f_auto/pypjoepvlpoyoty22hi6/healthkart-hk-vitals-multivitamin-women-tablet.jpg"alt="" style="padding-left: 20px;">
+            <div class="style_name_3YOZc stylelarge-font__2dBUf">HealthKart HK Vitals <br> Multivitamin Women Table</div>
+            <div class="style__packet">bootle of 60 soft gelatin caps...</div>
+            <div class="ratingbutton"><a href="#"><button>4.2 *</button></a>
+                <span>106 ratings</span>
+            </div>
+            <div class="space"></div>
+            <div class="style_price-container_3DXin"><div><div><span class="stylemrp-tag_3T8Mr">MRP</span><span class="stylestrike-price_3Ag3J">₹999</span><span class="stylediscount-percent_1CBqr" style="margin-left: 10px; color: green;">42% off</span></div><div class="styleprice__196ew">₹574 <button>ADD</button></div></div></div>     
+        </div>
+
+        <div>
+            <img src="https://onemg.gumlet.io/images/w_150,f_auto,q_auto,c_fit,h_150/5a34b45b7f284dd5ae17710100f5b0fa/power-gummies-hair-nail-vitamins-with-biotin.jpg"alt="" style="padding-left: 20px;">
+            <div class="style_name_3YOZc stylelarge-font__2dBUf">Power Gummies - Hair &<br>Nail Vitamins with Biotin</div>
+            <div class="style__packet">bootle of 60 soft gelatin caps...</div>
+            <div class="ratingbutton"><a href="#"><button>4.5 *</button></a>
+                <span>126 ratings</span>
+            </div>
+            <div class="space"></div>
+            <div class="style_price-container_3DXin"><div><div><span class="stylemrp-tag_3T8Mr">MRP</span><span class="stylestrike-price_3Ag3J">₹1200</span><span class="stylediscount-percent_1CBqr" style="margin-left: 10px; color: green;">30% off</span></div><div class="styleprice__196ew">₹840  <button>ADD</button></div></div></div>    
+        </div>
+
+        <div>
+            <img src="https://onemg.gumlet.io/images/c_fit,h_150,f_auto,w_150,q_auto/nooaybx6qaz99cwvgcz5/muscleblaze-mb-biozyme-performance-whey-protein-powder-rich-chocolate.jpg" style="padding-left: 20px;">
+            <div class="style_name_3YOZc stylelarge-font__2dBUf">MuscleBlaze MB Biozyme<br> Performance whey Prote...</div>
+            <div class="style__packet">jar of 1 kg Powder...</div>
+
+            <div class="ratingbutton"><a href="#"><button>4.5 *</button></a>
+                <span>100 ratings</span>
+            </div>
+            <div class="space"></div>
+            <div class="style_price-container_3DXin"><div><div><span class="stylemrp-tag_3T8Mr">MRP</span><span class="stylestrike-price_3Ag3J">₹3449</span><span class="stylediscount-percent_1CBqr" style="margin-left: 10px; color: green;">35% off</span></div><div class="styleprice__196ew">₹2649  <button>ADD</button></div></div></div>    
+        </div>
+ </div>
+
+    <div id="Super_savings_deals">
+        <p style="font-size: 21px;">Super savings deals</p>
+        <button id="Super_savings_deals_button">SEE ALL</button>
+        
+    </div>
+    <div id="productfive">
+        <div class="maindeals" >
+            <img src="https://onemg.gumlet.io/images/w_150,c_fit,f_auto,q_auto,h_150/ltcu9fw66h1deqlcbu9x/cipcal-500-tablet-from-cipla-for-bone-joint-and-muscle-care.jpg" alt="error">
+            <div class="submaindeals">Cipcal 500 Tablet from <br>Cipla for Bone, Joint and...</div>
+
+            <div class="submaindealsbox">strip of 15 tablets</div>
+
+            <div class="dealsratingbutton"><a href="#"><button>4.5 *</button></a>
+                <span>1871 ratings</span>
+                </div>
+                <div class="submaindealsprice"><div><div><span class="submaindealsprices">MRP</span><span class="submaindealsprice-1">₹3449</span><span class="submaindealsprice-2" style="margin-left: 10px; color: green;">35% off</span></div><div class="submaindealspricers">₹2649  <button>ADD</button></div></div></div>    
+        </div>
+        <div class="maindeals" >
+            <img src="https://onemg.gumlet.io/images/c_fit,f_auto,q_auto,w_150,h_150/f71ea55f57ba4f1eaa2d3b5f3e590ef7/cipcal-d3-granules-from-cipla-for-bone-joint-and-muscle-care.jpg" alt="error">
+            <div class="submaindeals">Cipcal 500 Tablet from <br>Cipla for Bone, Joint and...</div>
+
+            <div class="submaindealsbox">strip of 15 tablets</div>
+
+            <div class="dealsratingbutton"><a href="#"><button>4.5 *</button></a>
+                <span>1871 ratings</span>
+                </div>
+                <div class="submaindealsprice"><div><div><span class="submaindealsprices">MRP</span><span class="submaindealsprice-1">₹3449</span><span class="submaindealsprice-2" style="margin-left: 10px; color: green;">35% off</span></div><div class="submaindealspricers">₹2649  <button>ADD</button></div></div></div>    
+        </div>
+        <div class="maindeals" >
+            <img src="https://onemg.gumlet.io/images/q_auto,h_150,w_150,f_auto,c_fit/cropped/omz1zuuelyaqnupl0wwe/maxirich-from-cipla-multivitamin-minerals-softgel.png" alt="error">
+            <div class="submaindeals">Cipcal 500 Tablet from <br>Cipla for Bone, Joint and...</div>
+
+            <div class="submaindealsbox">strip of 15 tablets</div>
+
+            <div class="dealsratingbutton"><a href="#"><button>4.5 *</button></a>
+                <span>1871 ratings</span>
+                </div>
+                <div class="submaindealsprice"><div><div><span class="submaindealsprices">MRP</span><span class="submaindealsprice-1">₹3449</span><span class="submaindealsprice-2" style="margin-left: 10px; color: green;">35% off</span></div><div class="submaindealspricers">₹2649  <button>ADD</button></div></div></div>    
+        </div>
+        <div class="maindeals" >
+            <img src="https://onemg.gumlet.io/images/c_fit,f_auto,q_auto,w_150,h_150/cropped/he6him2vphr3r9bd9xo7/shell-calcium-d3-tablet-from-torque-for-osteoporosis.jpg" alt="error">
+            <div class="submaindeals">Cipcal 500 Tablet from <br>Cipla for Bone, Joint and...</div>
+
+            <div class="submaindealsbox">strip of 15 tablets</div>
+
+            <div class="dealsratingbutton"><a href="#"><button>4.5 *</button></a>
+                <span>1871 ratings</span>
+                </div>
+                <div class="submaindealsprice"><div><div><span class="submaindealsprices">MRP</span><span class="submaindealsprice-1">₹3449</span><span class="submaindealsprice-2" style="margin-left: 10px; color: green;">35% off</span></div><div class="submaindealspricers">₹2649  <button>ADD</button></div></div></div>    
+        </div>
+        <div class="maindeals" >
+            <img src="https://onemg.gumlet.io/images/q_auto,h_150,w_150,f_auto,c_fit/cropped/hw5lptggey4qnbwmdvih/fericip-xt-from-cipla-vitamin-mineral-tablet.jpg" alt="error">
+            <div class="submaindeals">Cipcal 500 Tablet from <br>Cipla for Bone, Joint and...</div>
+
+            <div class="submaindealsbox">strip of 15 tablets</div>
+
+            <div class="dealsratingbutton"><a href="#"><button>4.5 *</button></a>
+                <span>1871 ratings</span>
+                </div>
+                <div class="submaindealsprice"><div><div><span class="submaindealsprices">MRP</span><span class="submaindealsprice-1">₹3449</span><span class="submaindealsprice-2" style="margin-left: 10px; color: green;">35% off</span></div><div class="submaindealspricers">₹2649  <button>ADD</button></div></div></div>    
+        </div>
+        </div>
+        </div>
+       
+</div>
+</div>
+
+<div id="paragraph">
+    <h3>Stay Healthy with Tata 1mg: Your Favourite Online Pharmacy and Healthcare Platform</h3>
+    <h5>We Bring Care to Health.</h5>
+    <p>Tata 1mg is India's leading digital healthcare platform. From doctor consultations on chat to online pharmacy
+        and lab tests at home: we have it all covered for you. Having delivered over 25 million orders in 1000+
+        cities till date, we are on a mission to bring "care" to "health" to give you a flawless healthcare
+        experience.</p>
+    <h5>Tata 1mg: Your Favourite Online Pharmacy!</h5>
+    <p>Tata 1mg is India's leading online chemist with over 2 lakh medicines available at the best prices. We are
+        your one-stop destination for other healthcare products as well, such as over the counter pharmaceuticals,
+        healthcare devices and homeopathy and ayurveda medicines.
+
+        With Tata 1mg, you can buy medicines online and get them delivered at your doorstep anywhere in India! But,
+        is ordering medicines online a difficult process? Not at all! Simply search for the products you want to
+        buy, add to cart and checkout. Now all you need to do is sit back as we get your order delivered to you.
+
+        In case you need assistance, just give us a call and we will help you complete your order.
+
+        And there is more! At Tata 1mg, you can buy health products and medicines online at best discounts.
+
+        Now, isn't that easy? Why go all the way to the medicine store and wait in line, when you have Tata 1mg
+        Pharmacy at your service.</p>
+    <h5>The Feathers in Our Cap</h5>
+    <p>At Tata 1mg, our goal is to make healthcare understandable, accessible and affordable in India. We set out on
+        our journey in 2015, and have come a long way since then. Along the way, we have been conferred with
+        prestigious titles like BML Munjal Award for 'Business Excellence through Learning and Development', Best
+        Online Pharmacy in India Award and Top 50 venture in The Smart CEO-Startup50 India. We have been selected as
+        the only company from across the globe for SD#3 "Health & Well Being for all" by Unreasonable group, US
+        State Department. In 2019 alone we received three awards including the BMW Simply Unstoppable Award.</p>
+    <h5>The Services We Offer</h5>
+    <p>Tata 1mg is India's leading digital healthcare platform, where you can buy medicines online with discount.
+        Buy medicine online in Delhi, Mumbai, Bangalore, Hyderabad, Pune, Gurgaon, Noida, Kolkata, Chennai,
+        Ahmedabad, Lucknow and around a 1000 more cities. Besides delivering your online medicine order at your
+        doorstep, we provide accurate, authoritative & trustworthy information on medicines and help people use
+        their medicines effectively and safely.
+
+        We also facilitate lab tests at home. You can avail over 2,000 tests and get tested by 120+ top and verified
+        labs at the best prices. Need to consult a doctor? On our platform, you can talk to over 20 kinds of
+        specialists in just a few clicks.
+
+        Customer centricity is the core of our values. Our team of highly trained and experienced doctors,
+        phlebotomists and pharmacists looks into each order to give you a fulfilling experience.
+
+        We’ve made healthcare accessible to millions by giving them quality care at affordable prices. Customer
+        centricity is the core of our values. Our team of highly trained and experienced doctors, phlebotomists and
+        pharmacists looks into each order to give you a fulfilling experience.
+
+        Visit our online medical store now, and avail online medicine purchase at a discount.
+        Stay Healthy!</p>
+
+
+</div>
+<!-- part-----2 -->
+<div id="footer1">
+    <div>
+        <h2>INDIA’S LARGEST HEALTHCARE PLATFORM</h2>
+    </div>
+    <div>
+        <h1>260m+</h1>
+        <p>Visitors</p>
+    </div>
+    <div>
+        <h1>31m+</h1>
+        <p>Orders Delivered</p>
+    </div>
+    <div>
+        <h1>1800m+</h1>
+        <p>Cities</p>
+    </div>
+</div>
+<!-- part 3 -->
+<div id="footer2">
+    <h2>Get the link to download App</h2>
+    <input type="number" placeholder="Enter Phone Number">
+    <button>Send Link</button>
+</div>
+<!-- part    4 -->
+<div id="footer3">
+    <div>
+        <h3>Know Us</h3>
+        <ul>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Press Coverage</li>
+            <li>Carrers</li>
+            <li>Business Partnership</li>
+            <li>Become aHealth Partner</li>
+            <li>Corporate Governance</li>
+        </ul>
+    </div>
+    <div>
+        <h3>Our Policies</h3>
+        <ul>
+            <li>Privacy Policy</li>
+            <li>Terms and Conditions</li>
+            <li>Editorial Policy</li>
+            <li>Return Policy</li>
+            <li>IP Policy</li>
+            <li>Grievance Redressal Policy</li>
+            <li>Fake Jobs and Fraud Disclaimer</li>
+        </ul>
+    </div>
+    <div>
+        <h3>Our Services</h3>
+        <ul>
+            <li>Order Medicines</li>
+            <li>Book Lab Tests</li>
+            <li>Consult a Doctor</li>
+            <li>Ayurveda Articles</li>
+            <li>Hindi Articles</li>
+            <li>Care Plan</li>
+        </ul>
+    </div>
+    <div>
+        <h3>Connect</h3>
+        <p>Social Links</p>
+        <div class="sociallink">
+            <a class="link" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a class="link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a class="link" href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+            <a class="link" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            <a class="link" href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        </div>
+        <p>Want daily dose of health?</p>
+        <button>SIGN UP</button>
+    </div>
+    <div>
+        <h3>Download App</h3>
+        <div><a class="link" href="#"><i class="fa fa-android" aria-hidden="true"></i></a>
+            <a class="link" href="#"><i class="fa fa-apple" aria-hidden="true"></i></a>
+        </div>
+
+    </div>
+</div>
+</body>
+<script>
+    let product=document.getElementById("productsix");
+// let productsub = document.getElementById("productsixsubdiv")
+
+
+let API=("http://127.0.0.1:9090/employees")
+async function FetchData(){
+    try{
+      let request=await fetch(API);
+     let  data= await request.json();
+      console.log(data);
+       FilterData(data);
+      //  Scarchdata(data);
+       
+    }catch(err){
+      console.log(err)
+    }
+  }
+
+    FetchData()
+    let filterBy = document.getElementById("filter");
+    filterBy.addEventListener("change",()=>{
+      FetchData()
+    })
+    function FilterData(data){
+      let filterValue = filterBy.value;
+      if(filterValue===""){
+        DisplayProduct(data)
+      }else{
+        data=data.filter((product)=>{
+          return product.category == filterValue;
+        })
+        DisplayProduct(data)
+      }
+    }
+    async function NFetchData(){
+        try{
+          let request=await fetch(API);
+         let  sdata= await request.json();
+          console.log(sdata);
+           
+            Scarchdata(sdata);
+           
+        }catch(err){
+          console.log(err)
+        }
+      }
+  
+      NFetchData()
+      let searchForm = document.querySelector("form");
+      searchForm.addEventListener("submit",(e)=>{
+        NFetchData()
+        e.preventDefault();
+       
+  
+       
+      })
+      function Scarchdata(sdata){
+          let searchParams = searchForm.search.value;
+        sdata = sdata.filter((element) => {
+              if (
+                  element.name.toUpperCase().includes(searchParams.toUpperCase()) ===
+                  true
+              ) {
+                  return true;
+              } else {
+                  return false;
+              }
+          });
+          DisplayProduct(sdata);
+      }
+      let CartArr = JSON.parse(localStorage.getItem("cart"))||[];
+      
+    function DisplayProduct(data) {
+        product.innerHTML = "";
+        data.forEach((element) => {
+  
+        //   if(element.category==="IB POWER BRAND"){
+              
+              let indiv = document.createElement("div");
+              indiv.setAttribute("class","card1")
+        
+              let img=document.createElement("img")
+              img.setAttribute("src",element.image)
+              
+            let name = document.createElement("h3")
+            name.innerText = element.name;
+             
+            let div1=document.createElement("div");
+            div1.innerText="bottle of 60 capsules"
+
+
+            let para1 = document.createElement("h4");
+            para1.setAttribute("id","detail")
+            para1.innerText=element.category
+
+            let para2 = document.createElement("p");
+            para2.setAttribute("id","des")
+            para2.innerText=element.gender
+
+            let hed3 = document.createElement("h4");
+            hed3.innerText=`${element.price}`
+              
+            let add_to_cart = document.createElement("button");
+            add_to_cart.innerText="ADD"
+
+            add_to_cart.addEventListener("click",()=>{
+                if(checkDuplicate(product)){
+                  alert("Product Already in Cart")
+                }else{
+                  CartArr.push({...product,quantity:1});
+                  localStorage.setItem("cart",JSON.stringify(CartArr));
+                  alert("Product Added To Cart")
+                  window.location.href = "./product.html"
+                }
+               
+            })
+           
+
+            indiv.addEventListener("click", ()=>{
+            localStorage.setItem("product",JSON.stringify(element))
+            window.location.href="./abc.html"
+        })
+              indiv.append(img,name,div1,para1,para2,hed3,add_to_cart);
+            //   div.append(indiv);
+            //   product.append(productsub)
+            product.append(indiv)
+          })
+          
+         }
+
+         function checkDuplicate(product){
+            for(let i=0; i<CartArr.length;i++){
+        
+              if(CartArr[i].id===product.id){
+                return true;
+              
+              }
+            }
+            return false;
+            }
+            const totalPro = document.getElementById("top") ;
+  let Cart= JSON.parse(localStorage.getItem("cart"))||[];
+    let count=0;
+for(let i=0;i<Cart.length;i++)
+{
+  count+=Cart[i].quantity;
+}
+
+totalPro.textContent=count
+</script>
+</html>

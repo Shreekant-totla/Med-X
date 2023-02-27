@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/4b119fb14c.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="./LOGO icon.png" type="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="cartpage.css">
+    <title>Cart</title>
+</head>
+
+<body>
+
+    <div class="container" id="blur">
+        <nav class="nav1">
+            <div class="nav-top">
+                <div id="nav-top1">
+                    <img src=".\bag icon.png" alt="">
+                    <span>For Businesses</span>
+    
+                    <img src=".\download app.png" alt="">
+                    <span>Download The App</span>
+    
+                </div>
+                <div id="nav-top2">
+                    <img src=".\deals.png" alt="">
+                    <span>Deals</span>
+    
+                    <img src=".\store.png" alt="">
+                    <span>Visit Our Store</span>
+    
+                    <img src=".\discount.png" alt="">
+                    <span>Discount on Premium Ads</span>
+    
+                    <img src=".\cart.png" alt="">
+                    <span>Cart</span>
+    
+                    <img src=".\chat.png" alt="">
+                    <span><i>NXT</i></span>
+                </div>
+            </div>
+            <!-- 55 -->
+            <div class="nav-bottom">
+                <div id="bottom1">
+                    
+    
+                    <img id="xyz" src=".\menu lines.png" onclick="toggleNav()" alt="">
+                    <div class="left-nav" id="left-nav">
+                        <div class="leftnav">
+                             <img id="leftnav" src=".\SOB.png" alt="">
+                        </div>
+                        <div class="leftnavuser" id="leftnavuser"  onclick="document.getElementById('login-form').style.display='block'; toggle()">
+                            <img id="img1leftnav" src=".\user.png" alt="">
+                             <span id="spanleftnav">Login/Register</span>
+                       </div>
+                       <div class="leftnavuser1">
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src=".\account.png" alt="">
+                            <span id="spanleftnav">My Account</span>
+                        </div>
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src=".\orders.png" alt="">
+                            <span id="spanleftnav">Orders & Payments</span>
+                        </div>
+                        <div class="leftnavuser" id="leftnavuser">
+                            <img id="img1leftnav" src=".\ads.png" alt="">
+                            <span id="spanleftnav">My Ads</span>
+                        </div>
+                       </div>
+                       <h4 id="h4">CATEGORIES</h4>
+                       <div class="leftnavuser2">
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src=".\services.png" alt="">
+                            <span id="spanleftnav">Services</span>
+                        </div>
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src=".\jobs.png" alt="">
+                            <span id="spanleftnav">Jobs</span>
+                        </div>
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src=".\cars.png" alt="">
+                            <span id="spanleftnav">Cars</span>
+                        </div>
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src=".\bikes.png" alt="">
+                            <span id="spanleftnav">Bikes</span>
+                        </div>
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src=".\furniture.png" alt="">
+                            <span id="spanleftnav">Furniture & Decors</span>
+                        </div>
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src=".\electronics.png" alt="">
+                            <span id="spanleftnav">Electronics & Appliances</span>
+                        </div>
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src=".\co-working.png" alt="">
+                            <span id="spanleftnav">Co-working Spaces</span>
+                        </div>
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" onclick="mobiles()" src=".\mobiles.png" alt="">
+                            <span id="spanleftnav" onclick="mobiles()">Mobiles & Tablets</span>
+                        </div>
+                        <div class="leftnavuser">
+                            <img id="img1leftnav" src=".\kids.png" alt="">
+                            <span id="spanleftnav">Kids & Toys</span>
+                        </div>
+                        <div class="leftnavuser" id="leftnavuser">
+                            <img id="img1leftnav" src=".\homes.png" alt="">
+                            <span id="spanleftnav">Homes</span>
+                        </div>
+                       </div>
+                       <div class="leftnavuser" id="leftnavuser">
+                        <img id="img1leftnav" src=".\faqs.png" alt="">
+                        <span id="spanleftnav">FAQ's</span>
+                    </div>
+                        
+                        <div class="cross" onclick="toggleNav()">&#10006;</div>
+                    </div>
+                    <!-- OR -->
+                    <!-- <div class="hamburger" onclick="toggleNav()">&#9776;</div> -->
+                    <span><img onclick="image()" id="change" src=".\SOB.png" alt=""></span>
+                </div>
+                <div id="bottom2">
+                    <img id="xyzw" src=".\location.png" alt="">
+                    <select id="select">
+                        <option value="">All India</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Banglore">Banglore</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Nagpur">Nagpur</option>
+                        <option value="Lucknow">Lucknow</option>
+                        <option value="Nashik">Nashik</option>
+                        <option value="Jaipur">Jaipur</option>
+                    </select>
+                    <form id="form1">
+                        
+                        <select id="select1">
+                            <option value="">All Categories</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Banglore">Banglore</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Nagpur">Nagpur</option>
+                            <option value="Lucknow">Lucknow</option>
+                            <option value="Nashik">Nashik</option>
+                            <option value="Jaipur">Jaipur</option>
+                        </select>
+                    
+                        <input type="text" placeholder="Search in All India">
+                        <input type="submit">
+                    </form>
+                </div>
+                
+               <div id="bottom3">
+                <img id="img1" src=".\user.png" alt=""  onclick="document.getElementById('login-form').style.display='block'; toggle()">
+                <span id="span1"  onclick="document.getElementById('login-form').style.display='block'; toggle()">Login/Register</span>
+            
+                <button>Post Free Ad</button>
+            </div >
+    
+    
+            </div>
+        </nav>
+
+    <div id="Main">
+        <div class="cartItem">
+            <div id="banner">
+                <h1>Cart</h1>
+                <div id="borderRight">
+                </div>
+                <div class="item"><span id="item-in-the-cart">0</span> Items </div>
+            </div>
+            <!-- <h1 id="total">Your Total cart Price is:- <span id="cart-total">0</span></h1> -->
+
+            <div class="Container">
+                <!-- Append here -->
+            </div>
+        </div>
+        <div class="bigLine">
+
+        </div>
+        <div class="buy">
+            <h1>Order Total</h1>
+            <h1 id="total"><span id="cart-total">0</span></h1>
+            <p>Click to Buy, T&C applied</p>
+            <button class="check" onclick="checkout()">Check Out</button>
+            <div id="Voucher">
+                <input class="voucherIn" type="text" placeholder="Apply 'Shree35'"> <br>
+                <button class="coup">Apply Coupon</button>
+            </div>
+            <img src=".\cart.png" alt="">
+        </div>
+    </div>
+
+</body>
+<script src="cartpage.js"></script>
+</html>
+
