@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         #disP{
+            display: grid;
+            border:2px solid pink;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+        }
+        #divImg{
+            border:3px solid rgb(215, 124, 12);
+        }
+        #imgX{
+            border:2px solid rgb(255, 0, 89);
+        }
+        #divName{
+            border:1px solid rgb(18, 110, 221);
+        }
+        #divMoney{
+            border:1px solid rgb(26, 219, 39);
+        }
+    </style>
+</head>
+<body>
+    <div id="disP">
+        <!-- display Products -->
+        
+    </div>
+    
+</body>
+</html>
+<script>
+    
+
+
+const url = "http://127.0.0.1:9090/employees"
+let x = fetched (url)
+console.log(x)
+
+window.addEventListener("load", (event) => {
+    console.log("page is fully loaded");
+    fetched (url)
+});
+    function fetched (data){
+        fetch(data)
+        .then((res) => res.json())
+        .then((data) =>{
+            
+            display(data)
+        })
+    }
+
+
+
+    // function displayViewProduct(data){
+        
+    //         img.src = data.image;
+    //         name.textContent = data.name; 
+    //         desc.textContent = data.product_description;
+    //         productForm.textContent = data.product_form;
+    //         money.value = data.price;
+    //         money2.textContent = data.price;
+    //         money3.textContent = data.price;
+    //         console.log(data)
+            
+        
+    // }
+
+let container = document.querySelector("#disP")
+
+function display(data){
+    data.forEach((el)=>{
+        let div = document.createElement("div");
+        div.setAttribute("id","divImg")
+        div.innerHTML = 
+        `
+            <img id="imgX" src=${el.image} alt="">
+            <h3 id="divName">${el.name}</h3>
+            <p>MRP</p> <span id="divMoney">${el.price}</span>
+        
+        `
+        div.addEventListener("click", ()=>{
+            localStorage.setItem("product",JSON.stringify(el))
+            window.location.href="./abc.html"
+        })
+        container.append(div)
+
+       })
+}
+
+
+
+</script>

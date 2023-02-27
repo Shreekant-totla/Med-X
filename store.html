@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- BOX ICON -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="./store.css" />
+</head>
+<body>
+  <!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<i class='bx bxs-smile'></i>
+			<span class="text">AdminHub</span>
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="admin.html">
+					<i class='bx bxs-dashboard' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href="store.html" >
+					<i class='bx bxs-shopping-bag-alt' ></i>
+					<span class="text">My Store</span>
+				</a>
+			</li>
+			<li>
+				<a href="edit.html" >
+					<i class='bx bxs-doughnut-chart' ></i>
+					<span class="text">Edit</span>
+				</a>
+			</li>
+			<li>
+				<a href="register.html">
+					<i class='bx bxs-message-dots' ></i>
+					<span class="text">Registered User</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-group' ></i>
+					<span class="text">Team</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu">
+			<li>
+				<a href="#">
+					<i class='bx bxs-cog' ></i>
+					<span class="text">Settings</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bxs-log-out-circle' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+
+
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu' ></i>
+			<a href="#" class="nav-link">Categories</a>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			<a href="#" class="notification">
+				<i class='bx bxs-bell' ></i>
+				<span class="num">8</span>
+			</a>
+			<a href="#" class="profile">
+				<img src="">
+			</a>
+		</nav>
+		<div class="sorting">
+			<h4>Sort Based On Price</h4>
+                <button
+                  id="sort-low-to-high"
+                  class="u-full-width button button-primary"
+                >
+                  Sort Low To High
+                </button>
+                <button
+                  id="sort-high-to-low"
+                  class="u-full-width button button-primary"
+                >
+                  Sort High To Low
+                </button>
+                
+		</div>
+		<div class="main-container">
+		
+        </div>
+		<div id="pagination-wrapper"></div>
+		<!-- MAIN -->
+	</section>
+
+    
+	<!-- CONTENT -->
+
+    
+</body>
+<script>
+    let main1= document.querySelector(".main-container");
+	const paginationDiv = document.getElementById("pagination-wrapper");
+	
+    let sortlh= document.getElementById("sort-low-to-high");
+	let sorthl= document.getElementById("sort-high-to-low");
+
+    // fetch("http://127.0.0.1:9090/employees")
+    // .then((res)=>{
+    //     return res.json();
+    // })
+    // .then((data)=>{
+    //     console.log(data);
+    //     fetchandrender(data);
+    // })
+    // .catch((err)=>{
+    //     console.log(err);
+    // });
+	fetchData()
+
+	let productsArr = [];
+	async function fetchData(pgNumber){
+		try {
+			let res = await fetch(`http://127.0.0.1:9090/employees?_limit=10&_page=${pgNumber}`)
+			let data = await res.json()
+			let obj = data.map((el)=>({
+				img: el.image,
+				id: el.product_Id,
+				name: el.name,
+				price: el.price,
+				category: el.category,
+				productF: el.product_form,
+				btn: "EDIT"
+			}));
+			
+			let T_Users = res.headers.get("X-Total-Count");
+			paginationBtns(T_Users,10);
+			productsArr = data;
+			renderCardList(productsArr)
+		} catch (error) {
+			console.log(error);
+		}
+	}
+    
+	function paginationBtns(total_item,limit){
+	let total_page = Math.ceil(total_item/limit);
+  	let btn_arr = [];
+  	for(let i=1;i<=total_page;i++){
+    btn_arr.push(`<button class="pagination_btn" data-page-number='${i}'>${i}</button>`);
+  	}
+
+  paginationDiv.innerHTML = btn_arr.join("");
+
+  const all_btns = document.querySelectorAll(".pagination_btn");
+
+  for(let btn of all_btns){
+    btn.addEventListener("click",(e)=>{
+		let pageNumber = e.target.dataset['pageNumber'];
+		fetchData(pageNumber);
+		})
+	}
+}
+
+//sort low to high
+sortlh.addEventListener("click",()=>{
+	let sortdata= productsArr.sort((a,b)=>{
+		return a.price - b.price
+	})
+	renderCardList(sortdata)
+})
+
+//sort high to low
+sorthl.addEventListener("click",()=>{
+	let sortdata= productsArr.sort((a,b)=>{
+		return b.price - a.price
+	})
+	renderCardList(sortdata)
+})
+
+    // function fetchandrender(data)
+    // {
+    //     // console.log(data)
+    //     main1.innerHTML="";
+
+    //     data.forEach((item) => {
+
+    //         // console.log("1");
+	// 		let card = document.createElement("div");
+	// 		card.classList.add("card");
+    //         let card1= document.createElement("div");
+	// 		card1.classList.add("card1");
+	// 		let card2= document.createElement("div");
+	// 		card2.classList.add("card2");
+
+    //         let img= document.createElement("img");
+    //         img.src=item.image;
+
+    //         let proid= document.createElement("h3");
+    //         proid.innerText=item.product_Id;
+
+    //         let name= document.createElement("h3");
+    //         name.innerText=item.name;
+
+    //         let price= document.createElement("p");
+    //         price.innerText=`₹ ${item.price}`;
+
+    //         let cat= document.createElement("p");
+    //         cat.innerText=item.category;
+
+    //         let btn= document.createElement("button");
+    //         btn.innerText="EDIT";
+
+
+	// 		// btn.setAttribute("data-id",item.product_Id);
+	// 		btn.addEventListener("click",async (e)=>{
+	// 			e.preventDefault();
+	// 			// let id=event.target.dataset.id
+	// 			// console.log(id)
+	// 			// let response=await fetch(`http://127.0.0.1:9090/employees/${id}`)
+	// 			// let data= await response.json()
+	// 			// console.log(data)
+	// 			localStorage.setItem("product",JSON.stringify(item))
+	// 			window.location.href="edit.html"
+				
+	// 		})
+	// 		card1.append(img);
+    //         card2.append(proid,name,price,cat,btn);
+	// 		card.append(card1,card2);
+    //         main1.append(card);
+            
+    //     });
+    // }
+
+	function renderCardList(cardData) {
+      let cardList = `
+    <div class="card-list">
+      ${cardData
+          .map((item) =>
+            getCard(
+              
+              item.product_Id,
+              item.name,
+              item.price,
+			  
+			  
+			  item.image,
+              item.category,
+              item.product_form,
+			  
+
+            )
+          )
+          .join("")}
+    </div>
+  `;
+
+  	main1.innerHTML = cardList;
+      
+	}
+
+	function getCard(id, name, price, imageUrl,cat,pro) {
+      let card = `
+      <div class="card" data-id=${id} >
+        <div class="card__img">
+        <img src=${imageUrl} alt="food" />
+        </div>
+        <div class="card__body">
+			<h3 class="card_item card_title">${id}</h3>
+          <h3 class="card_item card_title">${name}</h3>
+          <div class="card_item card_description">
+			₹ ${price}
+          </div>
+          <a href="edit.html" data-id=${id} class="card_item card_link">EDIT</a>
+        </div>
+      </div>
+  `;
+      return card;
+	}
+</script>
+</html>
